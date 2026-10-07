@@ -94,7 +94,7 @@ The broader compilation and factory analyses have additional dependencies and pi
 
 ## Authorship and AI assistance
 
-I set the research questions, scope, and benchmark requirements. **The analysis code was written by AI (OpenAI Codex) under my direction**, with AI assistance in the documentation and investigation. Verification scripts and saved artifacts are included so that the results can be checked independently.
+I set the research questions, scope, and benchmark requirements. **The analysis code was written by AI under my direction**, with AI assistance in the documentation and investigation. Verification scripts and saved artifacts are included so that the results can be checked independently.
 
 ## License and references
 
