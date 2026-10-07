@@ -1,0 +1,61 @@
+{
+  "tower": {
+    "exact_integer_phase_cases": 65536,
+    "all_weight_and_catalyst_components": true,
+    "one_layer_identity": "x+y+c = (x xor y xor c) + 2 majority(x,y,c)",
+    "AND_per_eight_bit_tower": 8,
+    "CNOT_per_tower": 48,
+    "temporary_targets_clean": true,
+    "catalyst_component_map_bijective_for_every_input": true,
+    "scope": "ideal catalysts/angles; composed measurement-assisted maps, not physical fault validation"
+  },
+  "X_counter": {
+    "cases": 331,
+    "all_possible_population_values_covered": true,
+    "AND": 197
+  },
+  "graph_phase_and_mapping": {
+    "mapped_two_torus_basis_checks": 518,
+    "exact_graph_phase_inherited_proof": true,
+    "mapping_is_target_renaming_not_quantum_SWAP": true
+  },
+  "CCZ_injection": {
+    "basis_amplitudes": 64,
+    "measurement_branches": 8,
+    "max_error": 0.0,
+    "scope": "ideal CCZ injection channel identity, no physical noise validation"
+  },
+  "Pauli_frames": {
+    "Pauli_Clifford_propagation_cases": 44,
+    "max_matrix_error_up_to_phase": 0.0,
+    "non_Clifford_rule": "physically flush nonzero frame before every AND, inverse AND, and T; final output flush",
+    "CZ_is_not_a_Pauli_frame_update": true
+  },
+  "ordinary_CCZ_corrections": {
+    "CZ_count_histogram_equiprobable_ideal_branches": {
+      "0": 1,
+      "1": 3,
+      "2": 3,
+      "3": 1
+    },
+    "expected_CZ_per_CCZ": 1.5,
+    "expected_linear_Z_updates_per_CCZ": 0.75,
+    "inverse_CZ_probability": 0.5,
+    "AutoCCZ": "not substituted; additional auto-correction resource preparation/layout not in admitted source"
+  },
+  "selected_synthesis": {
+    "selected_unique_mixtures_independently_multiplied": 38,
+    "chronological_gate_order_verified": true,
+    "positive_average_channel_error_certified": true,
+    "every_random_branch_exact_unitary_claimed": false
+  },
+  "artifacts": {
+    "source_hashes_verified": 7,
+    "same_rotation_choices": true,
+    "complete_logical_traces": 2,
+    "phase_windows": 201,
+    "replay_rows_checked": 18,
+    "physical_missing_fields_remain_unknown": true
+  },
+  "validated_physical_failure_probability": null
+}

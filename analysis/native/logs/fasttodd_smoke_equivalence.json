@@ -1,0 +1,14 @@
+{
+  "name": "fasttodd_smoke_equivalence",
+  "command": [
+    "analysis\\native\\bin\\feynver.exe",
+    "analysis\\native\\benchmark\\inputs\\smoke.qc",
+    "analysis\\sources\\compilers\\FastTODD\\circuits\\outputs\\smoke.qc"
+  ],
+  "cwd": ".",
+  "timeout_seconds": 60,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 0.04237470000225585,
+  "log": "analysis\\native\\logs\\fasttodd_smoke_equivalence.log"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "fasttodd_internal_h",
+  "command": [
+    "analysis\\native\\fasttodd-target\\release\\quantum_circuit_optimization.exe",
+    "FastTODD",
+    "analysis\\native\\benchmark\\inputs\\internal_h.qc"
+  ],
+  "cwd": "analysis\\sources\\compilers\\FastTODD",
+  "timeout_seconds": 60,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 0.03383380000013858,
+  "log": "analysis\\native\\logs\\fasttodd_internal_h.log",
+  "output": "analysis\\sources\\compilers\\FastTODD\\circuits\\outputs\\internal_h.qc",
+  "output_sha256": "88d6296babe7de821980032806f2e7257ae1a172bb9631e9de4e28c4d27ac673",
+  "output_qubits": 2,
+  "zero_ancilla_projection_factor": {
+    "real": 0.7071067811865475,
+    "imag": 0.0
+  },
+  "numerical_projection_residual": 2.59786816870648e-16,
+  "probability_outside_clean_ancilla": [
+    0.4999999999999999,
+    0.49999999999999994
+  ],
+  "contract": "Postselected equivalence only if projection is proportional; not a deterministic clean-ancilla unitary certificate.",
+  "numerical_tolerance": 1e-12
+}

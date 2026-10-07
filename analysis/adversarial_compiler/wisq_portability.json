@@ -1,0 +1,8 @@
+{
+  "status": "PORTABILITY_SMOKE_FAILED",
+  "exception": "ImportError",
+  "message": "DLL load failed while importing rustworkx: An Application Control policy has blocked this file.",
+  "SIGALRM_available": false,
+  "signal_alarm_available": false,
+  "scope": "official API, one-gate smoke, not workload benchmark; no algorithm modifications"
+}

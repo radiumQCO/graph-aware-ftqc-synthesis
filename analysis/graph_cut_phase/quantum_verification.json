@@ -1,0 +1,7 @@
+{
+  "expanded_C4_basis_angle_measurement_branch_cases": 288,
+  "maximum_full_statevector_error": 2.0014830212433605e-16,
+  "CCZ_injection_basis_branch_cases": 64,
+  "CCZ_phase_error": 0.0,
+  "scope": "Ideal 4T gadgets and projective cleanup with every branch; no noise/factory approximation."
+}

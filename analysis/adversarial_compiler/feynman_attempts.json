@@ -1,0 +1,41 @@
+[
+  {
+    "id": "feynman2019_full_qualtran_literal",
+    "command": [
+      "analysis\\sources\\compilers\\feynman-windows-0.1.0\\bin\\feynopt.exe",
+      "-O2",
+      "analysis\\adversarial_compiler\\circuits\\qualtran_literal__full.input.qasm"
+    ],
+    "timeout": 180,
+    "status": "HOST_EXECUTION_ERROR",
+    "exit_code": null,
+    "elapsed_seconds": 0.0035929000000578526,
+    "log": "analysis\\adversarial_compiler\\logs\\feynman2019_full_qualtran_literal.log"
+  },
+  {
+    "id": "feynman2019_full_even_tower",
+    "command": [
+      "analysis\\sources\\compilers\\feynman-windows-0.1.0\\bin\\feynopt.exe",
+      "-O2",
+      "analysis\\adversarial_compiler\\circuits\\even_tower__full.input.qasm"
+    ],
+    "timeout": 180,
+    "status": "HOST_EXECUTION_ERROR",
+    "exit_code": null,
+    "elapsed_seconds": 0.0033200999998825864,
+    "log": "analysis\\adversarial_compiler\\logs\\feynman2019_full_even_tower.log"
+  },
+  {
+    "id": "feynman2019_full_graph_tower",
+    "command": [
+      "analysis\\sources\\compilers\\feynman-windows-0.1.0\\bin\\feynopt.exe",
+      "-O2",
+      "analysis\\adversarial_compiler\\circuits\\graph_tower__full.input.qasm"
+    ],
+    "timeout": 180,
+    "status": "HOST_EXECUTION_ERROR",
+    "exit_code": null,
+    "elapsed_seconds": 0.003337300000112009,
+    "log": "analysis\\adversarial_compiler\\logs\\feynman2019_full_graph_tower.log"
+  }
+]

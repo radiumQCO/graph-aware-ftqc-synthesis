@@ -1,0 +1,20 @@
+{
+  "id": "basic_qualtran_literal_ZZ_central",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "qualtran_literal",
+    "--family",
+    "ZZ_central",
+    "--method",
+    "basic",
+    "--skip-verify"
+  ],
+  "timeout": 120,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 14.235899300000028,
+  "log": "analysis\\adversarial_compiler\\logs\\basic_qualtran_literal_ZZ_central.log"
+}

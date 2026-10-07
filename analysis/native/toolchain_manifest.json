@@ -1,0 +1,25 @@
+{
+  "bin/feynopt.exe": {
+    "bytes": 32231936,
+    "sha256": "c836225ccfda2663a82a33035d04e665dd9f715f274d2f2e0cb692f49b19385f"
+  },
+  "bin/feynver.exe": {
+    "bytes": 21317120,
+    "sha256": "1cebe067012fb07ea853cae8e245888766f6f7530c6dcf01ae0d5338c5248c36"
+  },
+  "bin/cabal.exe": {
+    "bytes": 70736138,
+    "sha256": "a82a9df241f4284e6033abaddb89bd86b8cb94d43155a9d2f096d95fc87cb38d"
+  },
+  "fasttodd-target/release/quantum_circuit_optimization.exe": {
+    "bytes": 4322456,
+    "sha256": "0f00cfae7e21c698fde351208716fa0451fb288270b4837a24e9f6464e503c30"
+  },
+  "feynman": {
+    "commit": "d2c382a2ab43a40a87f12f4255645bbb55f704f8"
+  },
+  "FastTODD": {
+    "commit": "231e6fe9f92d5bb1ebf7459c2a9233f5e74d148e",
+    "dependency_lock_sha256": "f94511bc0009380eded1223acca3042c41b1e980bb3434ca3114f81b41744fdc"
+  }
+}

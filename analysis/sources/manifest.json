@@ -1,0 +1,12 @@
+[
+  {
+    "file": "microsoft_dynamics_2022.ipynb",
+    "url": "https://raw.githubusercontent.com/microsoft/Quantum/d78c2c0348048a13c04da5f69aba3810914f268f/samples/azure-quantum/resource-estimation/estimation-dynamics.ipynb",
+    "sha256": "3066f6793cf9e8e8741a59a295c6744b914319c7581eea6044d88e970b7a2e81"
+  },
+  {
+    "file": "microsoft_dynamics_2023.ipynb",
+    "url": "https://raw.githubusercontent.com/microsoft/Quantum/f92f2074507696224fae440e4164d2751754fa2c/samples/azure-quantum/resource-estimation/estimation-dynamics.ipynb",
+    "sha256": "564e99452dd8cb5a574dfacb83df476f03586c14d2c21ae72e66dec48a17ba40"
+  }
+]

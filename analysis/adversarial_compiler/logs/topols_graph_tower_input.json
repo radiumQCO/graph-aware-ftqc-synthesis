@@ -1,0 +1,19 @@
+{
+  "id": "topols_graph_tower_input",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\surgery.py",
+    "topols",
+    "--mode",
+    "graph_tower",
+    "--variant",
+    "input"
+  ],
+  "timeout": 240,
+  "python_path_prefix": "analysis\\sources\\compilers\\topols_runtime",
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 240.08001430000013,
+  "log": "analysis\\adversarial_compiler\\logs\\topols_graph_tower_input.log"
+}

@@ -1,0 +1,1144 @@
+{
+  "workload": {
+    "method": "hwp_global_joint_batch_in_circuit_tower_mixed_diagonal",
+    "T_branch_maximum": 253617,
+    "T_expected": 253374.36361376624,
+    "CCZ_current_demand": 0,
+    "total_failure_target": 0.002,
+    "magic_state_plus_delivery_budget": 0.0006666666666666666,
+    "maximum_per_delivered_state_error": 2.6286355672792703e-09,
+    "GSJ_2e_9_output_budget_used": 0.0005072340000000001,
+    "GSJ_delivery_error_margin_per_output": 6.286355672792701e-10,
+    "historical_65_percent_not_transferred": true
+  },
+  "distillation": {
+    "numerical_adapter_max_error": 9.813077866773595e-18,
+    "method": "published logical-Pauli channel equations, double precision; not circuit-level validation",
+    "factories": {
+      "M2_15_to_20": {
+        "physical_qubits_including_measurement_ancillas": 43344,
+        "expected_cycles_per_accepted_batch": 130.0146712700043,
+        "outputs_per_batch": 4,
+        "published_equations_output_error_proxy": 1.4427536942918096e-10,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0001128431880877967,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0,
+        "raw_T_equivalent_per_output_no_retry": 75.0,
+        "raw_T_equivalent_per_output_with_retry": 78.7124756640178,
+        "qubitcycles_per_output": 1408838.9778817666,
+        "regions": {
+          "L1_core": {
+            "qubits": 15564,
+            "percent_reserved_factory_volume": 35.90808416389812,
+            "qubitcycles_per_output": 505887.0859115867
+          },
+          "L2_core": {
+            "qubits": 17250,
+            "percent_reserved_factory_volume": 39.79789590254707,
+            "qubitcycles_per_output": 560688.2698518935
+          },
+          "internal_transfer_and_ancillas": {
+            "qubits": 10530,
+            "percent_reserved_factory_volume": 24.294019933554818,
+            "qubitcycles_per_output": 342263.6221182863
+          }
+        },
+        "whole_demand_intrinsic_qubitseconds_400ns_cycle": 142922.20602137598,
+        "total_produced_error_union_proxy": 3.6590686368520586e-05
+      },
+      "small_15_to_15": {
+        "physical_qubits_including_measurement_ancillas": 7782,
+        "expected_cycles_per_accepted_batch": 468.45938413864343,
+        "outputs_per_batch": 1,
+        "published_equations_output_error_proxy": 6.076099623442133e-10,
+        "pfail": 0.03626783510207954,
+        "pfail2": 0.0032546536251456537,
+        "pl1": 8.240859941478223e-05,
+        "l1time": 31.128980740388208,
+        "raw_T_equivalent_per_output_no_retry": 225.0,
+        "raw_T_equivalent_per_output_with_retry": 234.22969206932174,
+        "qubitcycles_per_output": 3645550.927366923,
+        "regions": {
+          "L1_core": {
+            "qubits": 1586,
+            "percent_reserved_factory_volume": 20.380364944744283,
+            "qubitcycles_per_output": 742976.5832438885
+          },
+          "L2_core": {
+            "qubits": 4788,
+            "percent_reserved_factory_volume": 61.526599845797996,
+            "qubitcycles_per_output": 2242983.531255825
+          },
+          "internal_transfer_and_ancillas": {
+            "qubits": 1408,
+            "percent_reserved_factory_volume": 18.093035209457724,
+            "qubitcycles_per_output": 659590.8128672099
+          }
+        },
+        "whole_demand_intrinsic_qubitseconds_400ns_cycle": 369829.4758184068,
+        "total_produced_error_union_proxy": 0.00015410021581985234
+      }
+    },
+    "limited_existing_parameter_scan": [
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          7,
+          11,
+          4
+        ],
+        "qubits": 28562,
+        "expected_cycles_per_accepted_batch": 158.43550945478017,
+        "output_error_proxy": 3.065559345261093e-08,
+        "qubitcycles_per_output": 1131308.7552618578,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.006490479714274411,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          7,
+          11,
+          6
+        ],
+        "qubits": 34476,
+        "expected_cycles_per_accepted_batch": 110.51525783436499,
+        "output_error_proxy": 2.4087077221679465e-08,
+        "qubitcycles_per_output": 952531.0072743918,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.004662323053503004,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          7,
+          13,
+          4
+        ],
+        "qubits": 30898,
+        "expected_cycles_per_accepted_batch": 158.39529400902424,
+        "output_error_proxy": 8.636121040517253e-09,
+        "qubitcycles_per_output": 1223524.4485727078,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.006238234668289877,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          7,
+          13,
+          6
+        ],
+        "qubits": 36944,
+        "expected_cycles_per_accepted_batch": 130.67556588798718,
+        "output_error_proxy": 7.776099097966949e-09,
+        "qubitcycles_per_output": 1206919.5265414496,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.005169795006407352,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          9,
+          11,
+          4
+        ],
+        "qubits": 29246,
+        "expected_cycles_per_accepted_batch": 157.53442713211052,
+        "output_error_proxy": 6.4051256520869515e-09,
+        "qubitcycles_per_output": 1151812.963976426,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0008076973381864194,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          9,
+          11,
+          6
+        ],
+        "qubits": 35160,
+        "expected_cycles_per_accepted_batch": 110.07567010430932,
+        "output_error_proxy": 5.98809329899197e-09,
+        "qubitcycles_per_output": 967565.140216879,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0006874371442628924,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          9,
+          13,
+          4
+        ],
+        "qubits": 31582,
+        "expected_cycles_per_accepted_batch": 157.4937830050226,
+        "output_error_proxy": 3.771737117075347e-09,
+        "qubitcycles_per_output": 1243492.163716156,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0005498376426493756,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          9,
+          13,
+          6
+        ],
+        "qubits": 37628,
+        "expected_cycles_per_accepted_batch": 130.0609293301247,
+        "output_error_proxy": 3.6393184854599525e-09,
+        "qubitcycles_per_output": 1223483.162208483,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0004684675900634705,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          11,
+          11,
+          4
+        ],
+        "qubits": 29930,
+        "expected_cycles_per_accepted_batch": 157.46544715596104,
+        "output_error_proxy": 4.6603634840103325e-09,
+        "qubitcycles_per_output": 1178235.2083444786,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00036998695504386614,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          11,
+          11,
+          6
+        ],
+        "qubits": 35844,
+        "expected_cycles_per_accepted_batch": 110.0421305199411,
+        "output_error_proxy": 4.720551949333185e-09,
+        "qubitcycles_per_output": 986087.5315891922,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0003828580902789369,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          11,
+          13,
+          4
+        ],
+        "qubits": 32266,
+        "expected_cycles_per_accepted_batch": 157.42418438280907,
+        "output_error_proxy": 3.5111789031816443e-09,
+        "qubitcycles_per_output": 1269862.1833239293,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00010797189918765326,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          19,
+          11,
+          13,
+          6
+        ],
+        "qubits": 38312,
+        "expected_cycles_per_accepted_batch": 130.01346716827413,
+        "output_error_proxy": 3.434162371140914e-09,
+        "qubitcycles_per_output": 1245268.9885377297,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00010358287158585,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          7,
+          11,
+          4
+        ],
+        "qubits": 30822,
+        "expected_cycles_per_accepted_batch": 158.54067885059644,
+        "output_error_proxy": 3.2556574158792984e-08,
+        "qubitcycles_per_output": 1221635.200883271,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.007149533256517904,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          7,
+          11,
+          6
+        ],
+        "qubits": 36736,
+        "expected_cycles_per_accepted_batch": 110.56696492930209,
+        "output_error_proxy": 2.4963372313724363e-08,
+        "qubitcycles_per_output": 1015447.0059107104,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.005127796803182649,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          7,
+          13,
+          4
+        ],
+        "qubits": 33174,
+        "expected_cycles_per_accepted_batch": 158.4986115525593,
+        "output_error_proxy": 6.483857367678425e-09,
+        "qubitcycles_per_output": 1314508.2349111505,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.006886019676924482,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          7,
+          13,
+          6
+        ],
+        "qubits": 39220,
+        "expected_cycles_per_accepted_batch": 130.74600328199259,
+        "output_error_proxy": 5.586277218583291e-09,
+        "qubitcycles_per_output": 1281964.5621799373,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.005705744445461902,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          9,
+          11,
+          4
+        ],
+        "qubits": 31578,
+        "expected_cycles_per_accepted_batch": 157.54447744457565,
+        "output_error_proxy": 4.289603838802947e-09,
+        "qubitcycles_per_output": 1243734.8771862024,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0008714393050099911,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          9,
+          11,
+          6
+        ],
+        "qubits": 37492,
+        "expected_cycles_per_accepted_batch": 110.08101159148652,
+        "output_error_proxy": 3.9119185946123736e-09,
+        "qubitcycles_per_output": 1031789.3216470031,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0007359270260628437,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          9,
+          13,
+          4
+        ],
+        "qubits": 33930,
+        "expected_cycles_per_accepted_batch": 157.50194674740234,
+        "output_error_proxy": 8.631771963862889e-10,
+        "qubitcycles_per_output": 1336010.2632848404,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0006016417873941915,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          9,
+          13,
+          6
+        ],
+        "qubits": 39976,
+        "expected_cycles_per_accepted_batch": 130.06652275766498,
+        "output_error_proxy": 7.915756938814411e-10,
+        "qubitcycles_per_output": 1299884.828440104,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0005114518036968274,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          11,
+          11,
+          4
+        ],
+        "qubits": 32334,
+        "expected_cycles_per_accepted_batch": 157.46823393907434,
+        "output_error_proxy": 2.1520027426724653e-09,
+        "qubitcycles_per_output": 1272894.4690465075,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0003876778376441514,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          11,
+          11,
+          6
+        ],
+        "qubits": 38248,
+        "expected_cycles_per_accepted_batch": 110.0439405440847,
+        "output_error_proxy": 2.3339975230296517e-09,
+        "qubitcycles_per_output": 1052240.159482538,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0003992999875090941,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          11,
+          13,
+          4
+        ],
+        "qubits": 34686,
+        "expected_cycles_per_accepted_batch": 157.4250202990714,
+        "output_error_proxy": 4.410251608355509e-10,
+        "qubitcycles_per_output": 1365111.0635233978,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00011328125855936122,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          21,
+          11,
+          13,
+          6
+        ],
+        "qubits": 40732,
+        "expected_cycles_per_accepted_batch": 130.0140636339995,
+        "output_error_proxy": 4.325637348312483e-10,
+        "qubitcycles_per_output": 1323933.209985017,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00010817009796038057,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          7,
+          11,
+          4
+        ],
+        "qubits": 33274,
+        "expected_cycles_per_accepted_batch": 158.64605861930113,
+        "output_error_proxy": 3.712374874176305e-08,
+        "qubitcycles_per_output": 1319697.2386246563,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0078090286984742185,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          7,
+          11,
+          6
+        ],
+        "qubits": 39188,
+        "expected_cycles_per_accepted_batch": 110.61880065519871,
+        "output_error_proxy": 2.8271159913106914e-08,
+        "qubitcycles_per_output": 1083732.3900189819,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.005593991722325109,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          7,
+          13,
+          4
+        ],
+        "qubits": 35642,
+        "expected_cycles_per_accepted_batch": 158.6019921690078,
+        "output_error_proxy": 6.939408547790293e-09,
+        "qubitcycles_per_output": 1413223.051221944,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.007533355401307951,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          7,
+          13,
+          6
+        ],
+        "qubits": 41688,
+        "expected_cycles_per_accepted_batch": 130.81647975616386,
+        "output_error_proxy": 5.936001412631953e-09,
+        "qubitcycles_per_output": 1363369.3520187398,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.006241413602366741,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          9,
+          11,
+          4
+        ],
+        "qubits": 34102,
+        "expected_cycles_per_accepted_batch": 157.5546860361828,
+        "output_error_proxy": 4.539116305046775e-09,
+        "qubitcycles_per_output": 1343232.4758014765,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0009361767983577796,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          9,
+          11,
+          6
+        ],
+        "qubits": 40016,
+        "expected_cycles_per_accepted_batch": 110.08646347959561,
+        "output_error_proxy": 4.084510646373829e-09,
+        "qubitcycles_per_output": 1101304.9806498745,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0007854142722245605,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          9,
+          13,
+          4
+        ],
+        "qubits": 36470,
+        "expected_cycles_per_accepted_batch": 157.5101243548136,
+        "output_error_proxy": 6.306725419680248e-10,
+        "qubitcycles_per_output": 1436098.558805013,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0006535285308932881,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          9,
+          13,
+          6
+        ],
+        "qubits": 42516,
+        "expected_cycles_per_accepted_batch": 130.07212752241767,
+        "output_error_proxy": 5.574440353761645e-10,
+        "qubitcycles_per_output": 1382536.6434357774,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0005545194331140202,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          11,
+          11,
+          4
+        ],
+        "qubits": 34930,
+        "expected_cycles_per_accepted_batch": 157.47117847926856,
+        "output_error_proxy": 2.066071702611083e-09,
+        "qubitcycles_per_output": 1375117.0660702127,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.00040636950357109125,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          11,
+          11,
+          6
+        ],
+        "qubits": 40844,
+        "expected_cycles_per_accepted_batch": 110.04586075825857,
+        "output_error_proxy": 2.2621022277569125e-09,
+        "qubitcycles_per_output": 1123678.2842025782,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0004167422376686325,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 11.0
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          11,
+          13,
+          4
+        ],
+        "qubits": 37298,
+        "expected_cycles_per_accepted_batch": 157.42586978413107,
+        "output_error_proxy": 1.4645762380638416e-10,
+        "qubitcycles_per_output": 1467917.52280213,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.000118676742987045,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 15.740718699464319
+      },
+      {
+        "distances": [
+          13,
+          5,
+          5,
+          23,
+          11,
+          13,
+          6
+        ],
+        "qubits": 43344,
+        "expected_cycles_per_accepted_batch": 130.0146712700043,
+        "output_error_proxy": 1.4427536942918096e-10,
+        "qubitcycles_per_output": 1408838.9778817666,
+        "pfail": 0.0470574891532447,
+        "pfail2": 0.0001128431880877967,
+        "pl1": 1.8642511037114673e-06,
+        "l1time": 13.0
+      }
+    ],
+    "best_within_limited_scan": {
+      "distances": [
+        13,
+        5,
+        5,
+        21,
+        9,
+        13,
+        6
+      ],
+      "qubits": 39976,
+      "expected_cycles_per_accepted_batch": 130.06652275766498,
+      "output_error_proxy": 7.915756938814411e-10,
+      "qubitcycles_per_output": 1299884.828440104,
+      "pfail": 0.0470574891532447,
+      "pfail2": 0.0005114518036968274,
+      "pl1": 1.8642511037114673e-06,
+      "l1time": 13.0,
+      "produced_error_limit_with_half_delivery_reserve": 1.3143177836396351e-09,
+      "scan_scope": "36 points, L1 fixed (13,5,5); not global factory optimum",
+      "regions": {
+        "L1_core": {
+          "qubits": 15564,
+          "percent_reserved_factory_volume": 38.93336001600961,
+          "qubitcycles_per_output": 506088.84005007445
+        },
+        "L2_core": {
+          "qubits": 13986,
+          "percent_reserved_factory_volume": 34.98599159495697,
+          "qubitcycles_per_output": 454777.5968221756
+        },
+        "internal_transfer_and_ancillas": {
+          "qubits": 10426,
+          "percent_reserved_factory_volume": 26.08064838903342,
+          "qubitcycles_per_output": 339018.3915678538
+        }
+      },
+      "whole_demand_intrinsic_qubitseconds_400ns_cycle": 131869.15621379754,
+      "relative_intrinsic_volume_reduction_from_original_M2": 0.07733612652134214
+    }
+  },
+  "cultivation": {
+    "commit": "871e68ff6df2f75190b1bfd6351459d1b5a037e3",
+    "stim_version": "1.14.0",
+    "seed": 20261006,
+    "shots": 1024000,
+    "circuit_sha256": "747af2329a9c766a17a8511eb20832e9c750ca966a242a6617757d36258e6911",
+    "code_qubits_peak": 463,
+    "physical_measurement_rounds": 25,
+    "ideal_terminal_MPP_excluded": true,
+    "source_fixed_final_acceptance": 0.01,
+    "early_postselection_survival": 0.0531181640625,
+    "quality_status": "S proxy cost MC only; published d5 T-quality conjecture and erratum remain unvalidated",
+    "expected_active_qubitrounds_per_output": 68350.81240234374,
+    "reserved_peak_qubitrounds_per_output": 325107.20585937495,
+    "expected_raw_T_equivalent_gates_per_output": 2395.181640625,
+    "stages": {
+      "injection": {
+        "rounds_on_surviving_attempt": 1,
+        "active_qubits_min": 13,
+        "active_qubits_max": 13,
+        "expected_qubitrounds_per_accepted_output": 1300.0,
+        "percent_of_active_attempt_cost": 1.9019525215700628,
+        "reserved_peak_qubitrounds_per_accepted_output": 46300.0,
+        "percent_of_fixed_cell_cost": 14.241456099877114,
+        "raw_T_equivalent_proxy_gates_on_full_attempt": 1,
+        "CX_pairs_on_full_attempt": 25,
+        "measurements_on_full_attempt": 0
+      },
+      "cultivation": {
+        "rounds_on_surviving_attempt": 8,
+        "active_qubits_min": 14,
+        "active_qubits_max": 42,
+        "expected_qubitrounds_per_accepted_output": 14159.538378906249,
+        "percent_of_active_attempt_cost": 20.715976710791402,
+        "reserved_peak_qubitrounds_per_accepted_output": 225860.39775390623,
+        "percent_of_fixed_cell_cost": 69.47259048192309,
+        "raw_T_equivalent_proxy_gates_on_full_attempt": 52,
+        "CX_pairs_on_full_attempt": 452,
+        "measurements_on_full_attempt": 93
+      },
+      "graft_stabilization": {
+        "rounds_on_surviving_attempt": 5,
+        "active_qubits_min": 462,
+        "active_qubits_max": 462,
+        "expected_qubitrounds_per_accepted_output": 25656.7458984375,
+        "percent_of_active_attempt_cost": 37.53685581293505,
+        "reserved_peak_qubitrounds_per_accepted_output": 25712.27998046875,
+        "percent_of_fixed_cell_cost": 7.908861912950213,
+        "raw_T_equivalent_proxy_gates_on_full_attempt": 0,
+        "CX_pairs_on_full_attempt": 4550,
+        "measurements_on_full_attempt": 1150
+      },
+      "matchable_transition": {
+        "rounds_on_surviving_attempt": 1,
+        "active_qubits_min": 463,
+        "active_qubits_max": 463,
+        "expected_qubitrounds_per_accepted_output": 2640.8181640625,
+        "percent_of_active_attempt_cost": 3.863623666266689,
+        "reserved_peak_qubitrounds_per_accepted_output": 2640.8181640625,
+        "percent_of_fixed_cell_cost": 0.8122914892279519,
+        "raw_T_equivalent_proxy_gates_on_full_attempt": 0,
+        "CX_pairs_on_full_attempt": 892,
+        "measurements_on_full_attempt": 232
+      },
+      "gap_wait": {
+        "rounds_on_surviving_attempt": 10,
+        "active_qubits_min": 463,
+        "active_qubits_max": 463,
+        "expected_qubitrounds_per_accepted_output": 24593.7099609375,
+        "percent_of_active_attempt_cost": 35.9815912884368,
+        "reserved_peak_qubitrounds_per_accepted_output": 24593.7099609375,
+        "percent_of_fixed_cell_cost": 7.564800016021639,
+        "raw_T_equivalent_proxy_gates_on_full_attempt": 0,
+        "CX_pairs_on_full_attempt": 8920,
+        "measurements_on_full_attempt": 2320
+      }
+    },
+    "layers": [
+      {
+        "layer": 1,
+        "stage": "injection",
+        "active_qubits": 13,
+        "survival_entering": 1.0,
+        "survival_exiting": 1.0,
+        "expected_qubitrounds_per_accepted_output": 1300.0,
+        "CX_pairs": 25,
+        "raw_T_equivalent_proxy_gates": 1
+      },
+      {
+        "layer": 2,
+        "stage": "cultivation",
+        "active_qubits": 14,
+        "survival_entering": 1.0,
+        "survival_exiting": 0.82137109375,
+        "expected_qubitrounds_per_accepted_output": 1400.0,
+        "CX_pairs": 32,
+        "physical_measurements": 7
+      },
+      {
+        "layer": 3,
+        "stage": "cultivation",
+        "active_qubits": 15,
+        "survival_entering": 0.82137109375,
+        "survival_exiting": 0.82137109375,
+        "expected_qubitrounds_per_accepted_output": 1232.056640625,
+        "raw_T_equivalent_proxy_gates": 7,
+        "CX_pairs": 12,
+        "physical_measurements": 1
+      },
+      {
+        "layer": 4,
+        "stage": "cultivation",
+        "active_qubits": 32,
+        "survival_entering": 0.82137109375,
+        "survival_exiting": 0.7161318359375,
+        "expected_qubitrounds_per_accepted_output": 2628.3875,
+        "CX_pairs": 28,
+        "physical_measurements": 11,
+        "raw_T_equivalent_proxy_gates": 7
+      },
+      {
+        "layer": 5,
+        "stage": "cultivation",
+        "active_qubits": 39,
+        "survival_entering": 0.7161318359375,
+        "survival_exiting": 0.5239765625,
+        "expected_qubitrounds_per_accepted_output": 2792.9141601562496,
+        "CX_pairs": 102,
+        "physical_measurements": 18
+      },
+      {
+        "layer": 6,
+        "stage": "cultivation",
+        "active_qubits": 39,
+        "survival_entering": 0.5239765625,
+        "survival_exiting": 0.39257421875,
+        "expected_qubitrounds_per_accepted_output": 2043.5085937499998,
+        "CX_pairs": 102,
+        "physical_measurements": 18
+      },
+      {
+        "layer": 7,
+        "stage": "cultivation",
+        "active_qubits": 39,
+        "survival_entering": 0.39257421875,
+        "survival_exiting": 0.301384765625,
+        "expected_qubitrounds_per_accepted_output": 1531.039453125,
+        "CX_pairs": 102,
+        "physical_measurements": 18
+      },
+      {
+        "layer": 8,
+        "stage": "cultivation",
+        "active_qubits": 42,
+        "survival_entering": 0.301384765625,
+        "survival_exiting": 0.301384765625,
+        "expected_qubitrounds_per_accepted_output": 1265.816015625,
+        "raw_T_equivalent_proxy_gates": 19,
+        "CX_pairs": 37,
+        "physical_measurements": 1
+      },
+      {
+        "layer": 9,
+        "stage": "cultivation",
+        "active_qubits": 42,
+        "survival_entering": 0.301384765625,
+        "survival_exiting": 0.1872080078125,
+        "expected_qubitrounds_per_accepted_output": 1265.816015625,
+        "CX_pairs": 37,
+        "physical_measurements": 19,
+        "raw_T_equivalent_proxy_gates": 19
+      },
+      {
+        "layer": 10,
+        "stage": "graft_stabilization",
+        "active_qubits": 462,
+        "survival_entering": 0.1872080078125,
+        "survival_exiting": 0.116748046875,
+        "expected_qubitrounds_per_accepted_output": 8649.0099609375,
+        "CX_pairs": 910,
+        "physical_measurements": 230
+      },
+      {
+        "layer": 11,
+        "stage": "graft_stabilization",
+        "active_qubits": 462,
+        "survival_entering": 0.116748046875,
+        "survival_exiting": 0.0998837890625,
+        "expected_qubitrounds_per_accepted_output": 5393.759765625,
+        "CX_pairs": 910,
+        "physical_measurements": 230
+      },
+      {
+        "layer": 12,
+        "stage": "graft_stabilization",
+        "active_qubits": 462,
+        "survival_entering": 0.0998837890625,
+        "survival_exiting": 0.0828271484375,
+        "expected_qubitrounds_per_accepted_output": 4614.6310546875,
+        "CX_pairs": 910,
+        "physical_measurements": 230
+      },
+      {
+        "layer": 13,
+        "stage": "graft_stabilization",
+        "active_qubits": 462,
+        "survival_entering": 0.0828271484375,
+        "survival_exiting": 0.068673828125,
+        "expected_qubitrounds_per_accepted_output": 3826.6142578125,
+        "CX_pairs": 910,
+        "physical_measurements": 230
+      },
+      {
+        "layer": 14,
+        "stage": "graft_stabilization",
+        "active_qubits": 462,
+        "survival_entering": 0.068673828125,
+        "survival_exiting": 0.057037109375,
+        "expected_qubitrounds_per_accepted_output": 3172.730859375,
+        "CX_pairs": 910,
+        "physical_measurements": 230
+      },
+      {
+        "layer": 15,
+        "stage": "matchable_transition",
+        "active_qubits": 463,
+        "survival_entering": 0.057037109375,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2640.8181640625,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 16,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 17,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 18,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 19,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 20,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 21,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 22,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 23,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 24,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      },
+      {
+        "layer": 25,
+        "stage": "gap_wait",
+        "active_qubits": 463,
+        "survival_entering": 0.0531181640625,
+        "survival_exiting": 0.0531181640625,
+        "expected_qubitrounds_per_accepted_output": 2459.37099609375,
+        "CX_pairs": 892,
+        "physical_measurements": 232
+      }
+    ]
+  }
+}

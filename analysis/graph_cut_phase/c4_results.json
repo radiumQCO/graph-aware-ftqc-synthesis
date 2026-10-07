@@ -1,0 +1,211 @@
+{
+  "status": "C4_EXHAUSTIVELY_VERIFIED_BEFORE_SCALING",
+  "truth_table": [
+    {
+      "ABCD": "0000",
+      "cut": 0,
+      "half_low": 0,
+      "half_high": 0,
+      "r": 0,
+      "s": 0
+    },
+    {
+      "ABCD": "0001",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "0010",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "0011",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "0100",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "0101",
+      "cut": 4,
+      "half_low": 0,
+      "half_high": 1,
+      "r": 1,
+      "s": 1
+    },
+    {
+      "ABCD": "0110",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "0111",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "1000",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "1001",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "1010",
+      "cut": 4,
+      "half_low": 0,
+      "half_high": 1,
+      "r": 1,
+      "s": 1
+    },
+    {
+      "ABCD": "1011",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 1,
+      "s": 0
+    },
+    {
+      "ABCD": "1100",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "1101",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "1110",
+      "cut": 2,
+      "half_low": 1,
+      "half_high": 0,
+      "r": 0,
+      "s": 1
+    },
+    {
+      "ABCD": "1111",
+      "cut": 0,
+      "half_low": 0,
+      "half_high": 0,
+      "r": 0,
+      "s": 0
+    }
+  ],
+  "ANF": {
+    "half_low": {
+      "terms": [
+        "A",
+        "B",
+        "AB",
+        "C",
+        "BC",
+        "D",
+        "AD",
+        "CD"
+      ],
+      "degree": 2
+    },
+    "half_high": {
+      "terms": [
+        "AC",
+        "ABC",
+        "BD",
+        "ABD",
+        "ACD",
+        "BCD"
+      ],
+      "degree": 3
+    }
+  },
+  "binary_AND_minimum": 2,
+  "degree_lower_bound": "One AND with affine inputs has degree <=2, but high half-cut bit has degree 3.",
+  "phase_only_AND_count": 1,
+  "phase_only_rotation_count": 2,
+  "search": {
+    "affine_functions": 32,
+    "nonlinear_first_AND_cosets": 35,
+    "one_AND_binary_solutions": 0,
+    "two_AND_binary_factor_pairs_tested": 4096,
+    "two_AND_binary_witness_count": 96,
+    "one_witness": {
+      "first_factors_truth_hex": [
+        "0x33cc",
+        "0x5a5a"
+      ],
+      "second_factors_truth_hex": [
+        "0xff0",
+        "0x742e"
+      ]
+    },
+    "zero_AND_two_phase_solutions": 0,
+    "one_AND_phase_pairs_before_witness": 50611,
+    "one_AND_two_phase_witness": {
+      "and_factors_truth_hex": [
+        "0x33cc",
+        "0x5a5a"
+      ],
+      "phase_predicates_truth_hex": [
+        "0xff0",
+        "0x742e"
+      ],
+      "coefficients_for_cut_half": [
+        0,
+        1,
+        1
+      ]
+    },
+    "scope": "XOR/NOT/clean AND, arbitrary affine AND controls; phase gates P(c*theta) on computed Boolean predicates; NOT universal quantum-circuit optimality"
+  },
+  "reversible_phase": {
+    "basis_assignments": 16,
+    "generic_test_angles": [
+      0.137,
+      1.4142135623730951,
+      0.4487989505128276,
+      -0.417
+    ],
+    "phase_max_amplitude_error": 1.2412670766236366e-16,
+    "phase_only_measured_inverse_branches": 32,
+    "inverse_max_amplitude_error": 1.2412670766236366e-16,
+    "symbolic_identity": "cut=2*(r+s), r=A xor B, s=C xor D xor ((A xor C)&(B xor D))"
+  }
+}

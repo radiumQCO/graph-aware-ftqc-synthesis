@@ -1,0 +1,506 @@
+{
+  "qualtran_version": "0.7.0",
+  "cirq_version": "1.7.0",
+  "EPS_radians_per_block": 8.291873963515754e-07,
+  "shared_gradient_bits": 25,
+  "families": {
+    "X_boundary": {
+      "n": 200,
+      "copies_of_block": 2,
+      "angle": 0.10362269294859393,
+      "gradient_bits": 25,
+      "formula_bits": 27,
+      "optimized_bits": 25,
+      "gamma_bits": 31,
+      "gamma_frac": 31,
+      "gamma_binary": "0000010000111000110100101110101",
+      "HWP_call_graph": {
+        "HammingWeightCompute": 1,
+        "HammingWeightCompute†": 1,
+        "Z**0.03298412759852482": 8
+      },
+      "shared_gradient_bits": 25,
+      "actual_additions": 13,
+      "Toffoli_per_block": 299,
+      "abstract_additions": [
+        {
+          "x_bits": 6,
+          "right_shift": 0,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 3,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 4,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 5,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 9,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 10,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 12,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 15,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 17,
+          "sign": 1
+        },
+        {
+          "x_bits": 7,
+          "right_shift": 18,
+          "sign": 1
+        },
+        {
+          "x_bits": 6,
+          "right_shift": 19,
+          "sign": 1
+        },
+        {
+          "x_bits": 4,
+          "right_shift": 21,
+          "sign": 1
+        },
+        {
+          "x_bits": 2,
+          "right_shift": 23,
+          "sign": 1
+        }
+      ],
+      "maximum_phase_deviation": 7.787451067755154e-07,
+      "exact_diagonal_diamond": 7.787451067754957e-07,
+      "checked_weight_values": 201,
+      "HWC_AND": 197,
+      "HWC_ancillas": 205
+    },
+    "X_common": {
+      "n": 200,
+      "copies_of_block": 59,
+      "angle": 0.20724538589718786,
+      "gradient_bits": 25,
+      "formula_bits": 27,
+      "optimized_bits": 25,
+      "gamma_bits": 31,
+      "gamma_frac": 31,
+      "gamma_binary": "0000100001110001101001011101010",
+      "HWP_call_graph": {
+        "HammingWeightCompute": 1,
+        "HammingWeightCompute†": 1,
+        "Z**0.06596825519704964": 8
+      },
+      "shared_gradient_bits": 25,
+      "actual_additions": 13,
+      "Toffoli_per_block": 299,
+      "abstract_additions": [
+        {
+          "x_bits": 5,
+          "right_shift": 0,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 2,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 3,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 4,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 8,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 9,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 11,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 14,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 16,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 17,
+          "sign": 1
+        },
+        {
+          "x_bits": 7,
+          "right_shift": 18,
+          "sign": 1
+        },
+        {
+          "x_bits": 5,
+          "right_shift": 20,
+          "sign": 1
+        },
+        {
+          "x_bits": 3,
+          "right_shift": 22,
+          "sign": 1
+        }
+      ],
+      "maximum_phase_deviation": 8.084761574393123e-07,
+      "exact_diagonal_diamond": 8.084761574392903e-07,
+      "checked_weight_values": 201,
+      "HWC_AND": 197,
+      "HWC_ancillas": 205
+    },
+    "X_mixed": {
+      "n": 200,
+      "copies_of_block": 40,
+      "angle": -0.060868078845781784,
+      "gradient_bits": 24,
+      "formula_bits": 27,
+      "optimized_bits": 24,
+      "gamma_bits": 31,
+      "gamma_frac": 31,
+      "gamma_binary": "0000001001111010111000001000100",
+      "HWP_call_graph": {
+        "HammingWeightCompute": 1,
+        "HammingWeightCompute†": 1,
+        "Z**-0.019374911249626797": 8
+      },
+      "shared_gradient_bits": 25,
+      "actual_additions": 11,
+      "Toffoli_per_block": 253,
+      "abstract_additions": [
+        {
+          "x_bits": 7,
+          "right_shift": 0,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 2,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 3,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 4,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 5,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 7,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 9,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 10,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 11,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 17,
+          "sign": -1
+        },
+        {
+          "x_bits": 4,
+          "right_shift": 21,
+          "sign": -1
+        }
+      ],
+      "maximum_phase_deviation": 4.801220121246477e-07,
+      "exact_diagonal_diamond": 4.80122012124643e-07,
+      "checked_weight_values": 201,
+      "HWC_AND": 197,
+      "HWC_ancillas": 205
+    },
+    "ZZ_central": {
+      "n": 400,
+      "copies_of_block": 20,
+      "angle": 0.3289815435887514,
+      "gradient_bits": 25,
+      "formula_bits": 27,
+      "optimized_bits": 25,
+      "gamma_bits": 32,
+      "gamma_frac": 32,
+      "gamma_binary": "00001101011001110110011011100111",
+      "HWP_call_graph": {
+        "HammingWeightCompute": 1,
+        "HammingWeightCompute†": 1,
+        "Z**0.10471807769630324": 9
+      },
+      "shared_gradient_bits": 25,
+      "actual_additions": 18,
+      "Toffoli_per_block": 414,
+      "abstract_additions": [
+        {
+          "x_bits": 5,
+          "right_shift": 0,
+          "sign": 1
+        },
+        {
+          "x_bits": 6,
+          "right_shift": 0,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 0,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 1,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 2,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 5,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 6,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 7,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 9,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 10,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 13,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 14,
+          "sign": 1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 16,
+          "sign": 1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 17,
+          "sign": 1
+        },
+        {
+          "x_bits": 7,
+          "right_shift": 18,
+          "sign": 1
+        },
+        {
+          "x_bits": 4,
+          "right_shift": 21,
+          "sign": 1
+        },
+        {
+          "x_bits": 3,
+          "right_shift": 22,
+          "sign": 1
+        },
+        {
+          "x_bits": 2,
+          "right_shift": 23,
+          "sign": 1
+        }
+      ],
+      "maximum_phase_deviation": 9.158911589010554e-07,
+      "exact_diagonal_diamond": 9.158911589010235e-07,
+      "checked_weight_values": 201,
+      "HWC_AND": 397,
+      "HWC_ancillas": 406
+    },
+    "ZZ_common": {
+      "n": 400,
+      "copies_of_block": 80,
+      "angle": -0.20724538589718786,
+      "gradient_bits": 25,
+      "formula_bits": 27,
+      "optimized_bits": 25,
+      "gamma_bits": 32,
+      "gamma_frac": 32,
+      "gamma_binary": "00001000011100011010010111010101",
+      "HWP_call_graph": {
+        "HammingWeightCompute": 1,
+        "HammingWeightCompute†": 1,
+        "Z**-0.06596825519704964": 9
+      },
+      "shared_gradient_bits": 25,
+      "actual_additions": 14,
+      "Toffoli_per_block": 322,
+      "abstract_additions": [
+        {
+          "x_bits": 5,
+          "right_shift": 0,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 1,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 2,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 3,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 7,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 8,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 10,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 13,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 15,
+          "sign": -1
+        },
+        {
+          "x_bits": 9,
+          "right_shift": 16,
+          "sign": -1
+        },
+        {
+          "x_bits": 8,
+          "right_shift": 17,
+          "sign": -1
+        },
+        {
+          "x_bits": 6,
+          "right_shift": 19,
+          "sign": -1
+        },
+        {
+          "x_bits": 4,
+          "right_shift": 21,
+          "sign": -1
+        },
+        {
+          "x_bits": 2,
+          "right_shift": 23,
+          "sign": -1
+        }
+      ],
+      "maximum_phase_deviation": 6.806847465153332e-07,
+      "exact_diagonal_diamond": 6.806847465153201e-07,
+      "checked_weight_values": 201,
+      "HWC_AND": 397,
+      "HWC_ancillas": 406
+    }
+  },
+  "scaled_additions": 2713,
+  "Toffoli_total": 62399,
+  "HWP_AND_total": 59597,
+  "rounding_diamond_sum": 0.0001412350668867009,
+  "leaf_export_status": "ValueError: Undecomposed leaf AddIntoPhaseGrad(x_bitsize=5, phase_bitsize=25, right_shift=0, sign=-1, controlled_by=None)",
+  "source_files": {
+    "hamming_weight_phasing.py": {
+      "path": "analysis\\sources\\compilers\\wheel_runtime\\qualtran\\bloqs\\rotations\\hamming_weight_phasing.py",
+      "sha256": "8830236ec6c0656221f69ee0de1142fc479da1feb371c8dcd571522e119e0e80"
+    },
+    "phase_gradient.py": {
+      "path": "analysis\\sources\\compilers\\wheel_runtime\\qualtran\\bloqs\\rotations\\phase_gradient.py",
+      "sha256": "60a8796556b92f83a417581bfe90cf364a73df2f1196238dab92eead0900dd7a"
+    },
+    "quantum_variable_rotation.py": {
+      "path": "analysis\\sources\\compilers\\wheel_runtime\\qualtran\\bloqs\\rotations\\quantum_variable_rotation.py",
+      "sha256": "353d5bd7d9753ef9b5bd5d715f54c44c638b65e70b39db0de162bcb22bc8f679"
+    },
+    "hamming_weight.py": {
+      "path": "analysis\\sources\\compilers\\wheel_runtime\\qualtran\\bloqs\\arithmetic\\hamming_weight.py",
+      "sha256": "2d5567f0b542f9c6559ee825086973e7c7fd8f39cf83fc2d91bbce396540ed8b"
+    }
+  }
+}

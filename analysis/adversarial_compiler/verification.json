@@ -1,0 +1,8 @@
+{
+  "HWC_all_integer_weight_cases": 602,
+  "graph_cases": 503,
+  "lift_full_unitary_basis_cases": 8,
+  "lift_inverse_max_error": 2.7755575615628914e-16,
+  "graph_contract": "exact integer phase exponent; all inputs admitted, no symmetry sector",
+  "full_200_qubit_statevector": "not attempted; compositional proof and Boolean simulation"
+}

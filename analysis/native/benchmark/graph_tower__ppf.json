@@ -1,0 +1,17 @@
+{
+  "name": "ppf_graph_tower",
+  "command": [
+    "analysis\\native\\bin\\feynopt.exe",
+    "-ppf",
+    "analysis\\native\\benchmark\\inputs\\graph_tower.qc",
+    "+RTS",
+    "-M3G",
+    "-RTS"
+  ],
+  "cwd": ".",
+  "timeout_seconds": 240,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 240.16631719999714,
+  "log": "analysis\\native\\logs\\ppf_graph_tower.log"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "fasttodd_smoke",
+  "command": [
+    "analysis\\native\\fasttodd-target\\release\\quantum_circuit_optimization.exe",
+    "FastTODD",
+    "analysis\\native\\benchmark\\inputs\\smoke.qc"
+  ],
+  "cwd": "analysis\\sources\\compilers\\FastTODD",
+  "timeout_seconds": 60,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 0.04436559999885503,
+  "log": "analysis\\native\\logs\\fasttodd_smoke.log"
+}

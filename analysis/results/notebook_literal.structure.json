@@ -1,0 +1,6387 @@
+{
+  "case": "notebook_literal",
+  "instances": 2,
+  "work_qubits_per_instance": 100,
+  "steps": 80,
+  "dt": 0.25,
+  "evolution_time": 20.0,
+  "numeric_parameters_status": "literal notebook",
+  "boundary": "open, recovered from notebook loops",
+  "effective_hamiltonian": "-sum X + sum ZZ",
+  "edge_group_sizes": [
+    50,
+    40,
+    50,
+    40
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      19,
+      18
+    ],
+    [
+      17,
+      16
+    ],
+    [
+      15,
+      14
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      11,
+      10
+    ],
+    [
+      20,
+      21
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      28,
+      29
+    ],
+    [
+      39,
+      38
+    ],
+    [
+      37,
+      36
+    ],
+    [
+      35,
+      34
+    ],
+    [
+      33,
+      32
+    ],
+    [
+      31,
+      30
+    ],
+    [
+      40,
+      41
+    ],
+    [
+      42,
+      43
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      48,
+      49
+    ],
+    [
+      59,
+      58
+    ],
+    [
+      57,
+      56
+    ],
+    [
+      55,
+      54
+    ],
+    [
+      53,
+      52
+    ],
+    [
+      51,
+      50
+    ],
+    [
+      60,
+      61
+    ],
+    [
+      62,
+      63
+    ],
+    [
+      64,
+      65
+    ],
+    [
+      66,
+      67
+    ],
+    [
+      68,
+      69
+    ],
+    [
+      79,
+      78
+    ],
+    [
+      77,
+      76
+    ],
+    [
+      75,
+      74
+    ],
+    [
+      73,
+      72
+    ],
+    [
+      71,
+      70
+    ],
+    [
+      80,
+      81
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      84,
+      85
+    ],
+    [
+      86,
+      87
+    ],
+    [
+      88,
+      89
+    ],
+    [
+      99,
+      98
+    ],
+    [
+      97,
+      96
+    ],
+    [
+      95,
+      94
+    ],
+    [
+      93,
+      92
+    ],
+    [
+      91,
+      90
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      18,
+      17
+    ],
+    [
+      16,
+      15
+    ],
+    [
+      14,
+      13
+    ],
+    [
+      12,
+      11
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      27,
+      28
+    ],
+    [
+      38,
+      37
+    ],
+    [
+      36,
+      35
+    ],
+    [
+      34,
+      33
+    ],
+    [
+      32,
+      31
+    ],
+    [
+      41,
+      42
+    ],
+    [
+      43,
+      44
+    ],
+    [
+      45,
+      46
+    ],
+    [
+      47,
+      48
+    ],
+    [
+      58,
+      57
+    ],
+    [
+      56,
+      55
+    ],
+    [
+      54,
+      53
+    ],
+    [
+      52,
+      51
+    ],
+    [
+      61,
+      62
+    ],
+    [
+      63,
+      64
+    ],
+    [
+      65,
+      66
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      78,
+      77
+    ],
+    [
+      76,
+      75
+    ],
+    [
+      74,
+      73
+    ],
+    [
+      72,
+      71
+    ],
+    [
+      81,
+      82
+    ],
+    [
+      83,
+      84
+    ],
+    [
+      85,
+      86
+    ],
+    [
+      87,
+      88
+    ],
+    [
+      98,
+      97
+    ],
+    [
+      96,
+      95
+    ],
+    [
+      94,
+      93
+    ],
+    [
+      92,
+      91
+    ],
+    [
+      0,
+      19
+    ],
+    [
+      20,
+      39
+    ],
+    [
+      40,
+      59
+    ],
+    [
+      60,
+      79
+    ],
+    [
+      80,
+      99
+    ],
+    [
+      1,
+      18
+    ],
+    [
+      21,
+      38
+    ],
+    [
+      41,
+      58
+    ],
+    [
+      61,
+      78
+    ],
+    [
+      81,
+      98
+    ],
+    [
+      2,
+      17
+    ],
+    [
+      22,
+      37
+    ],
+    [
+      42,
+      57
+    ],
+    [
+      62,
+      77
+    ],
+    [
+      82,
+      97
+    ],
+    [
+      3,
+      16
+    ],
+    [
+      23,
+      36
+    ],
+    [
+      43,
+      56
+    ],
+    [
+      63,
+      76
+    ],
+    [
+      83,
+      96
+    ],
+    [
+      4,
+      15
+    ],
+    [
+      24,
+      35
+    ],
+    [
+      44,
+      55
+    ],
+    [
+      64,
+      75
+    ],
+    [
+      84,
+      95
+    ],
+    [
+      5,
+      14
+    ],
+    [
+      25,
+      34
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      65,
+      74
+    ],
+    [
+      85,
+      94
+    ],
+    [
+      6,
+      13
+    ],
+    [
+      26,
+      33
+    ],
+    [
+      46,
+      53
+    ],
+    [
+      66,
+      73
+    ],
+    [
+      86,
+      93
+    ],
+    [
+      7,
+      12
+    ],
+    [
+      27,
+      32
+    ],
+    [
+      47,
+      52
+    ],
+    [
+      67,
+      72
+    ],
+    [
+      87,
+      92
+    ],
+    [
+      8,
+      11
+    ],
+    [
+      28,
+      31
+    ],
+    [
+      48,
+      51
+    ],
+    [
+      68,
+      71
+    ],
+    [
+      88,
+      91
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      29,
+      30
+    ],
+    [
+      49,
+      50
+    ],
+    [
+      69,
+      70
+    ],
+    [
+      89,
+      90
+    ],
+    [
+      19,
+      20
+    ],
+    [
+      39,
+      40
+    ],
+    [
+      59,
+      60
+    ],
+    [
+      79,
+      80
+    ],
+    [
+      18,
+      21
+    ],
+    [
+      38,
+      41
+    ],
+    [
+      58,
+      61
+    ],
+    [
+      78,
+      81
+    ],
+    [
+      17,
+      22
+    ],
+    [
+      37,
+      42
+    ],
+    [
+      57,
+      62
+    ],
+    [
+      77,
+      82
+    ],
+    [
+      16,
+      23
+    ],
+    [
+      36,
+      43
+    ],
+    [
+      56,
+      63
+    ],
+    [
+      76,
+      83
+    ],
+    [
+      15,
+      24
+    ],
+    [
+      35,
+      44
+    ],
+    [
+      55,
+      64
+    ],
+    [
+      75,
+      84
+    ],
+    [
+      14,
+      25
+    ],
+    [
+      34,
+      45
+    ],
+    [
+      54,
+      65
+    ],
+    [
+      74,
+      85
+    ],
+    [
+      13,
+      26
+    ],
+    [
+      33,
+      46
+    ],
+    [
+      53,
+      66
+    ],
+    [
+      73,
+      86
+    ],
+    [
+      12,
+      27
+    ],
+    [
+      32,
+      47
+    ],
+    [
+      52,
+      67
+    ],
+    [
+      72,
+      87
+    ],
+    [
+      11,
+      28
+    ],
+    [
+      31,
+      48
+    ],
+    [
+      51,
+      68
+    ],
+    [
+      71,
+      88
+    ],
+    [
+      10,
+      29
+    ],
+    [
+      30,
+      49
+    ],
+    [
+      50,
+      69
+    ],
+    [
+      70,
+      89
+    ]
+  ],
+  "edge_parity_rank_gf2": 99,
+  "all_degrees_even": false,
+  "commuting_blocks_per_instance": 801,
+  "rotation_layers_per_instance": 2001,
+  "rotations_per_instance": 112100,
+  "batch_rotations": 224200,
+  "angle_families": [
+    {
+      "family": "X_boundary",
+      "theta_radians": -0.10362269294859393,
+      "multiplicity_per_instance": 200,
+      "batch_multiplicity": 400
+    },
+    {
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786,
+      "multiplicity_per_instance": 57600,
+      "batch_multiplicity": 115200
+    },
+    {
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786,
+      "multiplicity_per_instance": 23900,
+      "batch_multiplicity": 47800
+    },
+    {
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784,
+      "multiplicity_per_instance": 16000,
+      "batch_multiplicity": 32000
+    },
+    {
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514,
+      "multiplicity_per_instance": 14400,
+      "batch_multiplicity": 28800
+    }
+  ],
+  "layers": [
+    {
+      "pauli": "X",
+      "coefficient": 0.20724538589718786,
+      "index": 0,
+      "family": "X_boundary",
+      "theta_radians": -0.10362269294859393
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 1,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 2,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 3,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 4,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 5,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 6,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 7,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 8,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 9,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 10,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 11,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 12,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 13,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 14,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 15,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 16,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 17,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 18,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 19,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 20,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 21,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 22,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 23,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 24,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 25,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 26,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 27,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 28,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 29,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 30,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 31,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 32,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 33,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 34,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 35,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 36,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 37,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 38,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 39,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 40,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 41,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 42,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 43,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 44,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 45,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 46,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 47,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 48,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 49,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 50,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 51,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 52,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 53,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 54,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 55,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 56,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 57,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 58,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 59,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 60,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 61,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 62,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 63,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 64,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 65,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 66,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 67,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 68,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 69,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 70,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 71,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 72,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 73,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 74,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 75,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 76,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 77,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 78,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 79,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 80,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 81,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 82,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 83,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 84,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 85,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 86,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 87,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 88,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 89,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 90,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 91,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 92,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 93,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 94,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 95,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 96,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 97,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 98,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 99,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 100,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 101,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 102,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 103,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 104,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 105,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 106,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 107,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 108,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 109,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 110,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 111,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 112,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 113,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 114,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 115,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 116,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 117,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 118,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 119,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 120,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 121,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 122,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 123,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 124,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 125,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 126,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 127,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 128,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 129,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 130,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 131,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 132,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 133,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 134,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 135,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 136,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 137,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 138,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 139,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 140,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 141,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 142,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 143,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 144,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 145,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 146,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 147,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 148,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 149,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 150,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 151,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 152,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 153,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 154,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 155,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 156,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 157,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 158,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 159,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 160,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 161,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 162,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 163,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 164,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 165,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 166,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 167,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 168,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 169,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 170,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 171,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 172,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 173,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 174,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 175,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 176,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 177,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 178,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 179,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 180,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 181,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 182,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 183,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 184,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 185,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 186,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 187,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 188,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 189,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 190,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 191,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 192,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 193,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 194,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 195,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 196,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 197,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 198,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 199,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 200,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 201,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 202,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 203,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 204,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 205,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 206,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 207,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 208,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 209,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 210,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 211,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 212,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 213,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 214,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 215,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 216,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 217,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 218,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 219,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 220,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 221,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 222,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 223,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 224,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 225,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 226,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 227,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 228,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 229,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 230,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 231,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 232,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 233,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 234,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 235,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 236,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 237,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 238,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 239,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 240,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 241,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 242,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 243,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 244,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 245,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 246,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 247,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 248,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 249,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 250,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 251,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 252,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 253,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 254,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 255,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 256,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 257,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 258,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 259,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 260,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 261,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 262,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 263,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 264,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 265,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 266,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 267,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 268,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 269,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 270,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 271,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 272,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 273,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 274,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 275,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 276,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 277,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 278,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 279,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 280,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 281,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 282,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 283,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 284,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 285,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 286,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 287,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 288,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 289,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 290,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 291,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 292,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 293,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 294,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 295,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 296,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 297,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 298,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 299,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 300,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 301,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 302,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 303,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 304,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 305,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 306,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 307,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 308,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 309,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 310,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 311,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 312,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 313,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 314,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 315,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 316,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 317,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 318,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 319,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 320,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 321,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 322,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 323,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 324,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 325,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 326,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 327,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 328,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 329,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 330,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 331,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 332,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 333,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 334,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 335,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 336,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 337,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 338,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 339,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 340,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 341,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 342,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 343,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 344,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 345,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 346,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 347,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 348,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 349,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 350,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 351,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 352,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 353,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 354,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 355,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 356,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 357,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 358,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 359,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 360,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 361,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 362,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 363,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 364,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 365,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 366,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 367,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 368,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 369,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 370,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 371,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 372,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 373,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 374,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 375,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 376,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 377,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 378,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 379,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 380,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 381,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 382,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 383,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 384,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 385,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 386,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 387,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 388,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 389,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 390,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 391,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 392,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 393,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 394,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 395,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 396,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 397,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 398,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 399,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 400,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 401,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 402,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 403,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 404,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 405,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 406,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 407,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 408,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 409,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 410,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 411,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 412,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 413,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 414,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 415,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 416,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 417,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 418,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 419,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 420,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 421,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 422,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 423,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 424,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 425,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 426,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 427,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 428,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 429,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 430,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 431,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 432,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 433,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 434,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 435,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 436,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 437,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 438,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 439,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 440,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 441,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 442,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 443,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 444,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 445,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 446,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 447,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 448,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 449,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 450,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 451,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 452,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 453,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 454,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 455,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 456,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 457,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 458,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 459,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 460,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 461,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 462,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 463,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 464,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 465,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 466,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 467,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 468,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 469,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 470,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 471,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 472,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 473,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 474,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 475,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 476,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 477,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 478,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 479,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 480,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 481,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 482,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 483,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 484,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 485,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 486,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 487,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 488,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 489,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 490,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 491,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 492,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 493,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 494,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 495,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 496,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 497,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 498,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 499,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 500,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 501,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 502,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 503,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 504,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 505,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 506,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 507,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 508,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 509,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 510,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 511,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 512,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 513,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 514,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 515,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 516,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 517,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 518,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 519,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 520,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 521,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 522,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 523,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 524,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 525,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 526,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 527,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 528,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 529,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 530,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 531,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 532,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 533,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 534,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 535,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 536,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 537,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 538,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 539,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 540,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 541,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 542,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 543,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 544,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 545,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 546,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 547,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 548,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 549,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 550,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 551,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 552,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 553,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 554,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 555,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 556,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 557,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 558,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 559,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 560,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 561,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 562,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 563,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 564,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 565,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 566,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 567,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 568,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 569,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 570,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 571,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 572,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 573,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 574,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 575,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 576,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 577,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 578,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 579,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 580,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 581,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 582,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 583,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 584,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 585,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 586,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 587,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 588,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 589,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 590,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 591,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 592,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 593,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 594,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 595,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 596,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 597,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 598,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 599,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 600,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 601,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 602,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 603,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 604,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 605,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 606,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 607,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 608,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 609,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 610,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 611,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 612,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 613,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 614,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 615,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 616,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 617,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 618,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 619,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 620,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 621,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 622,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 623,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 624,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 625,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 626,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 627,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 628,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 629,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 630,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 631,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 632,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 633,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 634,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 635,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 636,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 637,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 638,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 639,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 640,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 641,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 642,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 643,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 644,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 645,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 646,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 647,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 648,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 649,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 650,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 651,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 652,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 653,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 654,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 655,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 656,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 657,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 658,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 659,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 660,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 661,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 662,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 663,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 664,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 665,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 666,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 667,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 668,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 669,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 670,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 671,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 672,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 673,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 674,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 675,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 676,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 677,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 678,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 679,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 680,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 681,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 682,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 683,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 684,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 685,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 686,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 687,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 688,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 689,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 690,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 691,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 692,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 693,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 694,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 695,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 696,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 697,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 698,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 699,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 700,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 701,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 702,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 703,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 704,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 705,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 706,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 707,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 708,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 709,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 710,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 711,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 712,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 713,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 714,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 715,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 716,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 717,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 718,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 719,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 720,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 721,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 722,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 723,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 724,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 725,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 726,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 727,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 728,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 729,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 730,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 731,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 732,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 733,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 734,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 735,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 736,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 737,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 738,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 739,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 740,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 741,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 742,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 743,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 744,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 745,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 746,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 747,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 748,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 749,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 750,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 751,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 752,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 753,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 754,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 755,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 756,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 757,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 758,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 759,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 760,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 761,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 762,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 763,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 764,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 765,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 766,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 767,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 768,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 769,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 770,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 771,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 772,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 773,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 774,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 775,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 776,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 777,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 778,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 779,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 780,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 781,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 782,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 783,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 784,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 785,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 786,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 787,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 788,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 789,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 790,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 791,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 792,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 793,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 794,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": -0.6579630871775028,
+      "index": 795,
+      "family": "ZZ_central",
+      "theta_radians": -0.3289815435887514
+    },
+    {
+      "pauli": "X",
+      "coefficient": -0.12173615769156357,
+      "index": 796,
+      "family": "X_mixed",
+      "theta_radians": 0.060868078845781784
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 797,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.4144907717943757,
+      "index": 798,
+      "family": "X_common",
+      "theta_radians": -0.20724538589718786
+    },
+    {
+      "pauli": "ZZ",
+      "coefficient": 0.4144907717943757,
+      "index": 799,
+      "family": "ZZ_common",
+      "theta_radians": 0.20724538589718786
+    },
+    {
+      "pauli": "X",
+      "coefficient": 0.20724538589718786,
+      "index": 800,
+      "family": "X_boundary",
+      "theta_radians": -0.10362269294859393
+    }
+  ],
+  "dependency_edges_per_instance": 288000
+}

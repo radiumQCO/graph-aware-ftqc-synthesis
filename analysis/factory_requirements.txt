@@ -1,0 +1,11 @@
+# Separate .factory_venv: published Stim 1.14 needs NumPy <2.
+numpy==1.26.4
+scipy==1.17.1
+stim==1.14.0
+sinter==1.14.0
+pymatching==2.3.1
+chromobius==1.1.1
+networkx==3.7
+pygltflib==1.16.5
+matplotlib==3.11.2
+mpmath==1.4.1

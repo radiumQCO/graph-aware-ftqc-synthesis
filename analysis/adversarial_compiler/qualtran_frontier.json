@@ -1,0 +1,535 @@
+{
+  "candidates": [
+    {
+      "eps_factor": 1,
+      "eps": 8.291873963515754e-07,
+      "shared_gradient_bits": 25,
+      "Toffoli_total": 62399,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.0001412350668867009,
+      "preparation_diamond_upper": 8.58704137392662e-06,
+      "full_diamond_upper": 0.00014982210826062752,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 299,
+          "actual_additions": 13,
+          "copies": 2,
+          "diamond": 7.787451067754957e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 299,
+          "actual_additions": 13,
+          "copies": 59,
+          "diamond": 8.084761574392903e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 253,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 4.80122012124643e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 414,
+          "actual_additions": 18,
+          "copies": 20,
+          "diamond": 9.158911589010235e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 322,
+          "actual_additions": 14,
+          "copies": 80,
+          "diamond": 6.806847465153201e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 2,
+      "eps": 1.6583747927031508e-06,
+      "shared_gradient_bits": 24,
+      "Toffoli_total": 57442,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.00030002604671130215,
+      "preparation_diamond_upper": 8.196721311475409e-06,
+      "full_diamond_upper": 0.00030822276802277757,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 264,
+          "actual_additions": 12,
+          "copies": 2,
+          "diamond": 1.902266190942807e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 286,
+          "actual_additions": 13,
+          "copies": 59,
+          "diamond": 1.5574902135508737e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 242,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 8.546290401804809e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 374,
+          "actual_additions": 17,
+          "copies": 20,
+          "diamond": 2.0394122466209934e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 286,
+          "actual_additions": 13,
+          "copies": 80,
+          "diamond": 1.6169523148784485e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 3,
+      "eps": 2.487562189054726e-06,
+      "shared_gradient_bits": 24,
+      "Toffoli_total": 57442,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.00030002604671130215,
+      "preparation_diamond_upper": 8.196721311475409e-06,
+      "full_diamond_upper": 0.00030822276802277757,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 264,
+          "actual_additions": 12,
+          "copies": 2,
+          "diamond": 1.902266190942807e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 286,
+          "actual_additions": 13,
+          "copies": 59,
+          "diamond": 1.5574902135508737e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 242,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 8.546290401804809e-07,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 374,
+          "actual_additions": 17,
+          "copies": 20,
+          "diamond": 2.0394122466209934e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 286,
+          "actual_additions": 13,
+          "copies": 80,
+          "diamond": 1.6169523148784485e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 4,
+      "eps": 3.3167495854063015e-06,
+      "shared_gradient_bits": 23,
+      "Toffoli_total": 53172,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.0006303412456410314,
+      "preparation_diamond_upper": 7.8064012490242e-06,
+      "full_diamond_upper": 0.0006381476468900556,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 2,
+          "diamond": 3.4002943067176065e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 59,
+          "diamond": 3.8045323818838922e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 231,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 1.6036430971802325e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 336,
+          "actual_additions": 16,
+          "copies": 20,
+          "diamond": 4.286454422058649e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 273,
+          "actual_additions": 13,
+          "copies": 80,
+          "diamond": 3.1149804271008025e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 5,
+      "eps": 4.1459369817578766e-06,
+      "shared_gradient_bits": 23,
+      "Toffoli_total": 53172,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.0006303412456410314,
+      "preparation_diamond_upper": 7.8064012490242e-06,
+      "full_diamond_upper": 0.0006381476468900556,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 2,
+          "diamond": 3.4002943067176065e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 59,
+          "diamond": 3.8045323818838922e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 231,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 1.6036430971802325e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 336,
+          "actual_additions": 16,
+          "copies": 20,
+          "diamond": 4.286454422058649e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 273,
+          "actual_additions": 13,
+          "copies": 80,
+          "diamond": 3.1149804271008025e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 6,
+      "eps": 4.975124378109452e-06,
+      "shared_gradient_bits": 23,
+      "Toffoli_total": 53172,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.0006303412456410314,
+      "preparation_diamond_upper": 7.8064012490242e-06,
+      "full_diamond_upper": 0.0006381476468900556,
+      "admitted": true,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 2,
+          "diamond": 3.4002943067176065e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 252,
+          "actual_additions": 12,
+          "copies": 59,
+          "diamond": 3.8045323818838922e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 231,
+          "actual_additions": 11,
+          "copies": 40,
+          "diamond": 1.6036430971802325e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 336,
+          "actual_additions": 16,
+          "copies": 20,
+          "diamond": 4.286454422058649e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 273,
+          "actual_additions": 13,
+          "copies": 80,
+          "diamond": 3.1149804271008025e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 8,
+      "eps": 6.633499170812603e-06,
+      "shared_gradient_bits": 22,
+      "Toffoli_total": 47800,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.001344661918863714,
+      "preparation_diamond_upper": 7.41608118657299e-06,
+      "full_diamond_upper": 0.001352078000050287,
+      "admitted": false,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 220,
+          "actual_additions": 11,
+          "copies": 2,
+          "diamond": 7.894378643369057e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 240,
+          "actual_additions": 12,
+          "copies": 59,
+          "diamond": 6.800588613425385e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 200,
+          "actual_additions": 10,
+          "copies": 40,
+          "diamond": 3.957068959367163e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 300,
+          "actual_additions": 15,
+          "copies": 20,
+          "diamond": 8.031524695493511e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 240,
+          "actual_additions": 12,
+          "copies": 80,
+          "diamond": 7.6090647637540185e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 12,
+      "eps": 9.950248756218904e-06,
+      "shared_gradient_bits": 22,
+      "Toffoli_total": 47800,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.001344661918863714,
+      "preparation_diamond_upper": 7.41608118657299e-06,
+      "full_diamond_upper": 0.001352078000050287,
+      "admitted": false,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 220,
+          "actual_additions": 11,
+          "copies": 2,
+          "diamond": 7.894378643369057e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 240,
+          "actual_additions": 12,
+          "copies": 59,
+          "diamond": 6.800588613425385e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 200,
+          "actual_additions": 10,
+          "copies": 40,
+          "diamond": 3.957068959367163e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 300,
+          "actual_additions": 15,
+          "copies": 20,
+          "diamond": 8.031524695493511e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 240,
+          "actual_additions": 12,
+          "copies": 80,
+          "diamond": 7.6090647637540185e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    },
+    {
+      "eps_factor": 16,
+      "eps": 1.3266998341625206e-05,
+      "shared_gradient_bits": 21,
+      "Toffoli_total": 44289,
+      "HWP_AND_total": 59597,
+      "rounding_diamond_sum": 0.002541825118593967,
+      "preparation_diamond_upper": 7.025761124121779e-06,
+      "full_diamond_upper": 0.002548850879718089,
+      "admitted": false,
+      "families": {
+        "X_boundary": {
+          "Toffoli_per_block": 209,
+          "actual_additions": 11,
+          "copies": 2,
+          "diamond": 1.3886491095724446e-05,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_common": {
+          "Toffoli_per_block": 209,
+          "actual_additions": 11,
+          "copies": 59,
+          "diamond": 1.578875728661512e-05,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "X_mixed": {
+          "Toffoli_per_block": 190,
+          "actual_additions": 10,
+          "copies": 40,
+          "diamond": 5.348713379508978e-06,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_central": {
+          "Toffoli_per_block": 285,
+          "actual_additions": 15,
+          "copies": 20,
+          "diamond": 1.4023637158504788e-05,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        },
+        "ZZ_common": {
+          "Toffoli_per_block": 228,
+          "actual_additions": 12,
+          "copies": 80,
+          "diamond": 1.360117722677214e-05,
+          "checked_weight_values": 201,
+          "shifted_additions_verified": true
+        }
+      }
+    }
+  ],
+  "selected": {
+    "eps_factor": 4,
+    "eps": 3.3167495854063015e-06,
+    "shared_gradient_bits": 23,
+    "Toffoli_total": 53172,
+    "HWP_AND_total": 59597,
+    "rounding_diamond_sum": 0.0006303412456410314,
+    "preparation_diamond_upper": 7.8064012490242e-06,
+    "full_diamond_upper": 0.0006381476468900556,
+    "admitted": true,
+    "families": {
+      "X_boundary": {
+        "Toffoli_per_block": 252,
+        "actual_additions": 12,
+        "copies": 2,
+        "diamond": 3.4002943067176065e-06,
+        "checked_weight_values": 201,
+        "shifted_additions_verified": true
+      },
+      "X_common": {
+        "Toffoli_per_block": 252,
+        "actual_additions": 12,
+        "copies": 59,
+        "diamond": 3.8045323818838922e-06,
+        "checked_weight_values": 201,
+        "shifted_additions_verified": true
+      },
+      "X_mixed": {
+        "Toffoli_per_block": 231,
+        "actual_additions": 11,
+        "copies": 40,
+        "diamond": 1.6036430971802325e-06,
+        "checked_weight_values": 201,
+        "shifted_additions_verified": true
+      },
+      "ZZ_central": {
+        "Toffoli_per_block": 336,
+        "actual_additions": 16,
+        "copies": 20,
+        "diamond": 4.286454422058649e-06,
+        "checked_weight_values": 201,
+        "shifted_additions_verified": true
+      },
+      "ZZ_common": {
+        "Toffoli_per_block": 273,
+        "actual_additions": 13,
+        "copies": 80,
+        "diamond": 3.1149804271008025e-06,
+        "checked_weight_values": 201,
+        "shifted_additions_verified": true
+      }
+    }
+  },
+  "claim": "lowest declared Toffoli count among TESTED official-QVR settings, not proof of global optimum"
+}

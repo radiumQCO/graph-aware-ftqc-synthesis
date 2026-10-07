@@ -1,0 +1,20 @@
+{
+  "id": "full_todd_graph_tower",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "graph_tower",
+    "--method",
+    "todd",
+    "--scope",
+    "full",
+    "--skip-verify"
+  ],
+  "timeout": 180,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 180.89687379999987,
+  "log": "analysis\\adversarial_compiler\\logs\\full_todd_graph_tower.log"
+}

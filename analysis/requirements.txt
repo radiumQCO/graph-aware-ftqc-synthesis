@@ -1,0 +1,7 @@
+pygridsynth==2.0.0
+mpmath==1.4.1
+numpy==2.3.5
+scipy==1.18.1
+cvxpy==1.9.3
+numba==0.68.0
+llvmlite==0.50.0

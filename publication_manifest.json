@@ -1,0 +1,1102 @@
+{
+  ".gitattributes": {
+    "bytes": 73,
+    "sha256": "5235300f6728ec9b4f4a91d431d6cec120735fc12730d43326d450e6cdf23572"
+  },
+  ".github/workflows/verify.yml": {
+    "bytes": 786,
+    "sha256": "c771e5f2d587455e84a4edcc9fa912616561e95454813b4677eeebd2ddcfd0d6"
+  },
+  ".gitignore": {
+    "bytes": 518,
+    "sha256": "97d632c55fc76707f62bd6c913647056873f7c2a3e7e0c5d2a885756260b5e91"
+  },
+  "analysis/adversarial_compiler/artifact_manifest.json": {
+    "bytes": 31188,
+    "sha256": "e69c8be2fa1333778e924e9b987fed9c2321df120c57306127d8ebb13d93da01"
+  },
+  "analysis/adversarial_compiler/audit_summary.json": {
+    "bytes": 9657,
+    "sha256": "8928cabce8eaa7265e016bf2b12008740d673682a57767e6b2df111d59aff027"
+  },
+  "analysis/adversarial_compiler/availability.json": {
+    "bytes": 8856,
+    "sha256": "0ad0b676eaebc89fa560b7dce009d425af1cacba1b9b83aeb551b9d4a179cd56"
+  },
+  "analysis/adversarial_compiler/availability.py": {
+    "bytes": 1814,
+    "sha256": "9ea518e355ea28783e7d997ff5cdd9e6c5c3717e1a07bc34bacee4d0b0de8410"
+  },
+  "analysis/adversarial_compiler/basic_attempts.json": {
+    "bytes": 7766,
+    "sha256": "a01c75f0a76aa7ac651f7237e9a38014c8043e096feea2a4500b4416f7f95776"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__full.input.qasm": {
+    "bytes": 38940627,
+    "sha256": "4b0a9b75f5248e92ae264cb43e784cbbdb3cebf67c7999377385c94eba33b6af"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_boundary__basic__block.input.qasm": {
+    "bytes": 126830,
+    "sha256": "f67811ccea6d2351f93902d35a9b1de619894466520722de5e7690b311e66e34"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_boundary__basic__block.optimized.qasm": {
+    "bytes": 159041,
+    "sha256": "281ab8ac0d175a593be6e8c4728022f9765cd79647e4bcc104e0a153076401ac"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_common__basic__block.input.qasm": {
+    "bytes": 126808,
+    "sha256": "977d799a5566fc6ebd22eccd25ff8a7ff8b30b125a7271e1ff403b9b1af4562a"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_common__basic__block.optimized.qasm": {
+    "bytes": 159011,
+    "sha256": "1ce465ddd3cee844a276bc6085fa84abb0e00e80cd524e605639e13473d9c30b"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_mixed__basic__block.input.qasm": {
+    "bytes": 126808,
+    "sha256": "b7c9e48858c33764716164f1f7512e905d95986fb62ca321c010718aa606ad49"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__X_mixed__basic__block.optimized.qasm": {
+    "bytes": 159061,
+    "sha256": "0a8ca2a4015e91120283d67ae5e4bdaf1b7275dce5408a283d506818326ea7f2"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_central__basic__block.input.qasm": {
+    "bytes": 275425,
+    "sha256": "151e2dcdf03cf4306f04914cae5e9063d9275f5c0fac1cdd732a234bb7ccaf70"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_central__basic__block.optimized.qasm": {
+    "bytes": 323135,
+    "sha256": "8aca008a626f8f468e8bc2ff236cb8034c3dee99652363d8cc3d4446d6fde24b"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__basic__block.input.qasm": {
+    "bytes": 275353,
+    "sha256": "ea5b1434aff67f10a7dfad4bd425471928de1c6542d0ce9bae97a218fc6949a0"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__basic__block.optimized.qasm": {
+    "bytes": 323051,
+    "sha256": "6e8bae9bdb754f5a418bdafe58640a78b54b77a32b6e772a35223b690a68fc8d"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__basic__full.input.qasm": {
+    "bytes": 40435511,
+    "sha256": "8f8263cc6615f10713a069a45b4ea0de0c0b658d1be5dd2b161d9120d621e318"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__feynman2019__block.optimized.qasm": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__teleport__block.input.qasm": {
+    "bytes": 275353,
+    "sha256": "ea5b1434aff67f10a7dfad4bd425471928de1c6542d0ce9bae97a218fc6949a0"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__teleport__full.input.qasm": {
+    "bytes": 40435511,
+    "sha256": "8f8263cc6615f10713a069a45b4ea0de0c0b658d1be5dd2b161d9120d621e318"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__todd__block.input.qasm": {
+    "bytes": 275353,
+    "sha256": "ea5b1434aff67f10a7dfad4bd425471928de1c6542d0ce9bae97a218fc6949a0"
+  },
+  "analysis/adversarial_compiler/circuits/even_tower__ZZ_common__todd__full.input.qasm": {
+    "bytes": 40435511,
+    "sha256": "8f8263cc6615f10713a069a45b4ea0de0c0b658d1be5dd2b161d9120d621e318"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__full.input.qasm": {
+    "bytes": 31182262,
+    "sha256": "352b2a414d10557c78bd3d58c45d74c7eeef85f1aca64c05b2a20b8436db0a65"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_boundary__basic__block.input.qasm": {
+    "bytes": 126830,
+    "sha256": "f67811ccea6d2351f93902d35a9b1de619894466520722de5e7690b311e66e34"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_boundary__basic__block.optimized.qasm": {
+    "bytes": 159041,
+    "sha256": "281ab8ac0d175a593be6e8c4728022f9765cd79647e4bcc104e0a153076401ac"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_common__basic__block.input.qasm": {
+    "bytes": 126808,
+    "sha256": "977d799a5566fc6ebd22eccd25ff8a7ff8b30b125a7271e1ff403b9b1af4562a"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_common__basic__block.optimized.qasm": {
+    "bytes": 159011,
+    "sha256": "1ce465ddd3cee844a276bc6085fa84abb0e00e80cd524e605639e13473d9c30b"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_mixed__basic__block.input.qasm": {
+    "bytes": 126808,
+    "sha256": "b7c9e48858c33764716164f1f7512e905d95986fb62ca321c010718aa606ad49"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__X_mixed__basic__block.optimized.qasm": {
+    "bytes": 159061,
+    "sha256": "0a8ca2a4015e91120283d67ae5e4bdaf1b7275dce5408a283d506818326ea7f2"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_central__basic__block.input.qasm": {
+    "bytes": 195151,
+    "sha256": "5736972960bad0d275b0f6150185123d99499baf46ddff02d893e9a91a691557"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_central__basic__block.optimized.qasm": {
+    "bytes": 236189,
+    "sha256": "1668a0d1da14f5408eec10ab18204ac014238bafba5c921b3624c79ee1b65bc8"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__basic__block.input.qasm": {
+    "bytes": 195085,
+    "sha256": "69637b3514c10981b5515cc902f88be90820435b038e5e1acb6b663580bcbd70"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__basic__block.optimized.qasm": {
+    "bytes": 236105,
+    "sha256": "b9f8f4699fb894055203965cdfe1b31e18d1d97bb61be9fdb0a3a9447c61b431"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__basic__full.input.qasm": {
+    "bytes": 32358946,
+    "sha256": "44648cc360d906046493fd7166ad371bd6809b2e47a1d3a77057d949d62bb320"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__feynman2019__block.optimized.qasm": {
+    "bytes": 168084,
+    "sha256": "5d3c7c2886e8fe07b7eb64f482b3923bab1f81829f0c302b1f92a5183cf89844"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__teleport__block.input.qasm": {
+    "bytes": 195085,
+    "sha256": "69637b3514c10981b5515cc902f88be90820435b038e5e1acb6b663580bcbd70"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__teleport__full.input.qasm": {
+    "bytes": 32358946,
+    "sha256": "44648cc360d906046493fd7166ad371bd6809b2e47a1d3a77057d949d62bb320"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__todd__block.input.qasm": {
+    "bytes": 195085,
+    "sha256": "69637b3514c10981b5515cc902f88be90820435b038e5e1acb6b663580bcbd70"
+  },
+  "analysis/adversarial_compiler/circuits/graph_tower__ZZ_common__todd__full.input.qasm": {
+    "bytes": 32358946,
+    "sha256": "44648cc360d906046493fd7166ad371bd6809b2e47a1d3a77057d949d62bb320"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__full.input.qasm": {
+    "bytes": 39915599,
+    "sha256": "5314340c68a89f14a2a995e694a9e98b0b253170c9401615c6d67406a66620e8"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_boundary__basic__block.input.qasm": {
+    "bytes": 130834,
+    "sha256": "69ae92cbed0488e8dac8372aa0551f2f33f008924b0eb56c5ef9d3a4ec003578"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_boundary__basic__block.optimized.qasm": {
+    "bytes": 163478,
+    "sha256": "ba5a58a0f15c833fe9768998fe462822682689375ed320442a8aeb96d751aa61"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_common__basic__block.input.qasm": {
+    "bytes": 130909,
+    "sha256": "80a30fa1eee739e653228c2d00ff0f92c4de9db3d2771eb45132ae449212be31"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_common__basic__block.optimized.qasm": {
+    "bytes": 163328,
+    "sha256": "3cc06fcf94e4fe3fb85f9ed203900831be5bc30a938d3ac3f3a60a1503f2231f"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_mixed__basic__block.input.qasm": {
+    "bytes": 130353,
+    "sha256": "054f6262ede74a3f507641cfc757f91b5e88e615ad2da8430654e1298d70580d"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__X_mixed__basic__block.optimized.qasm": {
+    "bytes": 163370,
+    "sha256": "080d887de81c4d870398659b5e8682f5c4558bcd27d4f1f941d5d93644d3d47c"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_central__basic__block.input.qasm": {
+    "bytes": 281550,
+    "sha256": "0dfecda1959af2d1d3fd456794002c8babbd3afeaf492115d78515cce7c642cc"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_central__basic__block.optimized.qasm": {
+    "bytes": 335635,
+    "sha256": "dd5b554ecd405af9c554791dd2a15e6cee3df63c8575007515b560dcf3b33181"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_common__basic__block.input.qasm": {
+    "bytes": 282321,
+    "sha256": "8c3cfb8ee0562e08d430c01ea5a5b9d2013ce85a1c1f628711d06130d990bd4c"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_common__basic__block.optimized.qasm": {
+    "bytes": 335856,
+    "sha256": "8e299a615446fad4e82be09a06977069a048beb5b18eb4ec8a15dccca5f61a36"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_common__teleport__block.input.qasm": {
+    "bytes": 282321,
+    "sha256": "8c3cfb8ee0562e08d430c01ea5a5b9d2013ce85a1c1f628711d06130d990bd4c"
+  },
+  "analysis/adversarial_compiler/circuits/qualtran_literal__ZZ_common__todd__block.input.qasm": {
+    "bytes": 282321,
+    "sha256": "8c3cfb8ee0562e08d430c01ea5a5b9d2013ce85a1c1f628711d06130d990bd4c"
+  },
+  "analysis/adversarial_compiler/even_tower__X_boundary__basic__block.json": {
+    "bytes": 4939,
+    "sha256": "631c61d5ffd6c26fdb7897ed050fb7a3f26f62bb62767fdd5223eabe63c1a7c5"
+  },
+  "analysis/adversarial_compiler/even_tower__X_common__basic__block.json": {
+    "bytes": 4939,
+    "sha256": "1ef6eea5f1b3cee1c9eac0c4ba1dc0e355e5881aa043f5a299b8026344f74c6f"
+  },
+  "analysis/adversarial_compiler/even_tower__X_mixed__basic__block.json": {
+    "bytes": 4938,
+    "sha256": "fe93bdaf948428a0c4db3197fb91bbc183430251a526bcf7be6f11ad01887b65"
+  },
+  "analysis/adversarial_compiler/even_tower__ZZ_central__basic__block.json": {
+    "bytes": 10864,
+    "sha256": "db79f3b6a109d31b83d385d4ffcce175bc71447e38f3e1cad989394fc0c93db2"
+  },
+  "analysis/adversarial_compiler/even_tower__ZZ_common__basic__block.json": {
+    "bytes": 10863,
+    "sha256": "2ba0567fc4609eb0c3127fa9641ad0811ff7bbcf212c000daba286f1ec80d589"
+  },
+  "analysis/adversarial_compiler/export.py": {
+    "bytes": 2346,
+    "sha256": "af7d9285e116e5e97db3bdfdf0025a200b85c87e7f165dd480a059063b1d46b9"
+  },
+  "analysis/adversarial_compiler/export_resources.json": {
+    "bytes": 1294,
+    "sha256": "ea9098a05f8bf434a7c00d6602c56af2ccf399a49f198fa3682503bef545f81a"
+  },
+  "analysis/adversarial_compiler/feynman_attempts.json": {
+    "bytes": 1385,
+    "sha256": "866da0402af11aa6dc670482f68f61ff51fd12f00b8563152cf0fda12427bb72"
+  },
+  "analysis/adversarial_compiler/full_attempts.json": {
+    "bytes": 3012,
+    "sha256": "7680f5d41821b0195d824454404684da3182f97f9e0bcffd4bac58f0dc2e02cb"
+  },
+  "analysis/adversarial_compiler/gradient_frontier.py": {
+    "bytes": 3040,
+    "sha256": "f8d37a064ea5752b9ecb6d41cdc58c3dcd6dec988a505af5ff5146ca007c76b2"
+  },
+  "analysis/adversarial_compiler/gradient_prep.py": {
+    "bytes": 2093,
+    "sha256": "b373e8aa0fc79a4f0e6278bb9bdd0e7c8b12574be26c9290bfe876adaaff6634"
+  },
+  "analysis/adversarial_compiler/gradient_preparation.json": {
+    "bytes": 153283,
+    "sha256": "20cf42a131b9cac28f2659e36006916bfea80d5146e9d57d2c11cb5c2619e662"
+  },
+  "analysis/adversarial_compiler/gradient_preparation_frontier.json": {
+    "bytes": 138577,
+    "sha256": "47f70cb1aa6a76fcf8b95b8fffd288f406ff0b865cdf985f6fc208dc309cf463"
+  },
+  "analysis/adversarial_compiler/graph_tower__X_boundary__basic__block.json": {
+    "bytes": 4940,
+    "sha256": "a9f2ba6affa3f51e1a664e33eafffd46e3a9097f39214bf774742268564bd2de"
+  },
+  "analysis/adversarial_compiler/graph_tower__X_common__basic__block.json": {
+    "bytes": 4939,
+    "sha256": "da1da121b6273784f4c8b24db4196c653e15b96410c375866274803852be3d70"
+  },
+  "analysis/adversarial_compiler/graph_tower__X_mixed__basic__block.json": {
+    "bytes": 4938,
+    "sha256": "594247e4036ec09a0d2ce91ee8adc3292528a00ca54fd001fb5135aaf213912b"
+  },
+  "analysis/adversarial_compiler/graph_tower__ZZ_central__basic__block.json": {
+    "bytes": 8861,
+    "sha256": "de82f473590ba7a435c79f1aee0a31f874b32c8b219608f9074e722e2776d9c9"
+  },
+  "analysis/adversarial_compiler/graph_tower__ZZ_common__basic__block.json": {
+    "bytes": 8860,
+    "sha256": "7616c323e43b5df066d220512bb998feaa6cfe6a6d3796cb4bd4af2bc64146d2"
+  },
+  "analysis/adversarial_compiler/logical_resources.json": {
+    "bytes": 4492,
+    "sha256": "89813ab01c3e4747f160b0cc9375f07eab8fa4cc3eae40c7242cc7f092a8d553"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_boundary.json": {
+    "bytes": 471,
+    "sha256": "f8289adaa12dac109462a0e701df895613202791aedb0ca671789cb6a0c92b96"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_boundary.log": {
+    "bytes": 666,
+    "sha256": "327dc2c2d71c7e48a5a8eef4cfebe221457d1b42e55361ab3be496c11be0d1ec"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_common.json": {
+    "bytes": 467,
+    "sha256": "239bde23aac16f7d4579cba7ec8e7a444226ffc6309d54bc2194f8106e196d98"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_common.log": {
+    "bytes": 666,
+    "sha256": "844f258e7a8993df1837d441ccddc5acc0c1615c8fbb4b8d51cf477cb98b7d79"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_mixed.json": {
+    "bytes": 464,
+    "sha256": "01da054703a3e58138ac5c5e3316f8da178cbfc0943fec8eacde2580918da99a"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_X_mixed.log": {
+    "bytes": 665,
+    "sha256": "e4474f2b4aed187f14fe87bd79e5f778acde2f56aa6c91161115fb6683c4002f"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_central.json": {
+    "bytes": 474,
+    "sha256": "49d638f4746327fd3853c13e9ad16b5295b3cff750d2f07bbf4414450d041df7"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_central.log": {
+    "bytes": 671,
+    "sha256": "c64fe9027662ba07d48db7e611725fb1556b60fecf58a2a711d77d7002b72fb6"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_common.json": {
+    "bytes": 471,
+    "sha256": "7cd781b0f8eb350cfcd4ac88187ed024f365ffb80adee229f28ec1ba10b224b8"
+  },
+  "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_common.log": {
+    "bytes": 670,
+    "sha256": "d84c29bdc53cca80ba36c917c930847c772fe22589f94c22d65f0198d26be2bf"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_boundary.json": {
+    "bytes": 474,
+    "sha256": "571e083e9a9279ef754d2faadbe5babb9edededaf37d520869bfe784ca404173"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_boundary.log": {
+    "bytes": 667,
+    "sha256": "bee7adabe2849da1c1982ec9a5e5dcaf602473243d299ed06aeabf844c83ec9e"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_common.json": {
+    "bytes": 470,
+    "sha256": "2a77dd2b3c915972be132c5bfe73e2df9aacb4a5baef1090826d8d2b5bd54456"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_common.log": {
+    "bytes": 666,
+    "sha256": "e5b31276a9d62c956e74422412bedada4a92848671c41f0001a68f359e7d35f3"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_mixed.json": {
+    "bytes": 468,
+    "sha256": "c60bdb94abbd09966ab9a9b0c9bed7c739e61fef93e2faef2c22a5b15f6c915c"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_X_mixed.log": {
+    "bytes": 665,
+    "sha256": "d6c99cd69df2d85d812298cb300ad2ee5c31de4c58a23b24c9edfaf6cc738a1c"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_central.json": {
+    "bytes": 476,
+    "sha256": "7fdd7dbd24ec00a05b328f04d7eefcf3c4fcc18f17821a1e393b1a5bf3940372"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_central.log": {
+    "bytes": 668,
+    "sha256": "d66974986758ed76d108934769b2a0021bd649e7e372341b15fe82ea30fc85d8"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_common.json": {
+    "bytes": 474,
+    "sha256": "0a3e254ad61f809f91d768cdd4087816a34179177e5e0c8e2ccb1aa8fad44983"
+  },
+  "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_common.log": {
+    "bytes": 667,
+    "sha256": "b715213b3b6383d5da8c65e898d7447becbb85c72948ddf5902c4bff2211795e"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_boundary.json": {
+    "bytes": 492,
+    "sha256": "78a380b288b2f4a32ff9d590c58a38350adf28abe8a4466a77d5ffe907322566"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_boundary.log": {
+    "bytes": 673,
+    "sha256": "215c624a2c467edd31072d1986e29547e9964653477edf4b549ed0cf6d0a972c"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_common.json": {
+    "bytes": 485,
+    "sha256": "a0a6c4d1b1644cd94367151a2032daa51125b5b7cae83ad4c6522521d94b4857"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_common.log": {
+    "bytes": 671,
+    "sha256": "3cc624e8aa23bf595ec0c35ff9f9fdbb7176048a99aa5ad8cd2ff6cd24e1feaf"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_mixed.json": {
+    "bytes": 482,
+    "sha256": "0123b4971a8306bdf2fcc6786e26f248d12115d9edad374c071aa0c8971afb52"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_mixed.log": {
+    "bytes": 671,
+    "sha256": "cccb58b085e830b973e98700a1a6424412a0e401aa319c573240b82461762de5"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_central.json": {
+    "bytes": 492,
+    "sha256": "4580660baf1d9844478162a0986c30b6c795a19e8c5bbe38111a1311e023e9bc"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_central.log": {
+    "bytes": 679,
+    "sha256": "9dfa713207bbcf695429263241ca9ae32d8ac39baa653c89971bdf8de94199ad"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_common.json": {
+    "bytes": 488,
+    "sha256": "79b132138ba56dcffb361151816981f857ce3ea08398c807f146988c6014d1cd"
+  },
+  "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_common.log": {
+    "bytes": 678,
+    "sha256": "8dca9ec81c698394179d8aeac7de0e5ec8a9140e19da99632d0ff7ef0f808d73"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_even_tower.json": {
+    "bytes": 427,
+    "sha256": "e175afa04c9d2ba87c36925f4a7f37d6dbe78d992005d869345aeffddd5c2204"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_even_tower.log": {
+    "bytes": 319,
+    "sha256": "e55e795ba1cf8f40ab61d5ad65fc76c83ca41b235960799164e40f00e3d52afe"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_graph_tower.json": {
+    "bytes": 429,
+    "sha256": "d4c792d3150fb7c534a1f555abcc1a8d5a8f8196ed21a5fe3f6b8a7825117b93"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_graph_tower.log": {
+    "bytes": 319,
+    "sha256": "e55e795ba1cf8f40ab61d5ad65fc76c83ca41b235960799164e40f00e3d52afe"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_qualtran_literal.json": {
+    "bytes": 445,
+    "sha256": "8e42bb167f6184d0e73a7cef20041b688232fed639ef51dd49d39fd693284921"
+  },
+  "analysis/adversarial_compiler/logs/feynman2019_full_qualtran_literal.log": {
+    "bytes": 319,
+    "sha256": "e55e795ba1cf8f40ab61d5ad65fc76c83ca41b235960799164e40f00e3d52afe"
+  },
+  "analysis/adversarial_compiler/logs/full_basic_even_tower.json": {
+    "bytes": 457,
+    "sha256": "59c66cbc2980896bd12505360dc637e32e40ea888fffa1760ec7525c4afff4c9"
+  },
+  "analysis/adversarial_compiler/logs/full_basic_even_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/full_basic_graph_tower.json": {
+    "bytes": 460,
+    "sha256": "03fd4cf193293725739d922c8c499995b5a7df679e415baaffcea78b23632dd3"
+  },
+  "analysis/adversarial_compiler/logs/full_basic_graph_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/full_teleport_even_tower.json": {
+    "bytes": 466,
+    "sha256": "406994e2d388aaf16f52b3143f555afa16aa6e6bdca8e5ec5fe520f0de72e397"
+  },
+  "analysis/adversarial_compiler/logs/full_teleport_even_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/full_teleport_graph_tower.json": {
+    "bytes": 469,
+    "sha256": "2396ff76d5f3c80a3555e53c0c9a12c0e802cac36e9d0c430efb39d8b9b6f578"
+  },
+  "analysis/adversarial_compiler/logs/full_teleport_graph_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/full_todd_even_tower.json": {
+    "bytes": 454,
+    "sha256": "482927caa98b80219cab48f06155191910a8d1bb5ea905c1eac579ba78a6cb97"
+  },
+  "analysis/adversarial_compiler/logs/full_todd_even_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/full_todd_graph_tower.json": {
+    "bytes": 457,
+    "sha256": "fc9dbbb22f878df720e20df054e3199c218a351d299dd318630ff6852ee0bab0"
+  },
+  "analysis/adversarial_compiler/logs/full_todd_graph_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/teleport_even_tower_ZZ_common.json": {
+    "bytes": 449,
+    "sha256": "1a6074c98b1553905d51203d34dbf9900e2ab251692e72e32483e0e58025e625"
+  },
+  "analysis/adversarial_compiler/logs/teleport_even_tower_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/teleport_graph_tower_ZZ_common.json": {
+    "bytes": 452,
+    "sha256": "ff19bc1eaa3f8a89e04f7e97af2af9b0ddb511a4d77c4ed75a41ac6c0e2f6552"
+  },
+  "analysis/adversarial_compiler/logs/teleport_graph_tower_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/teleport_qualtran_literal_ZZ_common.json": {
+    "bytes": 460,
+    "sha256": "c23d49586847cc12bd0c12f3b4863826c0cb6a9bbb702aabef8b9718ecbb1069"
+  },
+  "analysis/adversarial_compiler/logs/teleport_qualtran_literal_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/todd_even_tower_ZZ_common.json": {
+    "bytes": 436,
+    "sha256": "a83ea94eca4e2240aea7034b6f73acba1033b67f78766137fbdfc44c59e5e43c"
+  },
+  "analysis/adversarial_compiler/logs/todd_even_tower_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/todd_graph_tower_ZZ_common.json": {
+    "bytes": 440,
+    "sha256": "0feffdeb3a2a9cad7b689b75d81450fcd5540c612e8531c7c500b811bacfc608"
+  },
+  "analysis/adversarial_compiler/logs/todd_graph_tower_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/todd_qualtran_literal_ZZ_common.json": {
+    "bytes": 455,
+    "sha256": "d2734b2fa462dcd94bbbd0e350efaf091d7c930853e26fbf5c80bd623b7d5847"
+  },
+  "analysis/adversarial_compiler/logs/todd_qualtran_literal_ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/topols_even_tower_input.json": {
+    "bytes": 499,
+    "sha256": "b5c3e605cce1a30ba8ec896d7b526881db35d0868dd7a290375e5733d78635f6"
+  },
+  "analysis/adversarial_compiler/logs/topols_even_tower_input.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/topols_even_tower_optimized.json": {
+    "bytes": 510,
+    "sha256": "64f7d72427c0fab652023b7e964e41d697b6045f3e3cf9f3c8ba08f0107193bb"
+  },
+  "analysis/adversarial_compiler/logs/topols_even_tower_optimized.log": {
+    "bytes": 589,
+    "sha256": "d4a40d6d46e196a71688d8ed1b637cf37d8d7d9e97fb438a0903303c461eb102"
+  },
+  "analysis/adversarial_compiler/logs/topols_graph_tower_input.json": {
+    "bytes": 502,
+    "sha256": "e07f9ee84884ad68608437e2666c2a6ed5071714def6dbe21f992d8c4f583637"
+  },
+  "analysis/adversarial_compiler/logs/topols_graph_tower_input.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/logs/topols_graph_tower_optimized.json": {
+    "bytes": 513,
+    "sha256": "b7d66fc5532d25cb8e007175709d7b27a482db40fd5855489da4a90892294522"
+  },
+  "analysis/adversarial_compiler/logs/topols_graph_tower_optimized.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/adversarial_compiler/optimize.py": {
+    "bytes": 4972,
+    "sha256": "16e3ff558bec06e6e98ef978e811dbfabfd4e9cb42dc6104a9c9cc47af48c41a"
+  },
+  "analysis/adversarial_compiler/prepare.py": {
+    "bytes": 6378,
+    "sha256": "20064118abdbc6fbf097de8286745b926936b8dfff6156f3e5ce0e6c5091485a"
+  },
+  "analysis/adversarial_compiler/programs.json.gz": {
+    "bytes": 13694558,
+    "sha256": "5ce8a9ed9a53ca6cc5548d0a1b7ee301245ce7920f22d10248174557ae391f43"
+  },
+  "analysis/adversarial_compiler/qualtran_frontier.json": {
+    "bytes": 17215,
+    "sha256": "f0aa6c7c1f31cfd1cb1c6c0f06d3fc5e9c941eb6ded813267302b87ae5b5577e"
+  },
+  "analysis/adversarial_compiler/qualtran_literal__X_boundary__basic__block.json": {
+    "bytes": 4759,
+    "sha256": "749e41aff1cce200112148f335f033308d7d7f60d1bfc84d045d54b50983b688"
+  },
+  "analysis/adversarial_compiler/qualtran_literal__X_common__basic__block.json": {
+    "bytes": 4757,
+    "sha256": "02e3689526b50de81f753025beb4737dea6770e6813e8a303f14a068a82bdf3c"
+  },
+  "analysis/adversarial_compiler/qualtran_literal__X_mixed__basic__block.json": {
+    "bytes": 4757,
+    "sha256": "72eaf7e7a03cc6c1e7085654c0acaef9f19105ac5ab9aafd51ad18f6d03f8f38"
+  },
+  "analysis/adversarial_compiler/qualtran_literal__ZZ_central__basic__block.json": {
+    "bytes": 10781,
+    "sha256": "91121c6c879cfd9f938f52a9c6734632b59060001d77d6637025cce7ed348da9"
+  },
+  "analysis/adversarial_compiler/qualtran_literal__ZZ_common__basic__block.json": {
+    "bytes": 10780,
+    "sha256": "43591445173f952e1e1f9146890b13ba5fb24ea81e41482847bca7d862e83d41"
+  },
+  "analysis/adversarial_compiler/qualtran_probe.py": {
+    "bytes": 5472,
+    "sha256": "47204a810082174738838b241074f862de85b96cb76f90bc23e53155344f555e"
+  },
+  "analysis/adversarial_compiler/qualtran_resources.json": {
+    "bytes": 11645,
+    "sha256": "7f672c273c860a3f53eea82ccbcf3f65a8543b7bde3705d7c4c58b65f7f6becf"
+  },
+  "analysis/adversarial_compiler/README.md": {
+    "bytes": 5828,
+    "sha256": "f7945c9dbfe3f3b9a4526dac4b635f6922180e9f6a66208dc826817f32fc9474"
+  },
+  "analysis/adversarial_compiler/run_jobs.py": {
+    "bytes": 3571,
+    "sha256": "28fde977f751d1c121764c1f59b962295040db397cc7bd787f3fb145bb3110ba"
+  },
+  "analysis/adversarial_compiler/strong_attempts.json": {
+    "bytes": 2917,
+    "sha256": "bfb65c810f8aeff7015700c5dc4321fa4ec04fe50f31be971c33b615b8a4251f"
+  },
+  "analysis/adversarial_compiler/summarize.py": {
+    "bytes": 4646,
+    "sha256": "f1baa177b481ca863d35a7c02d1fb660db3cc6ee4217224566f98314dded0583"
+  },
+  "analysis/adversarial_compiler/surgery.py": {
+    "bytes": 3207,
+    "sha256": "e0b186a9e11f5e670f515a340b1163eb784baa6c288b9d469c8ca01462bc9498"
+  },
+  "analysis/adversarial_compiler/surgery_attempts.json": {
+    "bytes": 2183,
+    "sha256": "88930fd269086c76970beec32fefb9dd77ecd3bbee64a5c8eac3e492c71e9950"
+  },
+  "analysis/adversarial_compiler/synthesis_cache.json": {
+    "bytes": 903575,
+    "sha256": "684e3177a2c13d3742fa02db348f0195b5614eb71405f7f676f807cc7197729c"
+  },
+  "analysis/adversarial_compiler/tiny_optimize.py": {
+    "bytes": 1059,
+    "sha256": "37395003323ec8fa541ba4858f74e6cb005266806881b6af0b988001f4bbb69e"
+  },
+  "analysis/adversarial_compiler/tiny_optimizer_results.json": {
+    "bytes": 2518,
+    "sha256": "9ad155983e80c2359b7b2d54a0f27199d6bdd048f8a57881b99a06d6a7d66a52"
+  },
+  "analysis/adversarial_compiler/tiny_prepare.py": {
+    "bytes": 793,
+    "sha256": "285c96375734039c6e282c8af77d2a3ea24b4f6660d9252890a4ee7626f192ad"
+  },
+  "analysis/adversarial_compiler/tiny_programs.json": {
+    "bytes": 6680,
+    "sha256": "d6154930917d0737374e46348b0ecb99eff5a3af194ae1d91fb64957a7a0f51b"
+  },
+  "analysis/adversarial_compiler/verification.json": {
+    "bytes": 339,
+    "sha256": "eb2198eed0a0a20ac35571c3a42869ecdf213e633d1f1b4a32c0d91e99029173"
+  },
+  "analysis/adversarial_compiler/verify.py": {
+    "bytes": 2685,
+    "sha256": "050b8c8946c83831e709bd44903e1f1eeb4eb26b5ef1eb0968b75337ffd2dbdb"
+  },
+  "analysis/adversarial_compiler/wisq_portability.json": {
+    "bytes": 351,
+    "sha256": "84e6abcb29815f09182dfde0ce86095b4b2c7ebe94dc6644f2ee9c135d5ad7b5"
+  },
+  "analysis/compile_costs.py": {
+    "bytes": 14347,
+    "sha256": "93d320d93b9babea7a160cd58d8979fcacdfb897bba97ad77443051a03ccc7f5"
+  },
+  "analysis/delivered_benchmark.py": {
+    "bytes": 22665,
+    "sha256": "f50bd06432b94c1ec5d0d45efd92e476d5225df7da257f543c0a9d581ac7be68"
+  },
+  "analysis/factory_audit.py": {
+    "bytes": 14360,
+    "sha256": "a4f111eb4d1ab71118192bac2634f301e69aa567ef12c765c158cd1c22991536"
+  },
+  "analysis/factory_requirements.txt": {
+    "bytes": 219,
+    "sha256": "c163c771bf91dc1a84c27a08b8df99db51f2ed19e3883d5414d578539de0c4fc"
+  },
+  "analysis/fetch_factory_sources.py": {
+    "bytes": 2354,
+    "sha256": "bb93b277abd17d68599f7140bfd71f56c7552cc588e18f4233d3a6afb69726b2"
+  },
+  "analysis/fetch_sources.py": {
+    "bytes": 1355,
+    "sha256": "6441abe9c839f8e8b7c7eebfe0f2e06ed6d07614bf3c9a1740978ba4988f6e0c"
+  },
+  "analysis/graph_aware_end_to_end/README.md": {
+    "bytes": 2878,
+    "sha256": "68c1ae4ba27fe59235f90cdab9ad25dffc7c38a06d43b8d930b7a7d28dd61c0d"
+  },
+  "analysis/graph_aware_end_to_end/report.py": {
+    "bytes": 31756,
+    "sha256": "a5b08622a3c9512543729c97651fd7f1df5ad7aa3c8e40ce7581a2b8ae1e2495"
+  },
+  "analysis/graph_aware_end_to_end/results.json": {
+    "bytes": 841372,
+    "sha256": "9b93dc147e02b2aa0fcc37b6b7c2a29c9f8c42579cb9399bc0d077f511c2eb74"
+  },
+  "analysis/graph_aware_end_to_end/run.py": {
+    "bytes": 8769,
+    "sha256": "fff12101307b9ffa61d5efa529558cd38ae0f031aef165cd2dc0bf3cbc2c5c05"
+  },
+  "analysis/graph_aware_end_to_end/scheduler.py": {
+    "bytes": 18652,
+    "sha256": "154f77f4dda025e70a9302105b47aca49c2fd49600a40a64bf048dd3247f5b1f"
+  },
+  "analysis/graph_aware_end_to_end/verification.json": {
+    "bytes": 2162,
+    "sha256": "92c20f146c6edee590c9c14ed292f2aed73c675fe1b0f51ceb93949ee660aca0"
+  },
+  "analysis/graph_aware_end_to_end/verify.py": {
+    "bytes": 11809,
+    "sha256": "e5e658a87085a6b60aaeceaa6c3e086a2ee507c5255e9de3e8497bf6047c0483"
+  },
+  "analysis/graph_aware_end_to_end/workload.py": {
+    "bytes": 10187,
+    "sha256": "13723e5552ed18a76430d5024e8a3e65e0d3239a72031c4eeb8b8be4eee0e453"
+  },
+  "analysis/graph_aware_end_to_end/workloads.json.gz": {
+    "bytes": 5253197,
+    "sha256": "de29f1eb3bfe952f3770f7998bdc9c9bfc8102d0aeeb789740793692be50fe2b"
+  },
+  "analysis/graph_cut_phase/artifact_verification.json": {
+    "bytes": 1958,
+    "sha256": "7f7312c3dce7eb86561b79142678fec93bdb88b06fef7b30411c1e82eea4bf9c"
+  },
+  "analysis/graph_cut_phase/c4_results.json": {
+    "bytes": 3902,
+    "sha256": "da909ee0a697c13212a1f8ad838bb10e674b4aa7bf434b51c10cf560ff1b2fca"
+  },
+  "analysis/graph_cut_phase/circuits.json.gz": {
+    "bytes": 240721,
+    "sha256": "29fbe67154af9609a6c7d165d09fff142c1a34db9cd00d0d539b4f0b4cdce036"
+  },
+  "analysis/graph_cut_phase/circuits.py": {
+    "bytes": 11253,
+    "sha256": "d9ad2c37c81bd556ad4fc1bee3db4167eb8f8cafdeec9ae6420fef588fad6270"
+  },
+  "analysis/graph_cut_phase/quantum_verification.json": {
+    "bytes": 294,
+    "sha256": "95ee36076933de8268d254b00080b4f8a842366f0b69257f68060c0c5a01474e"
+  },
+  "analysis/graph_cut_phase/README.md": {
+    "bytes": 2021,
+    "sha256": "5ca3afc324c15b289ec7e7d84f0f52204500ee0e95802328db89b9350eeb027e"
+  },
+  "analysis/graph_cut_phase/report.py": {
+    "bytes": 10178,
+    "sha256": "1ff1a637a313f897f46871cbfb429bfc883a40be8055aa5116456153b156af6b"
+  },
+  "analysis/graph_cut_phase/scaling.py": {
+    "bytes": 7039,
+    "sha256": "be6bfc04ae08f0c347a5c51c9bedb3d2949967175c18192447025617343b932c"
+  },
+  "analysis/graph_cut_phase/scaling_results.json": {
+    "bytes": 157882,
+    "sha256": "bb42bcb6686e4109a47e23673975a9c9175594f984cac51cd41cd09711e199ae"
+  },
+  "analysis/graph_cut_phase/toy_c4.py": {
+    "bytes": 7437,
+    "sha256": "daf15c74166de40b72b44d549d5d6930dd6e9d487adee935fab77d4ce6869978"
+  },
+  "analysis/graph_cut_phase/verify_artifacts.py": {
+    "bytes": 4105,
+    "sha256": "51a7e978af3f1dc8423e3568e3c8e5cd6cd0379990640358f583141384050729"
+  },
+  "analysis/graph_cut_phase/verify_quantum.py": {
+    "bytes": 3198,
+    "sha256": "825c8660003dc2c879588342485a3cb5c3ec4c0be28ce949b943101180c12367"
+  },
+  "analysis/hwp_schedule.py": {
+    "bytes": 2620,
+    "sha256": "bf64f9a11a3d30cc78e7ec2f166969a5806b0539be40f1caab39522e688049e3"
+  },
+  "analysis/native/audit.py": {
+    "bytes": 5041,
+    "sha256": "2f7158d55cb1d67dc9deb38d088714c6e74d8d41d99243a63db1f2dc2ff455bd"
+  },
+  "analysis/native/benchmark/even_tower__ppf.json": {
+    "bytes": 378,
+    "sha256": "9e49f85376548a8e1686b62ca7e0365e104a6113f710167c7cc840829287d328"
+  },
+  "analysis/native/benchmark/even_tower__ZZ_common__input.json": {
+    "bytes": 554,
+    "sha256": "6065e2c0c2c72bead42425dd7690d96c1bb502ac57f43a36f9694492ae96121b"
+  },
+  "analysis/native/benchmark/even_tower__ZZ_common__ppf.json": {
+    "bytes": 442,
+    "sha256": "d44a112556f63ee47659f3773065ea2f2f6d64741fdae29bb1cee90863790790"
+  },
+  "analysis/native/benchmark/graph_tower__ppf.json": {
+    "bytes": 381,
+    "sha256": "e6fa4a18643161288d95135160216fcd604071fccaf86eb6a5999b42b5510240"
+  },
+  "analysis/native/benchmark/graph_tower__ZZ_common__input.json": {
+    "bytes": 553,
+    "sha256": "82ce4ec82a07baf5fbe31d4dd540cfae3567d63624373ebb35a7638a49608055"
+  },
+  "analysis/native/benchmark/graph_tower__ZZ_common__ppf.json": {
+    "bytes": 447,
+    "sha256": "f160311810880d939f4c25bd7831bc1d5d5d3a482487e46104a9749c8cd59ba3"
+  },
+  "analysis/native/benchmark/historical_artifact_integrity.json": {
+    "bytes": 122,
+    "sha256": "1099dd863070dd705a6f7fe98b28d1cb4670dac95ef2bfe5e5ac6b7cedc61520"
+  },
+  "analysis/native/benchmark/input_manifest.json": {
+    "bytes": 907,
+    "sha256": "e765412970b77f891aa2cd85adf886fa896f6770a41d833f9b03163984b73bcd"
+  },
+  "analysis/native/benchmark/inputs/even_tower__ZZ_common.qc": {
+    "bytes": 225185,
+    "sha256": "d1df90f95fceebc788ffe70bc7355c3ed923d7f2022653fa974bd3863ee6f4de"
+  },
+  "analysis/native/benchmark/inputs/graph_tower__ZZ_common.qc": {
+    "bytes": 160271,
+    "sha256": "2431d1768711ab976f4621a5026ba0ae3b9ef2abfa205c9266e1ed55766d679a"
+  },
+  "analysis/native/benchmark/inputs/internal_h.qc": {
+    "bytes": 45,
+    "sha256": "869d1b022a699ba074e7208997718e5fa06ed46ed7b0a34bea1c43883d609d52"
+  },
+  "analysis/native/benchmark/inputs/smoke.qc": {
+    "bytes": 77,
+    "sha256": "7cf5774a2cf4c06ba87d8f9d5b7ae16bab54e306abbfe418a0b6d5126f651105"
+  },
+  "analysis/native/benchmark/internal_h_contract.json": {
+    "bytes": 1037,
+    "sha256": "1e94eff274395efffce3a412fec855d774ee33e29b33c5ee27425623b51e3ffd"
+  },
+  "analysis/native/benchmark/summary.json": {
+    "bytes": 3498,
+    "sha256": "09d23cf3dafa9563d196e6075b3f5ff4e3020be43dbfefec3d2eebc4c80da1b8"
+  },
+  "analysis/native/logs/fasttodd_smoke.json": {
+    "bytes": 418,
+    "sha256": "d2af566ff35e9866bebedb0177fff09e13e94017122b8b13c179fe35c28c86d7"
+  },
+  "analysis/native/logs/fasttodd_smoke.log": {
+    "bytes": 152,
+    "sha256": "609b798310d198d0a47a91689bde3a0a545a2b14620372e01e708a93c0ff1e6c"
+  },
+  "analysis/native/logs/fasttodd_smoke_equivalence.json": {
+    "bytes": 422,
+    "sha256": "399cabbdf0128b3519431bfc47b23701ccc2f2142a3147988c6f89ade3a67029"
+  },
+  "analysis/native/logs/fasttodd_smoke_equivalence.log": {
+    "bytes": 21,
+    "sha256": "48003c961fa1b36bf30afaa5e16cbfa3721d01b2d38876503e18c28aa981748c"
+  },
+  "analysis/native/logs/feynman_ppf_smoke.json": {
+    "bytes": 357,
+    "sha256": "12c411ef9f89839c66d6aa566c4dbef1a94b774f80588ff57838e5fbbcb5ffe6"
+  },
+  "analysis/native/logs/feynman_ppf_smoke.log": {
+    "bytes": 303,
+    "sha256": "3a1e610573fa17cf2788fb0cb89eadf9e643d33a0a335ca38225aee048c9ed50"
+  },
+  "analysis/native/logs/ppf_even_tower.json": {
+    "bytes": 378,
+    "sha256": "9e49f85376548a8e1686b62ca7e0365e104a6113f710167c7cc840829287d328"
+  },
+  "analysis/native/logs/ppf_even_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/native/logs/ppf_even_tower__ZZ_common.json": {
+    "bytes": 407,
+    "sha256": "739cff77ceae77660d8f40216b1f48cff81ceeff2df187cc3eb39f654917ed59"
+  },
+  "analysis/native/logs/ppf_even_tower__ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/native/logs/ppf_graph_tower.json": {
+    "bytes": 381,
+    "sha256": "e6fa4a18643161288d95135160216fcd604071fccaf86eb6a5999b42b5510240"
+  },
+  "analysis/native/logs/ppf_graph_tower.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/native/logs/ppf_graph_tower__ZZ_common.json": {
+    "bytes": 412,
+    "sha256": "d458db335ca030130bb2fdd3cdbcaff8400896e9a01748ea0e716f756c964e1b"
+  },
+  "analysis/native/logs/ppf_graph_tower__ZZ_common.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "analysis/native/prepare_inputs.py": {
+    "bytes": 2245,
+    "sha256": "b6b9b81a5857822ee7bbe1462855e9827319377689fa226f9e3588131174385e"
+  },
+  "analysis/native/run.py": {
+    "bytes": 5638,
+    "sha256": "b320cec85b35d0fd4268122c42ddd62890c5bb9204f0eec72738d207c7ed9db3"
+  },
+  "analysis/native/toolchain_manifest.json": {
+    "bytes": 845,
+    "sha256": "8957fc1f5b4395d08643d9940b4b3c8d49095c96e84889abfa9d41e0370029bc"
+  },
+  "analysis/report_delivered_benchmark.py": {
+    "bytes": 19063,
+    "sha256": "7bda6f52b9c8a99dc83311515cda698d8eabdfc6074bbef563272102e0b13b14"
+  },
+  "analysis/requirements.txt": {
+    "bytes": 104,
+    "sha256": "7d7448094d66bbd34293e4b7c57bc5578ad378ef96177d25c543075151312210"
+  },
+  "analysis/results/carry_demand_trace.json.gz": {
+    "bytes": 3037920,
+    "sha256": "60bbda761382b5064c5628fd7f167ce5deee875ccaa92eb77d8dca5abd65ed3a"
+  },
+  "analysis/results/common_delivery_fixture.json": {
+    "bytes": 988,
+    "sha256": "e1ce8de0e3983f51c0ebf0407b2eb4b9ba2868842c2c05795db6b2cecd6e09bd"
+  },
+  "analysis/results/delivered_benchmark.json": {
+    "bytes": 36237,
+    "sha256": "942b2199202b191e477b1815de8d1176fdf9de21bcee281dd1bb8ebca3c9d323"
+  },
+  "analysis/results/delivered_verification.json": {
+    "bytes": 921,
+    "sha256": "3d805e6dc83e1c06edf9f209af5b84e18324b5e3a5b04bf43481a2a1fbf30de6"
+  },
+  "analysis/results/factory_audit.json": {
+    "bytes": 35290,
+    "sha256": "7fc02e2cde4ed80982520ba085b69a5b56123156db99de2b53ecf74608d74649"
+  },
+  "analysis/results/factory_gsj_d5_s_proxy.stim": {
+    "bytes": 320699,
+    "sha256": "58b3e257a1edf4004641914730ebe11073d97da7d4f7dc5fb180c73b0f05da42"
+  },
+  "analysis/results/factory_verification.json": {
+    "bytes": 351,
+    "sha256": "be89cc6f5bfcb7094f9acdd93f5b8e9a466eb2c9f5b395a722ed1da89919940d"
+  },
+  "analysis/results/notebook_literal.costs.json": {
+    "bytes": 2564981,
+    "sha256": "e275f626ea692caacdae5033238186ef4c8ce8dc04d4bbea5c4ed2d1a8098001"
+  },
+  "analysis/results/notebook_literal.rotations.csv": {
+    "bytes": 7143968,
+    "sha256": "d7b82b63e56fd270d3f406273ccc1ea333c27ab4aefa76d96fab74cb15ebd92c"
+  },
+  "analysis/results/notebook_literal.secondary.json": {
+    "bytes": 2192,
+    "sha256": "4be582ee4b6fa77123174af37e8078025903230cbad5bb57866d4d7807ed433e"
+  },
+  "analysis/results/notebook_literal.structure.json": {
+    "bytes": 147167,
+    "sha256": "0750ec1390427a53d20ac161276de62a60738d1d72b958e6c9aa30954de616a7"
+  },
+  "analysis/results/paper_counts_proxy.costs.json": {
+    "bytes": 653178,
+    "sha256": "03dbd366dc66d963c92b3e9dc05bd4fe5e34cc2f598b497e694e6c33d88881c0"
+  },
+  "analysis/results/paper_counts_proxy.rotations.csv": {
+    "bytes": 1892398,
+    "sha256": "ec7821203dc7a3edc2c2c4969cfb575286a787e51676007e622b872551bba126"
+  },
+  "analysis/results/paper_counts_proxy.secondary.json": {
+    "bytes": 2184,
+    "sha256": "00ff19261f80a860c276329975a8b3e507b4b6bf8681f9ab4a71b67084afd9bf"
+  },
+  "analysis/results/paper_counts_proxy.structure.json": {
+    "bytes": 43610,
+    "sha256": "4656602f79c2143a02c03df56d169dea7827c0ac8d19656861d794e952c264f1"
+  },
+  "analysis/results/synthesis_cache.json": {
+    "bytes": 751912,
+    "sha256": "75c801767aeee019aa6e46a9f66f4982e17a7970cc7879078c3eb0e4bde10141"
+  },
+  "analysis/results/verification.json": {
+    "bytes": 626,
+    "sha256": "007a12a2a86b68a84b52aca5a2883e692cbf7e1043e03c63caad6f6a51c98571"
+  },
+  "analysis/results/weight_arithmetic_audit.json": {
+    "bytes": 9492,
+    "sha256": "59e59409681fee63f4b3f9bf4d3e372aaa2828d1a4d8dadeb823de595f88d360"
+  },
+  "analysis/secondary_methods.py": {
+    "bytes": 3756,
+    "sha256": "0f109e28761e63b930a7226969c7ea617d2a45c2942d6ab1451485df29bb2f93"
+  },
+  "analysis/sources/factories/manifest.json": {
+    "bytes": 44384,
+    "sha256": "f2ed6322f3e8db5db1651d7829c8a98b8e015ada0608d17a2c1cee2aca47d0a3"
+  },
+  "analysis/sources/manifest.json": {
+    "bytes": 633,
+    "sha256": "3796b6bf6539973f55c60fa88d20be384174bcfbdb818e8eda6696f6429fa062"
+  },
+  "analysis/tfim_structure.py": {
+    "bytes": 5945,
+    "sha256": "87007c383a5b3d377de8f70ffddeaa35982c752b984e3e31d7d70d643d1ce2b3"
+  },
+  "analysis/verify_analysis.py": {
+    "bytes": 6444,
+    "sha256": "7d4a903e4128767e09efa5067ca9d426e440cc97fae4603cdde4c71e64ac9450"
+  },
+  "analysis/verify_delivered_benchmark.py": {
+    "bytes": 3527,
+    "sha256": "4108aa2d0185b9db0e6bf9ccc361105a0a918c365830bffc9a6403a46047e8cd"
+  },
+  "analysis/weight_arithmetic_audit.py": {
+    "bytes": 11836,
+    "sha256": "29a0de2fe9c2d3edeacf5b010941c0dbfebd05375a19bedaf2c18818e19f2dbd"
+  },
+  "analysis/write_report.py": {
+    "bytes": 30163,
+    "sha256": "aedae35c0dfaf861d417a3b793cf87c5deeb8b5106b42086ae6d7f8a89b9f499"
+  },
+  "docs/adversarial_compiler_baselines.md": {
+    "bytes": 19499,
+    "sha256": "0290a32ccb9b940db9d232f9f4c054d20c68cb6f9f3432f2c59cc06f7c08cb18"
+  },
+  "docs/benchmark_protocol.md": {
+    "bytes": 21171,
+    "sha256": "b7629f1b0a9520d37e8482f5e2974e66299f2f6296f030d519b8a52dc1681ce1"
+  },
+  "docs/delivered_non_clifford_benchmark.md": {
+    "bytes": 17914,
+    "sha256": "615a6255f9d105998b5e5b06854cff8d16995819a9fcac99b362053a634908b6"
+  },
+  "docs/factory_bottleneck.md": {
+    "bytes": 35665,
+    "sha256": "bc06dbc5fa2863a30adb1343e226c2c4499055674cb2afd95c3754df3d386755"
+  },
+  "docs/graph_aware_end_to_end_benchmark.md": {
+    "bytes": 27573,
+    "sha256": "947ff17299f78e459be510c8f31fd7dc01db53bef0cc81a136349def169a1f09"
+  },
+  "docs/graph_cut_phase_synthesis.md": {
+    "bytes": 9836,
+    "sha256": "7fb50d7d8a3d1f08dcc217e405bbc6b2819b6504a625a4bf681ae8594fdc27cd"
+  },
+  "docs/modern_ftqc_ledger.calculations.json": {
+    "bytes": 7360,
+    "sha256": "535c4744c598ce182fbedca968aaef17e4c76c97a63c0967a4806b21afb22908"
+  },
+  "docs/modern_ftqc_ledger.md": {
+    "bytes": 41042,
+    "sha256": "8cb29fb0d214b3b59bfe6485a76e7bb5afdad17ddc2a0c28ea9fea5b1786c2d6"
+  },
+  "docs/native_windows_setup.md": {
+    "bytes": 7824,
+    "sha256": "2d6f451c0d937634edae088776598a90f96c2d4e27261293af850d4b929ad30c"
+  },
+  "docs/non_clifford_structure.md": {
+    "bytes": 29448,
+    "sha256": "ed8fafa42c74730089c4bddd96f81cb66b2341c5208eb822dc568d417eee09fa"
+  },
+  "docs/open_bottlenecks.md": {
+    "bytes": 54197,
+    "sha256": "ce613b59bd571d983f1b8ec1a65d29a670dae6a659cc7a7fa1483e88934d5f5d"
+  },
+  "docs/prior_art.md": {
+    "bytes": 55347,
+    "sha256": "5773f0e2e6cf6cfa928bf4ba7c9a2171add93c6c8d4aea33af737c25d3160e28"
+  },
+  "docs/reproducibility.md": {
+    "bytes": 3665,
+    "sha256": "22baeee2b52607572a96e9bfd3603adba8d1d72043fa32a3f029ff6612a96de4"
+  },
+  "docs/research_priorities.md": {
+    "bytes": 1698,
+    "sha256": "f9370ed989680661a3a3ce4448c3f7ca3e0789bf7218133d6609183895762f19"
+  },
+  "docs/software_headroom.md": {
+    "bytes": 55170,
+    "sha256": "80f0a12129a3378c38c08b2f8b6be56f0aa4517562e616e0d15c8d6325b797af"
+  },
+  "docs/weight_arithmetic_bottleneck.md": {
+    "bytes": 43858,
+    "sha256": "6d2e15192ed67d113de38518779206827b0d4164e993b18c8cb684c04ea85706"
+  },
+  "LICENSE": {
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "NOTICE": {
+    "bytes": 290,
+    "sha256": "5da3768453f4e44676949c7292114804c78e69381c091b45d3168f0a01156487"
+  },
+  "publication_provenance.json": {
+    "bytes": 38288,
+    "sha256": "7dbd90fa822fe7f035b3d00ca4e35158b88ee7f246677825b697a75cc2007e30"
+  },
+  "README.md": {
+    "bytes": 7752,
+    "sha256": "f9f37f1663b7e538768ab7af3a7b4fe55d8040ad49aaab9b560a688a0bb35005"
+  }
+}

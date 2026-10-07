@@ -1,0 +1,26 @@
+{
+  "public_source_hashes_verified": 143,
+  "trace_counts_and_hash": "passed",
+  "common_layout_unique_sites": 1103,
+  "buffer_corridor_paths_checked": 2182,
+  "finite_capacity_batch_backpressure": "passed",
+  "recorded_buffer_peak_capacity": "passed",
+  "temporary_AND": {
+    "clean_control_basis_cases": 4,
+    "measured_inverse_branches": 8,
+    "maximum_amplitude_error": 1.6653345369377348e-16,
+    "scope": "Gadget linearity verifies all superpositions; not a physical noise simulation"
+  },
+  "CCZ_injection": {
+    "basis_amplitudes": 64,
+    "measurement_branches": 8,
+    "max_error": 0.0,
+    "scope": "ideal CCZ injection channel identity, no physical noise validation"
+  },
+  "large_popcount_basis_checks": {
+    "200": 5,
+    "400": 5
+  },
+  "relative_document_links_verified": 9,
+  "scope": "Model/input integrity and ideal identities ONLY; no full physical fidelity validation"
+}

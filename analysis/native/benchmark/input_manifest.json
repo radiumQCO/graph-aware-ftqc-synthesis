@@ -1,0 +1,36 @@
+{
+  "even_tower": {
+    "qubits": 1082,
+    "primary_inputs": 200,
+    "T": 498538,
+    "counts": {
+      "h": 294748,
+      "sdg": 61225,
+      "s": 66547,
+      "t": 254118,
+      "x": 116,
+      "z": 116,
+      "cx": 1494884,
+      "tdg": 244420
+    },
+    "input_sha256": "4b0a9b75f5248e92ae264cb43e784cbbdb3cebf67c7999377385c94eba33b6af",
+    "output_sha256": "d371bed13338d44c886823e0dbb0cb1d349d40d40b092ca2edd21fad2e32238e"
+  },
+  "graph_tower": {
+    "qubits": 882,
+    "primary_inputs": 200,
+    "T": 419338,
+    "counts": {
+      "h": 255148,
+      "sdg": 51325,
+      "s": 56647,
+      "t": 214518,
+      "x": 116,
+      "z": 116,
+      "cx": 1176684,
+      "tdg": 204820
+    },
+    "input_sha256": "352b2a414d10557c78bd3d58c45d74c7eeef85f1aca64c05b2a20b8436db0a65",
+    "output_sha256": "ab94a832b0c1299ce82f2d2051e9d95e26f2e457663e938c97f72bb89e692dec"
+  }
+}

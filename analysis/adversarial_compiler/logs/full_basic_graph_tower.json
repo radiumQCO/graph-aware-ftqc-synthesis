@@ -1,0 +1,20 @@
+{
+  "id": "full_basic_graph_tower",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "graph_tower",
+    "--method",
+    "basic",
+    "--scope",
+    "full",
+    "--skip-verify"
+  ],
+  "timeout": 180,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 180.02790589999995,
+  "log": "analysis\\adversarial_compiler\\logs\\full_basic_graph_tower.log"
+}

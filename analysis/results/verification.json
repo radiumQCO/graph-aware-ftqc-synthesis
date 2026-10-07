@@ -1,0 +1,26 @@
+[
+  "source hashes",
+  {
+    "case": "paper_counts_proxy",
+    "rotations": 60200,
+    "hwp_phase_max_error": 2.7420485960113413e-15,
+    "dependency_edges": 80000
+  },
+  {
+    "case": "notebook_literal",
+    "rotations": 224200,
+    "hwp_phase_max_error": 1.807312143953211e-15,
+    "dependency_edges": 288000
+  },
+  {
+    "merged_strang_statevector_error": 3.407040627928988e-15
+  },
+  {
+    "merged_strang_statevector_error": 3.492647740863647e-15
+  },
+  {
+    "independently_multiplied_deterministic_sequences": 784,
+    "certified_positive_mixtures": 200,
+    "synthesis_cache_entries": 984
+  }
+]

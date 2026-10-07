@@ -1,0 +1,424 @@
+{
+  "status": "LOGICAL_ACCOUNTING_VERIFIED_COMPILER_AUDIT_UNRESOLVED",
+  "A": "Pinned Qualtran phase-gradient does not dominate graph in all resources",
+  "B": "UNRESOLVED: strong large-circuit optimization did not complete",
+  "C": "UNRESOLVED: no matched lattice-surgery result",
+  "attempts": {
+    "basic": {
+      "statuses": {
+        "COMPLETE": 15
+      },
+      "limits_seconds": [
+        120
+      ],
+      "ids": [
+        "basic_qualtran_literal_X_boundary",
+        "basic_qualtran_literal_X_common",
+        "basic_qualtran_literal_X_mixed",
+        "basic_qualtran_literal_ZZ_common",
+        "basic_qualtran_literal_ZZ_central",
+        "basic_even_tower_X_boundary",
+        "basic_even_tower_X_common",
+        "basic_even_tower_X_mixed",
+        "basic_even_tower_ZZ_common",
+        "basic_even_tower_ZZ_central",
+        "basic_graph_tower_X_boundary",
+        "basic_graph_tower_X_common",
+        "basic_graph_tower_X_mixed",
+        "basic_graph_tower_ZZ_common",
+        "basic_graph_tower_ZZ_central"
+      ]
+    },
+    "strong": {
+      "statuses": {
+        "TIMEOUT": 6
+      },
+      "limits_seconds": [
+        180
+      ],
+      "ids": [
+        "todd_qualtran_literal_ZZ_common",
+        "teleport_qualtran_literal_ZZ_common",
+        "todd_even_tower_ZZ_common",
+        "teleport_even_tower_ZZ_common",
+        "todd_graph_tower_ZZ_common",
+        "teleport_graph_tower_ZZ_common"
+      ]
+    },
+    "full": {
+      "statuses": {
+        "TIMEOUT": 6
+      },
+      "limits_seconds": [
+        180
+      ],
+      "ids": [
+        "full_basic_even_tower",
+        "full_todd_even_tower",
+        "full_teleport_even_tower",
+        "full_basic_graph_tower",
+        "full_todd_graph_tower",
+        "full_teleport_graph_tower"
+      ]
+    },
+    "feynman": {
+      "statuses": {
+        "HOST_EXECUTION_ERROR": 3
+      },
+      "limits_seconds": [
+        180
+      ],
+      "ids": [
+        "feynman2019_full_qualtran_literal",
+        "feynman2019_full_even_tower",
+        "feynman2019_full_graph_tower"
+      ]
+    },
+    "surgery": {
+      "statuses": {
+        "TIMEOUT": 4
+      },
+      "limits_seconds": [
+        240
+      ],
+      "ids": [
+        "topols_even_tower_input",
+        "topols_even_tower_optimized",
+        "topols_graph_tower_input",
+        "topols_graph_tower_optimized"
+      ]
+    }
+  },
+  "completed_representative_basic_blocks": [
+    {
+      "mode": "even_tower",
+      "family": "X_boundary",
+      "before": {
+        "qubits": 422,
+        "gates": 7858,
+        "T": 1681,
+        "depth": 2083,
+        "T_depth": 259,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8566,
+        "T": 1681,
+        "depth": 2364,
+        "T_depth": 378,
+        "CNOT": 4918
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "even_tower",
+      "family": "X_common",
+      "before": {
+        "qubits": 422,
+        "gates": 7856,
+        "T": 1679,
+        "depth": 2081,
+        "T_depth": 257,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8565,
+        "T": 1679,
+        "depth": 2362,
+        "T_depth": 376,
+        "CNOT": 4918
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "even_tower",
+      "family": "X_mixed",
+      "before": {
+        "qubits": 422,
+        "gates": 7856,
+        "T": 1679,
+        "depth": 2081,
+        "T_depth": 257,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8567,
+        "T": 1679,
+        "depth": 2365,
+        "T_depth": 376,
+        "CNOT": 4919
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "even_tower",
+      "family": "ZZ_central",
+      "before": {
+        "qubits": 1014,
+        "gates": 16185,
+        "T": 3273,
+        "depth": 684,
+        "T_depth": 93,
+        "CNOT": 10420
+      },
+      "after": {
+        "qubits": 1014,
+        "gates": 16664,
+        "T": 3273,
+        "depth": 650,
+        "T_depth": 130,
+        "CNOT": 10927
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "even_tower",
+      "family": "ZZ_common",
+      "before": {
+        "qubits": 1014,
+        "gates": 16179,
+        "T": 3271,
+        "depth": 678,
+        "T_depth": 91,
+        "CNOT": 10420
+      },
+      "after": {
+        "qubits": 1014,
+        "gates": 16659,
+        "T": 3271,
+        "depth": 645,
+        "T_depth": 128,
+        "CNOT": 10927
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "graph_tower",
+      "family": "X_boundary",
+      "before": {
+        "qubits": 422,
+        "gates": 7858,
+        "T": 1681,
+        "depth": 2083,
+        "T_depth": 259,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8566,
+        "T": 1681,
+        "depth": 2364,
+        "T_depth": 378,
+        "CNOT": 4918
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "graph_tower",
+      "family": "X_common",
+      "before": {
+        "qubits": 422,
+        "gates": 7856,
+        "T": 1679,
+        "depth": 2081,
+        "T_depth": 257,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8565,
+        "T": 1679,
+        "depth": 2362,
+        "T_depth": 376,
+        "CNOT": 4918
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "graph_tower",
+      "family": "X_mixed",
+      "before": {
+        "qubits": 422,
+        "gates": 7856,
+        "T": 1679,
+        "depth": 2081,
+        "T_depth": 257,
+        "CNOT": 4484
+      },
+      "after": {
+        "qubits": 422,
+        "gates": 8567,
+        "T": 1679,
+        "depth": 2365,
+        "T_depth": 376,
+        "CNOT": 4919
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "graph_tower",
+      "family": "ZZ_central",
+      "before": {
+        "qubits": 814,
+        "gates": 11617,
+        "T": 2481,
+        "depth": 732,
+        "T_depth": 103,
+        "CNOT": 7238
+      },
+      "after": {
+        "qubits": 814,
+        "gates": 12218,
+        "T": 2481,
+        "depth": 570,
+        "T_depth": 121,
+        "CNOT": 7867
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "graph_tower",
+      "family": "ZZ_common",
+      "before": {
+        "qubits": 814,
+        "gates": 11611,
+        "T": 2479,
+        "depth": 726,
+        "T_depth": 101,
+        "CNOT": 7238
+      },
+      "after": {
+        "qubits": 814,
+        "gates": 12213,
+        "T": 2479,
+        "depth": 565,
+        "T_depth": 119,
+        "CNOT": 7867
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "qualtran_literal",
+      "family": "X_boundary",
+      "before": {
+        "qubits": 405,
+        "gates": 8346,
+        "T": 1903,
+        "depth": 2048,
+        "T_depth": 257,
+        "CNOT": 4340
+      },
+      "after": {
+        "qubits": 405,
+        "gates": 8895,
+        "T": 1903,
+        "depth": 2332,
+        "T_depth": 374,
+        "CNOT": 4773
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "qualtran_literal",
+      "family": "X_common",
+      "before": {
+        "qubits": 405,
+        "gates": 8353,
+        "T": 1905,
+        "depth": 2050,
+        "T_depth": 257,
+        "CNOT": 4340
+      },
+      "after": {
+        "qubits": 405,
+        "gates": 8890,
+        "T": 1905,
+        "depth": 2332,
+        "T_depth": 374,
+        "CNOT": 4763
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "qualtran_literal",
+      "family": "X_mixed",
+      "before": {
+        "qubits": 405,
+        "gates": 8303,
+        "T": 1896,
+        "depth": 2037,
+        "T_depth": 255,
+        "CNOT": 4340
+      },
+      "after": {
+        "qubits": 405,
+        "gates": 8888,
+        "T": 1896,
+        "depth": 2328,
+        "T_depth": 371,
+        "CNOT": 4777
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "qualtran_literal",
+      "family": "ZZ_central",
+      "before": {
+        "qubits": 1006,
+        "gates": 16819,
+        "T": 3534,
+        "depth": 3861,
+        "T_depth": 457,
+        "CNOT": 10340
+      },
+      "after": {
+        "qubits": 1006,
+        "gates": 17413,
+        "T": 3534,
+        "depth": 4242,
+        "T_depth": 669,
+        "CNOT": 11115
+      },
+      "certificate": "NOT_RUN"
+    },
+    {
+      "mode": "qualtran_literal",
+      "family": "ZZ_common",
+      "before": {
+        "qubits": 1006,
+        "gates": 16886,
+        "T": 3545,
+        "depth": 3879,
+        "T_depth": 459,
+        "CNOT": 10340
+      },
+      "after": {
+        "qubits": 1006,
+        "gates": 17426,
+        "T": 3545,
+        "depth": 4243,
+        "T_depth": 671,
+        "CNOT": 11113
+      },
+      "certificate": "NOT_RUN"
+    }
+  ],
+  "tiny_exact_ZX_certificates": 6,
+  "phase_gradient_comparison": {
+    "CCZ_extra_vs_graph": 61564,
+    "sampled_synthesis_T_saved_vs_graph": 8855,
+    "declared_7T_Toffoli_T_total": 611435,
+    "arbitrary_rotation_calls": 20,
+    "rounding_additions": 2532
+  },
+  "historical_full_PyZX_attempt_qubits": {
+    "even_tower": 1082,
+    "graph_tower": 890
+  },
+  "graph_AND_saved": 9900,
+  "graph_4T_saved": 39600,
+  "physical_model_refinement": "STOPPED; no new physical numbers"
+}

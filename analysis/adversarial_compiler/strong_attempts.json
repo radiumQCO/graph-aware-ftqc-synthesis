@@ -1,0 +1,110 @@
+[
+  {
+    "id": "todd_qualtran_literal_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "qualtran_literal",
+      "--method",
+      "todd",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.06147179999994,
+    "log": "analysis\\adversarial_compiler\\logs\\todd_qualtran_literal_ZZ_common.log"
+  },
+  {
+    "id": "teleport_qualtran_literal_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "qualtran_literal",
+      "--method",
+      "teleport",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.0590052,
+    "log": "analysis\\adversarial_compiler\\logs\\teleport_qualtran_literal_ZZ_common.log"
+  },
+  {
+    "id": "todd_even_tower_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "even_tower",
+      "--method",
+      "todd",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.0309572000001,
+    "log": "analysis\\adversarial_compiler\\logs\\todd_even_tower_ZZ_common.log"
+  },
+  {
+    "id": "teleport_even_tower_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "even_tower",
+      "--method",
+      "teleport",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.02854000000002,
+    "log": "analysis\\adversarial_compiler\\logs\\teleport_even_tower_ZZ_common.log"
+  },
+  {
+    "id": "todd_graph_tower_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "graph_tower",
+      "--method",
+      "todd",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.07252959999983,
+    "log": "analysis\\adversarial_compiler\\logs\\todd_graph_tower_ZZ_common.log"
+  },
+  {
+    "id": "teleport_graph_tower_ZZ_common",
+    "command": [
+      "analysis\\.compiler_venv\\Scripts\\python.exe",
+      "-u",
+      "analysis\\adversarial_compiler\\optimize.py",
+      "--mode",
+      "graph_tower",
+      "--method",
+      "teleport",
+      "--skip-verify"
+    ],
+    "timeout": 180,
+    "status": "TIMEOUT",
+    "exit_code": null,
+    "elapsed_seconds": 180.02476720000004,
+    "log": "analysis\\adversarial_compiler\\logs\\teleport_graph_tower_ZZ_common.log"
+  }
+]

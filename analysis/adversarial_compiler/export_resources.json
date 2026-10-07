@@ -1,0 +1,53 @@
+{
+  "qualtran_literal": {
+    "qubits": 1006,
+    "T": 546022,
+    "counts": {
+      "H": 348885,
+      "CNOT": 1472340,
+      "T": 307634,
+      "TDAG": 238388,
+      "S": 98118,
+      "SDAG": 60437,
+      "X": 634,
+      "Z": 852
+    },
+    "ASAP_depth": 593493,
+    "path": "analysis\\adversarial_compiler\\circuits\\qualtran_literal__full.input.qasm",
+    "contract": "unitary lift, 8T per AND/cleanup; X/ZZ clean workspace reuse"
+  },
+  "even_tower": {
+    "qubits": 1082,
+    "T": 498538,
+    "counts": {
+      "H": 294748,
+      "SDAG": 61225,
+      "S": 66547,
+      "T": 254118,
+      "X": 116,
+      "Z": 116,
+      "CNOT": 1494884,
+      "TDAG": 244420
+    },
+    "ASAP_depth": 278548,
+    "path": "analysis\\adversarial_compiler\\circuits\\even_tower__full.input.qasm",
+    "contract": "unitary lift, 8T per AND/cleanup; X/ZZ clean workspace reuse"
+  },
+  "graph_tower": {
+    "qubits": 882,
+    "T": 419338,
+    "counts": {
+      "H": 255148,
+      "SDAG": 51325,
+      "S": 56647,
+      "T": 214518,
+      "X": 116,
+      "Z": 116,
+      "CNOT": 1176684,
+      "TDAG": 204820
+    },
+    "ASAP_depth": 283348,
+    "path": "analysis\\adversarial_compiler\\circuits\\graph_tower__full.input.qasm",
+    "contract": "unitary lift, 8T per AND/cleanup; X/ZZ clean workspace reuse"
+  }
+}

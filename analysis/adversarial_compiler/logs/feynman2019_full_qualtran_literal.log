@@ -1,0 +1,1 @@
+OSError(22, '{Illegal System DLL Relocation}\r\nThe system DLL %hs was relocated in memory. The application will not run properly.\r\nThe relocation occurred because the DLL %hs occupied an address range reserved for Windows system DLLs. The vendor supplying the DLL should be contacted for a new DLL', None, 623, None)

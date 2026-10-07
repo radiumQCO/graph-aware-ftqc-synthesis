@@ -1,0 +1,217 @@
+{
+  "tools": {
+    "ghc": null,
+    "cabal": null,
+    "stack": null,
+    "rustc": null,
+    "cargo": null,
+    "gcc": null,
+    "cl": null,
+    "java": null,
+    "wsl": "C:\\Windows\\system32\\wsl.EXE"
+  },
+  "sources": {
+    "feynman": {
+      "revision": {
+        "exit_code": 0,
+        "stdout": "d2c382a2ab43a40a87f12f4255645bbb55f704f8",
+        "stderr": ""
+      },
+      "last_commit": {
+        "exit_code": 0,
+        "stdout": "2026-05-25T15:53:15-07:00",
+        "stderr": ""
+      },
+      "origin": {
+        "exit_code": 0,
+        "stdout": "https://github.com/meamy/feynman.git",
+        "stderr": ""
+      }
+    },
+    "FastTODD": {
+      "revision": {
+        "exit_code": 0,
+        "stdout": "231e6fe9f92d5bb1ebf7459c2a9233f5e74d148e",
+        "stderr": ""
+      },
+      "last_commit": {
+        "exit_code": 0,
+        "stdout": "2026-06-15T15:20:56+01:00",
+        "stderr": ""
+      },
+      "origin": {
+        "exit_code": 0,
+        "stdout": "https://github.com/VivienVandaele/quantum-circuit-optimization.git",
+        "stderr": ""
+      }
+    },
+    "TopoLS": {
+      "revision": {
+        "exit_code": 0,
+        "stdout": "78aab0ef1326bdf2041b519708f28741162f45c4",
+        "stderr": ""
+      },
+      "last_commit": {
+        "exit_code": 0,
+        "stdout": "2026-09-25T22:20:10-04:00",
+        "stderr": ""
+      },
+      "origin": {
+        "exit_code": 0,
+        "stdout": "https://github.com/tqec/TopoLS.git",
+        "stderr": ""
+      }
+    },
+    "wisq": {
+      "revision": {
+        "exit_code": 0,
+        "stdout": "97c12a5e22cf16e37288c60a0a5735c58c6fe8ca",
+        "stderr": ""
+      },
+      "last_commit": {
+        "exit_code": 0,
+        "stdout": "2026-03-27T12:42:39-05:00",
+        "stderr": ""
+      },
+      "origin": {
+        "exit_code": 0,
+        "stdout": "https://github.com/qqq-wisc/wisq.git",
+        "stderr": ""
+      }
+    }
+  },
+  "public_api": {
+    "Feynman_releases": {
+      "url": "https://api.github.com/repos/meamy/feynman/releases",
+      "response": [
+        {
+          "url": "https://api.github.com/repos/meamy/feynman/releases/16186364",
+          "assets_url": "https://api.github.com/repos/meamy/feynman/releases/16186364/assets",
+          "upload_url": "https://uploads.github.com/repos/meamy/feynman/releases/16186364/assets{?name,label}",
+          "html_url": "https://github.com/meamy/feynman/releases/tag/v0.1.0",
+          "id": 16186364,
+          "author": {
+            "login": "meamy",
+            "id": 5612315,
+            "node_id": "MDQ6VXNlcjU2MTIzMTU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/5612315?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/meamy",
+            "html_url": "https://github.com/meamy",
+            "followers_url": "https://api.github.com/users/meamy/followers",
+            "following_url": "https://api.github.com/users/meamy/following{/other_user}",
+            "gists_url": "https://api.github.com/users/meamy/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/meamy/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/meamy/subscriptions",
+            "organizations_url": "https://api.github.com/users/meamy/orgs",
+            "repos_url": "https://api.github.com/users/meamy/repos",
+            "events_url": "https://api.github.com/users/meamy/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/meamy/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "node_id": "MDc6UmVsZWFzZTE2MTg2MzY0",
+          "tag_name": "v0.1.0",
+          "target_commitish": "master",
+          "name": "Pre-release",
+          "draft": false,
+          "immutable": false,
+          "prerelease": true,
+          "created_at": "2019-03-18T16:17:39Z",
+          "updated_at": "2019-03-18T18:12:54Z",
+          "published_at": "2019-03-18T18:12:54Z",
+          "assets": [
+            {
+              "url": "https://api.github.com/repos/meamy/feynman/releases/assets/11598972",
+              "id": 11598972,
+              "node_id": "MDEyOlJlbGVhc2VBc3NldDExNTk4OTcy",
+              "name": "feynman-0.1.0-linux-64.tar.gz",
+              "label": null,
+              "uploader": {
+                "login": "meamy",
+                "id": 5612315,
+                "node_id": "MDQ6VXNlcjU2MTIzMTU=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/5612315?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/meamy",
+                "html_url": "https://github.com/meamy",
+                "followers_url": "https://api.github.com/users/meamy/followers",
+                "following_url": "https://api.github.com/users/meamy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/meamy/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/meamy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/meamy/subscriptions",
+                "organizations_url": "https://api.github.com/users/meamy/orgs",
+                "repos_url": "https://api.github.com/users/meamy/repos",
+                "events_url": "https://api.github.com/users/meamy/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/meamy/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "content_type": "application/gzip",
+              "state": "uploaded",
+              "size": 5524668,
+              "digest": null,
+              "download_count": 19,
+              "created_at": "2019-03-18T18:08:05Z",
+              "updated_at": "2019-03-18T18:09:17Z",
+              "browser_download_url": "https://github.com/meamy/feynman/releases/download/v0.1.0/feynman-0.1.0-linux-64.tar.gz"
+            },
+            {
+              "url": "https://api.github.com/repos/meamy/feynman/releases/assets/11598994",
+              "id": 11598994,
+              "node_id": "MDEyOlJlbGVhc2VBc3NldDExNTk4OTk0",
+              "name": "feynman-0.1.0-windows-64.zip",
+              "label": null,
+              "uploader": {
+                "login": "meamy",
+                "id": 5612315,
+                "node_id": "MDQ6VXNlcjU2MTIzMTU=",
+                "avatar_url": "https://avatars.githubusercontent.com/u/5612315?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/meamy",
+                "html_url": "https://github.com/meamy",
+                "followers_url": "https://api.github.com/users/meamy/followers",
+                "following_url": "https://api.github.com/users/meamy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/meamy/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/meamy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/meamy/subscriptions",
+                "organizations_url": "https://api.github.com/users/meamy/orgs",
+                "repos_url": "https://api.github.com/users/meamy/repos",
+                "events_url": "https://api.github.com/users/meamy/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/meamy/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+              },
+              "content_type": "application/zip",
+              "state": "uploaded",
+              "size": 7771102,
+              "digest": null,
+              "download_count": 16,
+              "created_at": "2019-03-18T18:09:29Z",
+              "updated_at": "2019-03-18T18:11:05Z",
+              "browser_download_url": "https://github.com/meamy/feynman/releases/download/v0.1.0/feynman-0.1.0-windows-64.zip"
+            }
+          ],
+          "tarball_url": "https://api.github.com/repos/meamy/feynman/tarball/v0.1.0",
+          "zipball_url": "https://api.github.com/repos/meamy/feynman/zipball/v0.1.0",
+          "body": ""
+        }
+      ]
+    },
+    "FastTODD_releases": {
+      "url": "https://api.github.com/repos/VivienVandaele/quantum-circuit-optimization/releases",
+      "response": []
+    },
+    "FlowRouter_repository_search": {
+      "url": "https://api.github.com/search/repositories?q=FlowRouter+quantum",
+      "response": {
+        "total_count": 0,
+        "incomplete_results": false,
+        "items": []
+      }
+    }
+  }
+}

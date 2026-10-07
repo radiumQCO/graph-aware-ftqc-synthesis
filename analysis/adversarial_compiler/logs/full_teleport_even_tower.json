@@ -1,0 +1,20 @@
+{
+  "id": "full_teleport_even_tower",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "even_tower",
+    "--method",
+    "teleport",
+    "--scope",
+    "full",
+    "--skip-verify"
+  ],
+  "timeout": 180,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 180.04419380000013,
+  "log": "analysis\\adversarial_compiler\\logs\\full_teleport_even_tower.log"
+}

@@ -1,0 +1,28 @@
+{
+  "distance": 29,
+  "p_physical_scale": 0.001,
+  "cycle_seconds": 4e-07,
+  "physical_noise_status": "Scale fixed; complete matched physical circuits unavailable",
+  "logical_noise_proxy": "pL=.1*(100p)^((d+1)/2), independent-location union accounting",
+  "logical_cells": [
+    36,
+    32
+  ],
+  "corridor_tile_grid": [
+    73,
+    65
+  ],
+  "occupied_logical_slots_reserved": 1091,
+  "output_buffer_slots_reserved": 12,
+  "tile_qubits": 1682,
+  "factory_capacity_physical_qubits": 64000,
+  "classical_feedback_cycles": 25,
+  "static_coordinates": "buffer sites 0..11; computation q uses row-major site q+12; centres (2*column+1,2*row+1)",
+  "resource_entry_port": [
+    0,
+    0
+  ],
+  "routing": "deterministic corridor paths, exclusive cell reservation",
+  "layout_status": "NEW EXPLICIT BENCHMARK FIXTURE, NOT THE RECOVERED 200-QUBIT CHIP",
+  "timing_status": "2d logical route/CX proxy; d Clifford/injection/reset proxy; no circuit-level certification"
+}

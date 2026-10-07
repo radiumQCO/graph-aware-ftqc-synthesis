@@ -1,0 +1,53 @@
+{
+  "case": "notebook_literal",
+  "small_angle": [
+    {
+      "mode": "matching",
+      "delta": 2.6866553827140592e-08,
+      "min_clifford_reduced_phi": 0.030434039422890913,
+      "min_phi_squared_over_delta": 34475.234953967185,
+      "conclusion": "All angles in delta << phi^2 regime; no identity-underrotation saving established",
+      "contract": "positive channel mixtures only; quasiprobability expectation-value task excluded"
+    },
+    {
+      "mode": "global",
+      "delta": 5.549081626990733e-08,
+      "min_clifford_reduced_phi": 0.030434039422890913,
+      "min_phi_squared_over_delta": 16691.604446560883,
+      "conclusion": "All angles in delta << phi^2 regime; no identity-underrotation saving established",
+      "contract": "positive channel mixtures only; quasiprobability expectation-value task excluded"
+    }
+  ],
+  "phase_gradient": [
+    {
+      "mode": "matching",
+      "gradient_bits_per_instance": 33,
+      "exact_toffoli_count": 1891062,
+      "hwp_and_count": 213794,
+      "t_count": 14094786,
+      "gradient_preparation_t": 2176,
+      "peak_additional_logical_qubits_before_routing": 340,
+      "full_diamond_bound": 0.00035384739668812724,
+      "rounding_bound": 0.00029272990766135865,
+      "t_depth_serial_upper": 6833599,
+      "logical_primitive_depth_serial_upper": 17071963,
+      "ccz_demand_if_using_ccz_instead_of_7t_toffoli": 1891062,
+      "status": "DERIVED literal shift-add variant; not best phase-gradient compiler; no routed schedule"
+    },
+    {
+      "mode": "global",
+      "gradient_bits_per_instance": 33,
+      "exact_toffoli_count": 775062,
+      "hwp_and_count": 218594,
+      "t_count": 6301986,
+      "gradient_preparation_t": 2176,
+      "peak_additional_logical_qubits_before_routing": 860,
+      "full_diamond_bound": 0.00027204101769550765,
+      "rounding_bound": 0.00021092352866873906,
+      "t_depth_serial_upper": 2932399,
+      "logical_primitive_depth_serial_upper": 8766763,
+      "ccz_demand_if_using_ccz_instead_of_7t_toffoli": 775062,
+      "status": "DERIVED literal shift-add variant; not best phase-gradient compiler; no routed schedule"
+    }
+  ]
+}

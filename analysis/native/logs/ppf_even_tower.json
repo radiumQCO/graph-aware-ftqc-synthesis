@@ -1,0 +1,17 @@
+{
+  "name": "ppf_even_tower",
+  "command": [
+    "analysis\\native\\bin\\feynopt.exe",
+    "-ppf",
+    "analysis\\native\\benchmark\\inputs\\even_tower.qc",
+    "+RTS",
+    "-M3G",
+    "-RTS"
+  ],
+  "cwd": ".",
+  "timeout_seconds": 240,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 240.46365729999525,
+  "log": "analysis\\native\\logs\\ppf_even_tower.log"
+}

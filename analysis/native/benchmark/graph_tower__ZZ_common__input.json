@@ -1,0 +1,19 @@
+{
+  "qubits": 814,
+  "primary_inputs": 200,
+  "T": 2479,
+  "counts": {
+    "cx": 7238,
+    "h": 1260,
+    "t": 1259,
+    "tdg": 1220,
+    "s": 326,
+    "z": 2,
+    "x": 1,
+    "sdg": 305
+  },
+  "input_sha256": "69637b3514c10981b5515cc902f88be90820435b038e5e1acb6b663580bcbd70",
+  "output_sha256": "2431d1768711ab976f4621a5026ba0ae3b9ef2abfa205c9266e1ed55766d679a",
+  "scope": "one representative fixed ZZ_common block, not a full-program result",
+  "source": "analysis\\adversarial_compiler\\circuits\\graph_tower__ZZ_common__basic__block.input.qasm"
+}

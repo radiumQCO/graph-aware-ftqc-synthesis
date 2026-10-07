@@ -1,0 +1,20 @@
+{
+  "id": "basic_graph_tower_X_common",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "graph_tower",
+    "--family",
+    "X_common",
+    "--method",
+    "basic",
+    "--skip-verify"
+  ],
+  "timeout": 120,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 9.591421199999786,
+  "log": "analysis\\adversarial_compiler\\logs\\basic_graph_tower_X_common.log"
+}

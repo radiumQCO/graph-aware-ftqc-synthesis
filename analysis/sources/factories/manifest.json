@@ -1,0 +1,727 @@
+[
+  {
+    "file": "gsj\\LICENSE",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/LICENSE",
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+  },
+  {
+    "file": "gsj\\README.md",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/README.md",
+    "sha256": "d9f0c0b22d660f47795500c74cb6b5238af60d6d15e7846c23fbddd3ddd42287"
+  },
+  {
+    "file": "gsj\\assets\\emulated-enumeration-stats.csv",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/assets/emulated-enumeration-stats.csv",
+    "sha256": "199f3b986d49fe35895f262fe6f47b001dc9c445bed32897b18b18f59caa29c5"
+  },
+  {
+    "file": "gsj\\assets\\emulated-historical-stats.csv",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/assets/emulated-historical-stats.csv",
+    "sha256": "fa097c73c5d33926d328bd422f7ca896004cbf925cbf56990075591ebcab7429"
+  },
+  {
+    "file": "gsj\\assets\\stats.csv",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/assets/stats.csv",
+    "sha256": "5f680dd2c0a2738ddb20877c8c1f1bf85b1f4bd5f76a7851daba197303ad98a1"
+  },
+  {
+    "file": "gsj\\requirements.txt",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/requirements.txt",
+    "sha256": "a5bef77dfc9cee32df0ca2af85dd6269d9ed981faf77c4e942964da0acb46f9f"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/__init__.py",
+    "sha256": "849cc0e6944bdff4b85a650089b8e8eeb653a1c3f36d555df2e8c2ab4e851d01"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/__init__.py",
+    "sha256": "501137d334d9085f019701ce1bbdfb069dd556aedea42809769598d7f3e356bf"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_color_code.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_color_code.py",
+    "sha256": "5ab8811f40f1c4a54c88ca11a774641ae70ae824e6e77825d26c298df3b81333"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_color_code_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_color_code_test.py",
+    "sha256": "5c407b0429ea6eefed0964d913612dfc7e1fc74b2786bfcb56b878030c61b6c3"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_cultivation_stage.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_cultivation_stage.py",
+    "sha256": "bed70c09d74ed0125a01e904b25b527c7984ec2512d18218a8d909fd9fee31f3"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_cultivation_stage_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_cultivation_stage_test.py",
+    "sha256": "afa7fd1299b455360e1c4e6473297fc1a45c1939137d31a9bb738ecc4a034724"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_escape_stage.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_escape_stage.py",
+    "sha256": "e408854c93874dd2de6c5bedd9ec2afe5d735007b9fa5f409f61123ab3a1b905"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_escape_stage_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_escape_stage_test.py",
+    "sha256": "d18e9900ca84630906367eb158a9a26f7324e6e68edbbf04fe3bead8cec6bb24"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_injection_stage.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_injection_stage.py",
+    "sha256": "717598e69c042b3fb52f60d05c4d21ee168144bea95dbcfc7e77bfd5c8930c6d"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_injection_stage_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_injection_stage_test.py",
+    "sha256": "d72b282dac1a0281f135bae7d37711258ae0e188d591c30c7f90ffb19c820383"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_integration.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_integration.py",
+    "sha256": "2fd96bfecf8d82aa12edea69515c71f55c460a411a7dee0ef4f9fe644db8efd5"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_integration_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_integration_test.py",
+    "sha256": "fcfb4e5a3d15fd41515f6c47fc9ee8230705bbb31df56f0ec633e6fc774b2042"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_surface_code.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_surface_code.py",
+    "sha256": "f316ed3f6a9f2a9fc63c7c25a32ac1dadf57bd8a37395b9da28a35cab5498cd1"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_surface_code_cnot.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_surface_code_cnot.py",
+    "sha256": "83d23c9687abefcb8ffb4874dc94ed9167a8506c5b1695fbff48dcea02ba9774"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_surface_code_cnot_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_surface_code_cnot_test.py",
+    "sha256": "06b140c9789042c864250f317df3893338ff96e73c286763d97d2ce56b9b4bdd"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_construction\\_surface_code_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_construction/_surface_code_test.py",
+    "sha256": "dadb175c60d8139e16c67dd83e6e08cdaa04c31cd9af980ff245b95a9d88d48f"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/__init__.py",
+    "sha256": "651f54440faff9693b3f59f4547d63358b73e3a723c026a6f406d58744a05d0f"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_chromobius_continue_decoder.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_chromobius_continue_decoder.py",
+    "sha256": "55fe89301920366c8c6950e15cb03263ae38529928ce750a6e87407cde6b99a1"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_chromobius_gap_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_chromobius_gap_sampler.py",
+    "sha256": "26729d958a58a29bb90c0c36375664eca4b0bab9826ca9fae3a7d967891ae76e"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_chromobius_gap_sampler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_chromobius_gap_sampler_test.py",
+    "sha256": "16952883b5bbef2ac737067c2207c1c9d6464f98fa53fc9e28e325d3afb4fa2a"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_desaturation_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_desaturation_sampler.py",
+    "sha256": "24c101c109470729ea48bd486281fea9aa7ce6bddc93170a0d9b7e623a8be454"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_desaturation_sampler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_desaturation_sampler_test.py",
+    "sha256": "01d9b0c68e72567749a0d889b8422dd4df612d77dba6dbb6d785bf5cb4a61ca1"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_highlander_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_highlander_sampler.py",
+    "sha256": "f023c8791b3a6ad24a84f82b173254fce49a61b65fbd6e0c8aec62a49592855b"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_mux_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_mux_sampler.py",
+    "sha256": "80de001a46ab9f06d9970b9c5cb165f44afc5b0b93012ee1ebec2d9c3c82adb7"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_mux_sampler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_mux_sampler_test.py",
+    "sha256": "50f8b524de6fb9a5517e7e3fa87341a064cf271753a4e61062e3b9a35a8a7421"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_no_touch_decoder.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_no_touch_decoder.py",
+    "sha256": "88546d41366311914f69af13c30fafc797aad45a864c859d7e4121d08f53ed76"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_no_touch_decoder_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_no_touch_decoder_test.py",
+    "sha256": "9e522f0d886f368ae012973ee14f88e5e8cdeee9cd73a3825b81452d286b8100"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_perfectionist_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_perfectionist_sampler.py",
+    "sha256": "0e77014f4038d4f0f4eed2e1788d5f132cf3126f790fdd16c8c039bd84278294"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_pymatching_gap_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_pymatching_gap_sampler.py",
+    "sha256": "71bedebe123e82c0b64322037dcf793e668e23089e3fed253e6213f5c3a64acd"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_twirl_intercept_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_twirl_intercept_sampler.py",
+    "sha256": "5269097f2f4b3cb2854632690a95e96a91cf33f46563042f844da964e1905476"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_twirl_intercept_sampler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_twirl_intercept_sampler_test.py",
+    "sha256": "a3dc4a790816c7466101e1f4f5295fc208ea05f4a00f1184e5469a09cff68303"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_vec_intercept_sampler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_vec_intercept_sampler.py",
+    "sha256": "fa4e6c97c063bdfc5eea0252f973e3837734e20811c7b95831778fcc0196ce34"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_decoding\\_vec_intercept_sampler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_decoding/_vec_intercept_sampler_test.py",
+    "sha256": "bf53804d74e7fac5cf153ee66206b58381a04dbb8ca6c54f854daa5459f02890"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_error_enumeration_report.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_error_enumeration_report.py",
+    "sha256": "2c06de5fe124e5d680aa664361ce0186b1566a64d9bc7dfc9fbc7bea52513300"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_error_set.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_error_set.py",
+    "sha256": "c5957830b51b59e289cfe9dcb80492a6a6dc3213023fdcac0131c1cc915c7413"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_error_set_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_error_set_test.py",
+    "sha256": "4e4d479605a06d0a82e49a2adc1204e7b0c0ade27baf7e2754cd50f8d9ad7237"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_stats_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_stats_util.py",
+    "sha256": "4e3409e4872bb04a07a94a759045fea61cc59c6728a0ae2b954ea66635a34b6d"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\_stats_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/_stats_util_test.py",
+    "sha256": "11f17b8408ddb46af0eafd9ebe91f58a6aab9ced84ff40fb0a95f68958ca4f52"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\make_lifetime_plot.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/make_lifetime_plot.py",
+    "sha256": "02952e828abb4d798031d3eb577b0c446cb322ba2ac5935b3ce1fbe3af829a98"
+  },
+  {
+    "file": "gsj\\src\\cultiv\\make_lifetime_plot_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/cultiv/make_lifetime_plot_test.py",
+    "sha256": "b1f52a04e0b4a791a92a6483399133cebbd51b575166b8efa15f0fc27811c108"
+  },
+  {
+    "file": "gsj\\src\\gen\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/__init__.py",
+    "sha256": "85648c7b73f3770a535d0c3a140bd7f621ee0557e4813673ddc8a7bec646eb2f"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/__init__.py",
+    "sha256": "4599466e1e773b446df70de4400a21a7c06d2611a36ed1b807cc12904ffec52c"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_builder.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_builder.py",
+    "sha256": "5447287b72a42e2fbf426c37796ef01310aff25050e61c85683e943bacfd6a63"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_builder_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_builder_test.py",
+    "sha256": "0354a3ad9c7400e573d3e0e9add8cab5a41c3d734982371bb2a4ba95e1e7f0fe"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk.py",
+    "sha256": "6f9323f0dddf26dd2f47c5b7dc6bbb10b42bf1b8633287428b065ee960e858a7"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_compiler.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_compiler.py",
+    "sha256": "ea6c5e8f5bd972dc0a0abd9b00fd12510c033b4b6e2cfdbe07615ab01424d59e"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_compiler_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_compiler_test.py",
+    "sha256": "d2e3697fb358f08ebb7210d68a8b769936872c4643f2a47fc564ad2ac8dc33ab"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_interface.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_interface.py",
+    "sha256": "edb3a3313ea5fdf671d562cc81024c7c399a4b0428413305d5aa5b830e233a17"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_loop.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_loop.py",
+    "sha256": "3993b9ad7575768ab02afc963dae083b379d6e4830f280a81c9d719d3c65877a"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_reflow.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_reflow.py",
+    "sha256": "43039ad46195dac1c562f78bb88cb1c303e0c8331dab54e37aeabe28baa417a2"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_reflow_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_reflow_test.py",
+    "sha256": "e42bb6b66a292c64f9a7c0ce9c7177a49e6a8703a710c508a1f1aaa6b57b0ef7"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_chunk_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_chunk_test.py",
+    "sha256": "92496f54b7703fa18bc12f6067b811139859daf161309c2e853f8a32b5519255"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_circuit_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_circuit_util.py",
+    "sha256": "46717c7c6bca1ca62efb87d0e32f3ea5e4ed72c2229449c23bbedb2da7442296"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_circuit_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_circuit_util_test.py",
+    "sha256": "f2c4cd4cabc81d7d58185a372bd85963c20fd3e07178dce64821087fe4bc4ba1"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_complex_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_complex_util.py",
+    "sha256": "a2009c872f8b37e3aeb37c71f5e6447f21aa11d4a7ff5e5f80ef3c47a5722ab8"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_complex_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_complex_util_test.py",
+    "sha256": "98d0d6a9683236bc42b140563651db28dbda78fac3b5c22267ef1ff0c81a3b7f"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_flow.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_flow.py",
+    "sha256": "eccc2c112d607188edb6190a3cd77974d3043a580ee0c56046ab208abfc5b736"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_flow_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_flow_test.py",
+    "sha256": "63457b7c25fb1bc4e04f5b930b2bd6225edfb984d963f02c86027b2cbfb7a0df"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_flow_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_flow_util.py",
+    "sha256": "32163d7ff7183f80b2441de6fd7d24d4f3e3fdaa3bb4a993f6dc827d687d04d6"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_flow_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_flow_util_test.py",
+    "sha256": "d3a837db2317998395bb0bdc12f40a6d87dbc70e4ba2bbf23761a53cb0588c7e"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_keyed_pauli_map.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_keyed_pauli_map.py",
+    "sha256": "e6fb84126b4dc4ef0ace81db4bb6ec4fb57fc14f382fd90504a03bf59ab39b2d"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_measurement_tracker.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_measurement_tracker.py",
+    "sha256": "f04c62bfeaeffa6479dca4f4ab2c1a9f87ebe2c9edc6b9870eb264d5b4db4110"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_noise.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_noise.py",
+    "sha256": "f9adc4457a497bfa9ec7b8f8689da3b5bcc009759094279e417f071b536c4b34"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_noise_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_noise_test.py",
+    "sha256": "6b7c365f4eacf77ea6d00b27c465c76d2b212b7b3ed4abecbc2f8108367fd767"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_patch.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_patch.py",
+    "sha256": "91b75d6320b9a86fa0deead85d38c811f7d54d040d0b54c78709eac1d86930f9"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_patch_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_patch_test.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_pauli_map.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_pauli_map.py",
+    "sha256": "557e67847c7885d04e563bdbc6624b9e252cf0d67e1ea43b28a8df6be7f7e5e4"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_pauli_map_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_pauli_map_test.py",
+    "sha256": "2f0b7d253efe63a623369e53b61fa6fc84a4b98c8a6836cd71516761d69ba5d4"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_stabilizer_code.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_stabilizer_code.py",
+    "sha256": "32007a9c60349ac86b3d4138efb5ecb7b21d59411cd4f9e7f85e710d7d7b292b"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_stabilizer_code_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_stabilizer_code_test.py",
+    "sha256": "e22b3deca15eb99c02b009cdd9d29fb869867b539817df32ddd41227a8e21374"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_test_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_test_util.py",
+    "sha256": "91144d836ac22268d15683534e1bf8d4e60074733d0c80ac2a90a8d2b9500e53"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_tile.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_tile.py",
+    "sha256": "172c10c7165f26efc05db86a1f598279e90f01b89cb857f1d90fd8e7bc3ed440"
+  },
+  {
+    "file": "gsj\\src\\gen\\_chunk\\_tile_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_chunk/_tile_test.py",
+    "sha256": "33077e5e0e077c1d4ade75108d4a38aaac6d4c2929abcc27e932d2d7a7fb451a"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/__init__.py",
+    "sha256": "4cffffe0180c0f3fbf490658f343928b7b631f35e480f5bfc630af19a92ab6fb"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_data.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_data.py",
+    "sha256": "c90a7e087cb47e86fc0304e691bbac1f66d9b6f7179f4573dcf5eb417eb19482"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_data_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_data_test.py",
+    "sha256": "beae85dfffb7adb2be575535e6316fda11fdac79caaaaea4ea4552a8c4b2499d"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_det_obs_annotation_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_det_obs_annotation_layer.py",
+    "sha256": "d6bcca1b97df67b4c5d5563e1819997862b770cdf99c700abd5c7b32c06b0e99"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_empty_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_empty_layer.py",
+    "sha256": "5f7003871ab8c805f1efc7be9347708d15b9a7eaf9704dbb3e9f6baaa6d6bb37"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_feedback_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_feedback_layer.py",
+    "sha256": "79f1e0557a859a20d78453149679dd81afe31a85978b11cd44cc4f4842b1d610"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_feedback_layer_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_feedback_layer_test.py",
+    "sha256": "4fe6fa01f083a56a1a07c7c725f2c5dda42d2f2b4f29b2e36e5dac728b05281f"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_interact_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_interact_layer.py",
+    "sha256": "b94e4638478df4f112f0415b9c538c85ba247f4f64c120923ea4abd14cc1688c"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_interact_swap_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_interact_swap_layer.py",
+    "sha256": "a9c1f6377e6405a4f31bf10b0927aec0ac95cc020569aec01bd6a5bcee8de5cd"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_interact_swap_layer_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_interact_swap_layer_test.py",
+    "sha256": "f64d0bbfab1d4615663e855ced64cb97989a1b2f3a18d6978bc92c883411da3c"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_iswap_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_iswap_layer.py",
+    "sha256": "3e61c99273df492c33faff2c55391d473f730a68c5088052b24fb33d309c42cd"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_layer.py",
+    "sha256": "9a36f01e36b4784ed62b7ea71e70fdc31962c7bdef96ffecbaa1c616d9dd1f9a"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_layer_circuit.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_layer_circuit.py",
+    "sha256": "332c5371df63480b47c826b136938b222bb64500bf1e8ee0e9e29b7e91ee2f1d"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_layer_circuit_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_layer_circuit_test.py",
+    "sha256": "de629c4150a883c87fdfd5ecc0144da16e448cfdb057b42fd37ad4d1058bb73a"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_loop_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_loop_layer.py",
+    "sha256": "a47f31faefecae4e0e492332ef36fab0fcc6632d2d19963c80b01a3634fb01b2"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_measure_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_measure_layer.py",
+    "sha256": "03b69a81b8017395be94e7349846f5d469e9b9dc0471ab2860b9554e6f5a6d22"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_mpp_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_mpp_layer.py",
+    "sha256": "c0aed1f23a0a1cfcc3b7e557082287e8de59570bb5d6385bf1dcb914847c1391"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_noise_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_noise_layer.py",
+    "sha256": "54c2695561f05670123918a664d16c0cb33c5540bc66038d4b6e72ddd4523eed"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_qubit_coord_annotation_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_qubit_coord_annotation_layer.py",
+    "sha256": "3202c339b9187ed08e8620e49fbd0869c80980716b2486a001b26aef13d18f80"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_reset_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_reset_layer.py",
+    "sha256": "76e0a9f1bb92cb0850eec385008a2e55e2befb8ad445e9ca345cbe7385f1580d"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_rotation_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_rotation_layer.py",
+    "sha256": "8f0f02a77f13c28ed098197b009b75ba135622bef0828bb4187968a22b3c2f5e"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_shift_coord_annotation_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_shift_coord_annotation_layer.py",
+    "sha256": "1f623592d0c0306a65f422585b19c6369efc622ac324b68f675eca9a22b3c206"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_sqrt_pp_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_sqrt_pp_layer.py",
+    "sha256": "ff522b9ab8b81dcf974153681767b331bf2de5777169af01c0e072214825cfb5"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_swap_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_swap_layer.py",
+    "sha256": "4d425b32ec834a7c9daa74328630b701209b467a3396bec2e2a2246983cac81a"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_transpile.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_transpile.py",
+    "sha256": "f42b0aadd9a0b13b44059fe1e4bf952a671ae87c591d1de1082f19b2421d28f5"
+  },
+  {
+    "file": "gsj\\src\\gen\\_layers\\_transpile_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_layers/_transpile_test.py",
+    "sha256": "ccff25efcfc9f8121fadc41892c80d47646f6f13df75833286af7ebd213c62b6"
+  },
+  {
+    "file": "gsj\\src\\gen\\_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_util.py",
+    "sha256": "3c32c0b16b1f503e17ddedf950376b19bffa5963861e6e931823152b2c47a425"
+  },
+  {
+    "file": "gsj\\src\\gen\\_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_util_test.py",
+    "sha256": "4dd30ad3f61a23664b31fb192efd9aafe689a7f267a5400d93fad7ab99b30b19"
+  },
+  {
+    "file": "gsj\\src\\gen\\_viz_circuit_html.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_viz_circuit_html.py",
+    "sha256": "4e79cda6f67f04ebfd67c9ead15e84850d24fe0be1802e2589e185a73020ec47"
+  },
+  {
+    "file": "gsj\\src\\gen\\_viz_gltf_3d.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_viz_gltf_3d.py",
+    "sha256": "d58ef84588f7258f68a481b71f17707609a031aa1a07cdbf5b163fde6ba5b6bb"
+  },
+  {
+    "file": "gsj\\src\\gen\\_viz_gltf_3d_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_viz_gltf_3d_test.py",
+    "sha256": "c421230784291d0e87355b620f33a8178fc9f77defdd79b57464704ed827aac9"
+  },
+  {
+    "file": "gsj\\src\\gen\\_viz_patch_svg.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_viz_patch_svg.py",
+    "sha256": "f3377eb5cc005b680cd1412dff759f4b0c74d67f76b89e4dfef4090326d4c21c"
+  },
+  {
+    "file": "gsj\\src\\gen\\_viz_patch_svg_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/gen/_viz_patch_svg_test.py",
+    "sha256": "8d50fa17ff68b5857692a911b48dcae6e2aa33dd894b3b7e0716417370c11b78"
+  },
+  {
+    "file": "gsj\\src\\latte\\__init__.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/__init__.py",
+    "sha256": "eecedcb8c92e159051ccbf91a96ac0bd5f7aa61289b19336b666ad69ca3630bf"
+  },
+  {
+    "file": "gsj\\src\\latte\\all_factory_scripts_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/all_factory_scripts_test.py",
+    "sha256": "39be6d5eeb90e8c2034569af53c347a7c7eb8ff81c668b8ce941fd2fda7a248a"
+  },
+  {
+    "file": "gsj\\src\\latte\\all_surgery_scripts_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/all_surgery_scripts_test.py",
+    "sha256": "26fbaf077409d713f52b1ea6316c8bd44e7232409e703591e802a4729237252e"
+  },
+  {
+    "file": "gsj\\src\\latte\\dem_util.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/dem_util.py",
+    "sha256": "850b8dd6e5c27b47a24479d52d6fd0fc9983ca42d7fa47fd501e4ff7372cf2a3"
+  },
+  {
+    "file": "gsj\\src\\latte\\dem_util_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/dem_util_test.py",
+    "sha256": "30e145e155e3d478c02aec147ee9d529f416647bcf3864f15afaeb82ed2fd3bc"
+  },
+  {
+    "file": "gsj\\src\\latte\\factory_script.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/factory_script.py",
+    "sha256": "4423169f3d587ba03b778e5c724c33f0cce5ddf04fddeda1bb9b8c2f3770465c"
+  },
+  {
+    "file": "gsj\\src\\latte\\factory_script_instruction.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/factory_script_instruction.py",
+    "sha256": "efc571d3a78e211d17d7f44bedede5f151f72fca8372222d2e357d507d1046c8"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_script.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_script.py",
+    "sha256": "b2ec3f38796b53c731371f42d1f2e519d1e5a911f47b24ab1ddbbae2576c0209"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_script_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_script_test.py",
+    "sha256": "028689595d732527ed2b19a22c828702c38d1bc389209ac187a6d81c577907c9"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_surgery_instruction.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_surgery_instruction.py",
+    "sha256": "c0ef657eaefda46489255ac917b6a5546054ac66b28acf9f032416c8a93955ff"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_surgery_layer.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_surgery_layer.py",
+    "sha256": "057c148730296ea34ff09a356939132b06589c9822e66e6172e58578c7a6e5dc"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_surgery_layer_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_surgery_layer_test.py",
+    "sha256": "b880cf90623bf9da030f229dc9e34dcb5062f04c47a9dc46f3b36ae0505feae1"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_surgery_layer_with_feedback.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_surgery_layer_with_feedback.py",
+    "sha256": "a000159521506fbacc7bd62f1059a8ea2fd76de172036cd368947766b330e7ff"
+  },
+  {
+    "file": "gsj\\src\\latte\\lattice_surgery_layer_with_feedback_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/lattice_surgery_layer_with_feedback_test.py",
+    "sha256": "e6deeae1899848c65c32d25970448566a8c93eac8bdf8412ccd93286a6dd8e4b"
+  },
+  {
+    "file": "gsj\\src\\latte\\vec_sim.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/vec_sim.py",
+    "sha256": "974169524dfcdac5a112d262e7306e05fca36a81e5df5646d57f33df1aacb53d"
+  },
+  {
+    "file": "gsj\\src\\latte\\vec_sim_test.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/vec_sim_test.py",
+    "sha256": "2edfd6e92c38cfba36988e27235b61857bed4263ed393fdbf86306c7bd3eca16"
+  },
+  {
+    "file": "gsj\\src\\latte\\zx_graph.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/src/latte/zx_graph.py",
+    "sha256": "24e916ae0aaa83da26caa58edef529baed4a1003b35cf92985830f22aeaadc0e"
+  },
+  {
+    "file": "gsj\\tools\\generate_injection_only_plot.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/tools/generate_injection_only_plot.py",
+    "sha256": "8b0919658a3de989e31ab0e3d56a5963dab7147637aed3afb29018267e5b2208"
+  },
+  {
+    "file": "gsj\\tools\\sinter_plot_echo.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/tools/sinter_plot_echo.py",
+    "sha256": "ef700986905bf0bbba0a51b4f747fa609df77636d1f818883a29d68326f705ce"
+  },
+  {
+    "file": "gsj\\tools\\write_historical_data_csv.py",
+    "url": "https://raw.githubusercontent.com/Strilanc/magic-state-cultivation/871e68ff6df2f75190b1bfd6351459d1b5a037e3/tools/write_historical_data_csv.py",
+    "sha256": "a240fc5d78fbdbf6281ba17d3f5791217458aa3cccf4482164e87f30b6713eec"
+  },
+  {
+    "repository": "Strilanc/magic-state-cultivation",
+    "commit": "871e68ff6df2f75190b1bfd6351459d1b5a037e3",
+    "tree_url": "https://api.github.com/repos/Strilanc/magic-state-cultivation/git/trees/871e68ff6df2f75190b1bfd6351459d1b5a037e3?recursive=1"
+  },
+  {
+    "file": "litinski\\LICENSE",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "litinski\\Python\\definitions.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/definitions.py",
+    "sha256": "26d622da835481bddf63ae632a6a707704cff5ea3f97a0932b5745139dc6cb2c"
+  },
+  {
+    "file": "litinski\\Python\\factory.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/factory.py",
+    "sha256": "b80baa1cf612404eacf4b8c037d0c5b8cc3b061d0d1b6b95723d5fa6c5db0a92"
+  },
+  {
+    "file": "litinski\\Python\\magic_state_factory.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/magic_state_factory.py",
+    "sha256": "30f93578e12bde3cb921d04b3449d0685f3897a11262a4250a9abb4b1434a509"
+  },
+  {
+    "file": "litinski\\Python\\onelevel15to1.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/onelevel15to1.py",
+    "sha256": "c7c65e85a119b5803b3094f609eaa298c441e1bd67004e1f4d3cd549b01a0e37"
+  },
+  {
+    "file": "litinski\\Python\\smallfootprint.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/smallfootprint.py",
+    "sha256": "2ce83325cdf043190c0827ffce57341c195a5fe79e8c699088ea76b4ecb7f77f"
+  },
+  {
+    "file": "litinski\\Python\\test_kron.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/test_kron.py",
+    "sha256": "bcce938cffa5a92339151a42ccbc8081b4c6058a256ff1534160eab43facacbe"
+  },
+  {
+    "file": "litinski\\Python\\twolevel15to1.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/twolevel15to1.py",
+    "sha256": "e786123e7d6ab4a2c2e4df4d3dd098d6c544d893549bc8e7dd771b28833cb97f"
+  },
+  {
+    "file": "litinski\\Python\\twolevel20to4.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/twolevel20to4.py",
+    "sha256": "4c0fb82ffe4f3c87ce03dfaa1d7cce2d1e05fc9f68b6ff5f180e4f97028da20d"
+  },
+  {
+    "file": "litinski\\Python\\twolevel8toCCZ.py",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/Python/twolevel8toCCZ.py",
+    "sha256": "f3d95b42e8d2724991bbf6cd941403afa2ae0b01e4c741d11a8777ecbb7de4eb"
+  },
+  {
+    "file": "litinski\\README.md",
+    "url": "https://raw.githubusercontent.com/litinski/magicstates/8fffa48c2e45d3bb0634559fce6b7b5b45f96966/README.md",
+    "sha256": "c2a981718c4f5757ae4bc6b6239486d2563dc59e0f425feb2f1bd961bd975076"
+  },
+  {
+    "repository": "litinski/magicstates",
+    "commit": "8fffa48c2e45d3bb0634559fce6b7b5b45f96966",
+    "tree_url": "https://api.github.com/repos/litinski/magicstates/git/trees/8fffa48c2e45d3bb0634559fce6b7b5b45f96966?recursive=1"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "case": "C4_generic",
+    "method": "basic",
+    "before": {
+      "qubits": 14,
+      "gates": 300,
+      "T": 93,
+      "depth": 161,
+      "T_depth": 47,
+      "CNOT": 72
+    },
+    "after": {
+      "qubits": 14,
+      "gates": 246,
+      "T": 93,
+      "depth": 136,
+      "T_depth": 52,
+      "CNOT": 57
+    },
+    "compile_seconds": 0.009601199999906385,
+    "ZX_identity": true
+  },
+  {
+    "case": "C4_generic",
+    "method": "todd",
+    "before": {
+      "qubits": 14,
+      "gates": 300,
+      "T": 93,
+      "depth": 161,
+      "T_depth": 47,
+      "CNOT": 72
+    },
+    "after": {
+      "qubits": 14,
+      "gates": 557,
+      "T": 93,
+      "depth": 319,
+      "T_depth": 56,
+      "CNOT": 237
+    },
+    "compile_seconds": 0.21398479999970732,
+    "ZX_identity": true
+  },
+  {
+    "case": "C4_generic",
+    "method": "teleport",
+    "before": {
+      "qubits": 14,
+      "gates": 300,
+      "T": 93,
+      "depth": 161,
+      "T_depth": 47,
+      "CNOT": 72
+    },
+    "after": {
+      "qubits": 14,
+      "gates": 300,
+      "T": 93,
+      "depth": 161,
+      "T_depth": 47,
+      "CNOT": 72
+    },
+    "compile_seconds": 0.0548639000003277,
+    "ZX_identity": true
+  },
+  {
+    "case": "C4_compact",
+    "method": "basic",
+    "before": {
+      "qubits": 5,
+      "gates": 258,
+      "T": 90,
+      "depth": 141,
+      "T_depth": 45,
+      "CNOT": 24
+    },
+    "after": {
+      "qubits": 5,
+      "gates": 207,
+      "T": 90,
+      "depth": 117,
+      "T_depth": 47,
+      "CNOT": 28
+    },
+    "compile_seconds": 0.005314099999850441,
+    "ZX_identity": true
+  },
+  {
+    "case": "C4_compact",
+    "method": "todd",
+    "before": {
+      "qubits": 5,
+      "gates": 258,
+      "T": 90,
+      "depth": 141,
+      "T_depth": 45,
+      "CNOT": 24
+    },
+    "after": {
+      "qubits": 5,
+      "gates": 257,
+      "T": 90,
+      "depth": 165,
+      "T_depth": 50,
+      "CNOT": 72
+    },
+    "compile_seconds": 0.05380339999965145,
+    "ZX_identity": true
+  },
+  {
+    "case": "C4_compact",
+    "method": "teleport",
+    "before": {
+      "qubits": 5,
+      "gates": 258,
+      "T": 90,
+      "depth": 141,
+      "T_depth": 45,
+      "CNOT": 24
+    },
+    "after": {
+      "qubits": 5,
+      "gates": 258,
+      "T": 90,
+      "depth": 141,
+      "T_depth": 45,
+      "CNOT": 24
+    },
+    "compile_seconds": 0.025318200000128854,
+    "ZX_identity": true
+  }
+]

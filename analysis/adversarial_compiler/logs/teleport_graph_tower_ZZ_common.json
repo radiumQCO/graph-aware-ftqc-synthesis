@@ -1,0 +1,18 @@
+{
+  "id": "teleport_graph_tower_ZZ_common",
+  "command": [
+    "analysis\\.compiler_venv\\Scripts\\python.exe",
+    "-u",
+    "analysis\\adversarial_compiler\\optimize.py",
+    "--mode",
+    "graph_tower",
+    "--method",
+    "teleport",
+    "--skip-verify"
+  ],
+  "timeout": 180,
+  "status": "TIMEOUT",
+  "exit_code": null,
+  "elapsed_seconds": 180.02476720000004,
+  "log": "analysis\\adversarial_compiler\\logs\\teleport_graph_tower_ZZ_common.log"
+}

@@ -1,0 +1,19 @@
+# Feynman -- quantum circuit toolkit
+# Original (analysis\native\benchmark\inputs\smoke.qc):
+#   Qubits: 2
+#   T: 4
+#   cnot: 2
+#   Depth: 6
+#   T depth: 4
+# Result (0.000ms, Verified):
+#   Qubits: 2
+#   S: 1
+#   Depth: 1
+#   T depth: 0
+# Verified
+.v a b
+.i a b
+.o a b
+BEGIN 
+S a
+END

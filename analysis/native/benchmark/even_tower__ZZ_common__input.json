@@ -1,0 +1,19 @@
+{
+  "qubits": 1014,
+  "primary_inputs": 200,
+  "T": 3271,
+  "counts": {
+    "cx": 10420,
+    "h": 1656,
+    "t": 1655,
+    "tdg": 1616,
+    "s": 425,
+    "z": 2,
+    "x": 1,
+    "sdg": 404
+  },
+  "input_sha256": "ea5b1434aff67f10a7dfad4bd425471928de1c6542d0ce9bae97a218fc6949a0",
+  "output_sha256": "d1df90f95fceebc788ffe70bc7355c3ed923d7f2022653fa974bd3863ee6f4de",
+  "scope": "one representative fixed ZZ_common block, not a full-program result",
+  "source": "analysis\\adversarial_compiler\\circuits\\even_tower__ZZ_common__basic__block.input.qasm"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "verified_public_source_hashes": 143
+  },
+  {
+    "distance_points": 36,
+    "region_volume_balance": "passed",
+    "produced_error_reserve": "passed"
+  },
+  {
+    "cultivation_shots": 1024000,
+    "monotone_rejection_and_stage_balance": "passed",
+    "circuit_hash": "passed"
+  },
+  {
+    "relative_document_links": 7
+  }
+]

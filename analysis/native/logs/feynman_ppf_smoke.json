@@ -1,0 +1,15 @@
+{
+  "name": "feynman_ppf_smoke",
+  "command": [
+    "analysis\\native\\bin\\feynopt.exe",
+    "-ppf",
+    "-verify",
+    "analysis\\native\\benchmark\\inputs\\smoke.qc"
+  ],
+  "cwd": ".",
+  "timeout_seconds": 60,
+  "status": "COMPLETE",
+  "exit_code": 0,
+  "elapsed_seconds": 0.035392800004046876,
+  "log": "analysis\\native\\logs\\feynman_ppf_smoke.log"
+}

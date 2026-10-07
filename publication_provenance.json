@@ -1,0 +1,566 @@
+{
+  "project": "graph-aware-ftqc-synthesis",
+  "date": "2026-10-07",
+  "scope": "Project-authored analysis and research documentation; downloaded dependencies, installed toolchains and internal language-migration metadata are excluded.",
+  "normalization": "Machine-specific paths are replaced by repository-relative paths or environment placeholders. Original snapshot hashes are retained below. Publication preparation does not rerun physical experiments.",
+  "normalized_files": [
+    {
+      "path": ".gitignore",
+      "workspace_sha256": "8f660b3ff22748dc995f720b38e8cbf47ec8e97f527efcc442d4106e1f06b6b1",
+      "publication_sha256": "97d632c55fc76707f62bd6c913647056873f7c2a3e7e0c5d2a885756260b5e91",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/artifact_manifest.json",
+      "workspace_sha256": "44ff80a838d91e7ebb8d10cb8b4592d1bb1f2af6902f77ae415b7116ecc4da9e",
+      "publication_sha256": "e69c8be2fa1333778e924e9b987fed9c2321df120c57306127d8ebb13d93da01",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/basic_attempts.json",
+      "workspace_sha256": "948d6ce82956b69cadeb221158d54eca6b66ea9837051193c33fcd2c52f483df",
+      "publication_sha256": "a01c75f0a76aa7ac651f7237e9a38014c8043e096feea2a4500b4416f7f95776",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/export_resources.json",
+      "workspace_sha256": "a03de12a547e153457ba917b093ad4dede670e65a7554070b24c4ccc18b8f9fe",
+      "publication_sha256": "ea9098a05f8bf434a7c00d6602c56af2ccf399a49f198fa3682503bef545f81a",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/feynman_attempts.json",
+      "workspace_sha256": "3849abe38c9b105d3161844b550d602c5d74e4b5bb6b81880cefc8e6e06da30e",
+      "publication_sha256": "866da0402af11aa6dc670482f68f61ff51fd12f00b8563152cf0fda12427bb72",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/full_attempts.json",
+      "workspace_sha256": "eb60d7f4e4fbe5b9a178014d0c509f385bdea5cceadd51ebb276e94f293c2299",
+      "publication_sha256": "7680f5d41821b0195d824454404684da3182f97f9e0bcffd4bac58f0dc2e02cb",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_even_tower_X_boundary.json",
+      "workspace_sha256": "6b3851afeff548a290378b76092871a0bba466667559ead19050dff0aff43b1b",
+      "publication_sha256": "f8289adaa12dac109462a0e701df895613202791aedb0ca671789cb6a0c92b96",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_even_tower_X_common.json",
+      "workspace_sha256": "829b2903f70cdeb8651990950d5a5ad7c61c13726e5171d33f2ae0a0067a2666",
+      "publication_sha256": "239bde23aac16f7d4579cba7ec8e7a444226ffc6309d54bc2194f8106e196d98",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_even_tower_X_mixed.json",
+      "workspace_sha256": "615bd66ef8f0e8b86eb9af05dc548f8a904b844de78e7f615946f6da232b2746",
+      "publication_sha256": "01da054703a3e58138ac5c5e3316f8da178cbfc0943fec8eacde2580918da99a",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_central.json",
+      "workspace_sha256": "1343309f7fd54a0b483bb828532628d91b2a8bf4753a7236aa8f4deeba471d52",
+      "publication_sha256": "49d638f4746327fd3853c13e9ad16b5295b3cff750d2f07bbf4414450d041df7",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_even_tower_ZZ_common.json",
+      "workspace_sha256": "ed24747f4f3b6152101588857f48077bf0ad3f5ebc35246d44fddcf4fb51350c",
+      "publication_sha256": "7cd781b0f8eb350cfcd4ac88187ed024f365ffb80adee229f28ec1ba10b224b8",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_graph_tower_X_boundary.json",
+      "workspace_sha256": "892d2099986817c7dc38c64d60f84a9d99ab1135d23c74fe60f1f1427cd3ca0d",
+      "publication_sha256": "571e083e9a9279ef754d2faadbe5babb9edededaf37d520869bfe784ca404173",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_graph_tower_X_common.json",
+      "workspace_sha256": "0d317eb132cd83291c5e7a8dd07879ce86d87653811c2a373e045eccbbbfbf66",
+      "publication_sha256": "2a77dd2b3c915972be132c5bfe73e2df9aacb4a5baef1090826d8d2b5bd54456",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_graph_tower_X_mixed.json",
+      "workspace_sha256": "3ce049285d06776ecfee2bce393e31876d7c9f8ee320d48c44f703418a20567a",
+      "publication_sha256": "c60bdb94abbd09966ab9a9b0c9bed7c739e61fef93e2faef2c22a5b15f6c915c",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_central.json",
+      "workspace_sha256": "de6f823a2345695c4a71d6a28db4170395dfd80849b02357ca5ee593fbce155b",
+      "publication_sha256": "7fdd7dbd24ec00a05b328f04d7eefcf3c4fcc18f17821a1e393b1a5bf3940372",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_graph_tower_ZZ_common.json",
+      "workspace_sha256": "05987a8bfc8267a9308c965ea9a1ad05ba1053e09aac165a404fe96295113659",
+      "publication_sha256": "0a3e254ad61f809f91d768cdd4087816a34179177e5e0c8e2ccb1aa8fad44983",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_boundary.json",
+      "workspace_sha256": "ab114a60344dd42af049bac3662880ccbf5591d724e437b4c88865f7dd75dc99",
+      "publication_sha256": "78a380b288b2f4a32ff9d590c58a38350adf28abe8a4466a77d5ffe907322566",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_common.json",
+      "workspace_sha256": "9b0321287f375d281ca4c8471bfcd82d26148693a0aef934fcd538d998e8ba4c",
+      "publication_sha256": "a0a6c4d1b1644cd94367151a2032daa51125b5b7cae83ad4c6522521d94b4857",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_qualtran_literal_X_mixed.json",
+      "workspace_sha256": "9b7254baacd6318545959d2919fa011f7f1b208056a448c89b67649efc051746",
+      "publication_sha256": "0123b4971a8306bdf2fcc6786e26f248d12115d9edad374c071aa0c8971afb52",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_central.json",
+      "workspace_sha256": "2dbf2ce8275b9967ed31a1379278d55ff503843effbe08d10905abd4cdc181fe",
+      "publication_sha256": "4580660baf1d9844478162a0986c30b6c795a19e8c5bbe38111a1311e023e9bc",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/basic_qualtran_literal_ZZ_common.json",
+      "workspace_sha256": "f93dc303e238db9c88fbdb12118129fb78102a6b5e1f3d1d4f6e0474a0590ea1",
+      "publication_sha256": "79b132138ba56dcffb361151816981f857ce3ea08398c807f146988c6014d1cd",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/feynman2019_full_even_tower.json",
+      "workspace_sha256": "14472b91e8d184ef264f129f17cd86c44863089c6bcb79ae021812ed13d5cee5",
+      "publication_sha256": "e175afa04c9d2ba87c36925f4a7f37d6dbe78d992005d869345aeffddd5c2204",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/feynman2019_full_graph_tower.json",
+      "workspace_sha256": "bdb5bd7156eadb935d9d399decd4fe9a0a0662669379decb5b3c057de7a88487",
+      "publication_sha256": "d4c792d3150fb7c534a1f555abcc1a8d5a8f8196ed21a5fe3f6b8a7825117b93",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/feynman2019_full_qualtran_literal.json",
+      "workspace_sha256": "97b4a8114694e4994f7afe3bed8377eebfde492d5ea06c9469c938c93df1278e",
+      "publication_sha256": "8e42bb167f6184d0e73a7cef20041b688232fed639ef51dd49d39fd693284921",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_basic_even_tower.json",
+      "workspace_sha256": "6e0bdb6430cb9aedc96150950ac669f23e7697e13d103ef6cc0c465e77c4b915",
+      "publication_sha256": "59c66cbc2980896bd12505360dc637e32e40ea888fffa1760ec7525c4afff4c9",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_basic_graph_tower.json",
+      "workspace_sha256": "253df15a552ce61f7fa1de1986c69c0ae7d9c3ef9bd4cad1673f4fad12edaad1",
+      "publication_sha256": "03fd4cf193293725739d922c8c499995b5a7df679e415baaffcea78b23632dd3",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_teleport_even_tower.json",
+      "workspace_sha256": "260763f1031e3df9bece31a9333a28e5847ef72bf2d4a8d6398ada7318079650",
+      "publication_sha256": "406994e2d388aaf16f52b3143f555afa16aa6e6bdca8e5ec5fe520f0de72e397",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_teleport_graph_tower.json",
+      "workspace_sha256": "33269165d93203d5946459beb65b9be141d530ffdba127ca30d97606d71c1394",
+      "publication_sha256": "2396ff76d5f3c80a3555e53c0c9a12c0e802cac36e9d0c430efb39d8b9b6f578",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_todd_even_tower.json",
+      "workspace_sha256": "2e61113afd7e59ea070d4adde2f9a48b88ff982c11fe977527e1edd52b9ea454",
+      "publication_sha256": "482927caa98b80219cab48f06155191910a8d1bb5ea905c1eac579ba78a6cb97",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/full_todd_graph_tower.json",
+      "workspace_sha256": "086ca22675301a6c02c4e0fc497efbaa85046e4d39f38359eec14e4bf629e8e6",
+      "publication_sha256": "fc9dbbb22f878df720e20df054e3199c218a351d299dd318630ff6852ee0bab0",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/teleport_even_tower_ZZ_common.json",
+      "workspace_sha256": "9833730aba927c4f1fd661026679d5efdfed2ea0cd943878853c060812264b63",
+      "publication_sha256": "1a6074c98b1553905d51203d34dbf9900e2ab251692e72e32483e0e58025e625",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/teleport_graph_tower_ZZ_common.json",
+      "workspace_sha256": "333f86c9f20fbfff8523ebff9645f6871a85f515bddb5a7d29063cfb03649254",
+      "publication_sha256": "ff19bc1eaa3f8a89e04f7e97af2af9b0ddb511a4d77c4ed75a41ac6c0e2f6552",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/teleport_qualtran_literal_ZZ_common.json",
+      "workspace_sha256": "c1cb2c3641d76a3761516afcbe8db50751e092212c8732ad3d815b1f8ca80c02",
+      "publication_sha256": "c23d49586847cc12bd0c12f3b4863826c0cb6a9bbb702aabef8b9718ecbb1069",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/todd_even_tower_ZZ_common.json",
+      "workspace_sha256": "6ca1e0a9bf7f6c21a48616df117efbc681eadeddddcc04a71007985f8f952ed1",
+      "publication_sha256": "a83ea94eca4e2240aea7034b6f73acba1033b67f78766137fbdfc44c59e5e43c",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/todd_graph_tower_ZZ_common.json",
+      "workspace_sha256": "efc88386ef09831bb71e595a926165ec19fdd6286043115eaad103c72873f628",
+      "publication_sha256": "0feffdeb3a2a9cad7b689b75d81450fcd5540c612e8531c7c500b811bacfc608",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/todd_qualtran_literal_ZZ_common.json",
+      "workspace_sha256": "bda339dac33d3f5dd43607d086c8f9c6cbaaa80fcdd0ad6bc04c9dd5a53c0fe3",
+      "publication_sha256": "d2734b2fa462dcd94bbbd0e350efaf091d7c930853e26fbf5c80bd623b7d5847",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/topols_even_tower_input.json",
+      "workspace_sha256": "04bccb3eafb6771862bf15d70f32b8a6390ba95469198c4dfd3e0748037b4301",
+      "publication_sha256": "b5c3e605cce1a30ba8ec896d7b526881db35d0868dd7a290375e5733d78635f6",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/topols_even_tower_optimized.json",
+      "workspace_sha256": "b68c141a56e9c18bdbc63eefeaa76f14a0290f72c543d92eb23e7dea416331ed",
+      "publication_sha256": "64f7d72427c0fab652023b7e964e41d697b6045f3e3cf9f3c8ba08f0107193bb",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/topols_even_tower_optimized.log",
+      "workspace_sha256": "f5677a7d89c2546b10cd5aaca3a8ee26c0af54bff74a685ed474110e3ede4036",
+      "publication_sha256": "d4a40d6d46e196a71688d8ed1b637cf37d8d7d9e97fb438a0903303c461eb102",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/topols_graph_tower_input.json",
+      "workspace_sha256": "3bbd9405941d039972033c1aa82b48fe6bb06a52b59c1fd0e4310fc5840543f4",
+      "publication_sha256": "e07f9ee84884ad68608437e2666c2a6ed5071714def6dbe21f992d8c4f583637",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/logs/topols_graph_tower_optimized.json",
+      "workspace_sha256": "587b6e4a73cd0446c18332657155d8c24a9ab27e607fe630465e148d76654235",
+      "publication_sha256": "b7d66fc5532d25cb8e007175709d7b27a482db40fd5855489da4a90892294522",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/qualtran_resources.json",
+      "workspace_sha256": "67bab6143015dae8ef27d1a46d7acd11432046faf85fcbb21a37277a8b1562a1",
+      "publication_sha256": "7f672c273c860a3f53eea82ccbcf3f65a8543b7bde3705d7c4c58b65f7f6becf",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/README.md",
+      "workspace_sha256": "51bed12b6282c44a8cea1d55a4897f96064b6b304c8ade5a96f36a049a3deac6",
+      "publication_sha256": "f7945c9dbfe3f3b9a4526dac4b635f6922180e9f6a66208dc826817f32fc9474",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/strong_attempts.json",
+      "workspace_sha256": "420036965c255825ac2bf017119ac8a5e915286537fb1ab987153e8d7af2297b",
+      "publication_sha256": "bfb65c810f8aeff7015700c5dc4321fa4ec04fe50f31be971c33b615b8a4251f",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/surgery_attempts.json",
+      "workspace_sha256": "42a095e225824a46b50a2683a7520c61d11bdfe7bb583413393b253b8e33afa8",
+      "publication_sha256": "88930fd269086c76970beec32fefb9dd77ecd3bbee64a5c8eac3e492c71e9950",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/verification.json",
+      "workspace_sha256": "9ff137023fedc08ecb225f4d3d5a7fdac4e030f6829172796d98239b0ba44db0",
+      "publication_sha256": "eb2198eed0a0a20ac35571c3a42869ecdf213e633d1f1b4a32c0d91e99029173",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/adversarial_compiler/verify.py",
+      "workspace_sha256": "dc9c65ec95ec4233bf2f45c38ded92007b1c35e0ad2d876600fb6191ec08d613",
+      "publication_sha256": "050b8c8946c83831e709bd44903e1f1eeb4eb26b5ef1eb0968b75337ffd2dbdb",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_aware_end_to_end/README.md",
+      "workspace_sha256": "473ed87a7ce90b7f2a2d73151bb4ee2542e3f61b2241c15364ad66b9ab06ceb6",
+      "publication_sha256": "68c1ae4ba27fe59235f90cdab9ad25dffc7c38a06d43b8d930b7a7d28dd61c0d",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_aware_end_to_end/report.py",
+      "workspace_sha256": "7912cf7f90e1a3129cfff52b645debfbde671f78e763c6f9864c38cbade7c1a6",
+      "publication_sha256": "a5b08622a3c9512543729c97651fd7f1df5ad7aa3c8e40ce7581a2b8ae1e2495",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/artifact_verification.json",
+      "workspace_sha256": "bd835c5bc38e8df986a5445e7c459e6963018370d9750fa90d441bfba0c3bc14",
+      "publication_sha256": "7f7312c3dce7eb86561b79142678fec93bdb88b06fef7b30411c1e82eea4bf9c",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/c4_results.json",
+      "workspace_sha256": "cc1a04e73c12096103de93e704fc74d86e49853480bc4f59a1b439c2963c86d7",
+      "publication_sha256": "da909ee0a697c13212a1f8ad838bb10e674b4aa7bf434b51c10cf560ff1b2fca",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/quantum_verification.json",
+      "workspace_sha256": "229e8243de7195e1d298bf1c9cea54bdd6cab59b32de645edc6a1a3cede5d0f1",
+      "publication_sha256": "95ee36076933de8268d254b00080b4f8a842366f0b69257f68060c0c5a01474e",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/README.md",
+      "workspace_sha256": "7cc3f4dd5643a947894f3af13ad4ba7fece1270f0b68dddf48d7c6318ffa49dc",
+      "publication_sha256": "5ca3afc324c15b289ec7e7d84f0f52204500ee0e95802328db89b9350eeb027e",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/report.py",
+      "workspace_sha256": "2d8b8ae38fc558f52f0c8a333aba84deaa82542ec7ad4ce2b4fc0d8a4b5fcb85",
+      "publication_sha256": "1ff1a637a313f897f46871cbfb429bfc883a40be8055aa5116456153b156af6b",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/scaling.py",
+      "workspace_sha256": "39d272faa4b2007a34a15f00fa724539683020fb53636206a41fde1d3c655bd7",
+      "publication_sha256": "be6bfc04ae08f0c347a5c51c9bedb3d2949967175c18192447025617343b932c",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/scaling_results.json",
+      "workspace_sha256": "2f5ad4a13507b7a4567dd9e0f768ae0a091e3106a9fa8cdbf7ba15f0ad65c14d",
+      "publication_sha256": "bb42bcb6686e4109a47e23673975a9c9175594f984cac51cd41cd09711e199ae",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/toy_c4.py",
+      "workspace_sha256": "6bbad16ec30a66aac64b4601c9fcbae899ad36ecbe972e10394ceff0979818d2",
+      "publication_sha256": "daf15c74166de40b72b44d549d5d6930dd6e9d487adee935fab77d4ce6869978",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/verify_artifacts.py",
+      "workspace_sha256": "eb57c8678b5a21269e21cc1c8d1e03dc3fa81d5b3f6c99292cd698bc12688c55",
+      "publication_sha256": "51a7e978af3f1dc8423e3568e3c8e5cd6cd0379990640358f583141384050729",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/graph_cut_phase/verify_quantum.py",
+      "workspace_sha256": "b4ae5ca8abcc11a0deaab0411b0c6d24a34d33effc9a6ba0b7e04474bf60f090",
+      "publication_sha256": "825c8660003dc2c879588342485a3cb5c3ec4c0be28ce949b943101180c12367",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/even_tower__ppf.json",
+      "workspace_sha256": "07c57ebfc7da49ab22c6812be973097b1b7d107dea846c60644965e841819f79",
+      "publication_sha256": "9e49f85376548a8e1686b62ca7e0365e104a6113f710167c7cc840829287d328",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/even_tower__ZZ_common__input.json",
+      "workspace_sha256": "c6ff659e41cb5aa562eded767139c2836c6bd8f47f21355376fb1c1b4cff7b93",
+      "publication_sha256": "6065e2c0c2c72bead42425dd7690d96c1bb502ac57f43a36f9694492ae96121b",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/even_tower__ZZ_common__ppf.json",
+      "workspace_sha256": "b49bb93f271537f2d82f2b31092249a9cfa1655e0f06bbd92ff50b78de506abc",
+      "publication_sha256": "d44a112556f63ee47659f3773065ea2f2f6d64741fdae29bb1cee90863790790",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/graph_tower__ppf.json",
+      "workspace_sha256": "1304db16616c611728185b885bb16cbd99fac98f08417e6b79dc646a4a4a0772",
+      "publication_sha256": "e6fa4a18643161288d95135160216fcd604071fccaf86eb6a5999b42b5510240",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/graph_tower__ZZ_common__input.json",
+      "workspace_sha256": "77ec1dfc396fd94d24e4173f427e5b03c2b965b23d39ff5d18e762f8ddac3d84",
+      "publication_sha256": "82ce4ec82a07baf5fbe31d4dd540cfae3567d63624373ebb35a7638a49608055",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/graph_tower__ZZ_common__ppf.json",
+      "workspace_sha256": "9560986671313ca58274b53f98e184c4229f6baf77f0ab53f113d202320f7cf2",
+      "publication_sha256": "f160311810880d939f4c25bd7831bc1d5d5d3a482487e46104a9749c8cd59ba3",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/internal_h_contract.json",
+      "workspace_sha256": "36d43afb858e390ef0449bc3a9d43a314a24dfef16f063a38e41984c99ce7aae",
+      "publication_sha256": "1e94eff274395efffce3a412fec855d774ee33e29b33c5ee27425623b51e3ffd",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/benchmark/summary.json",
+      "workspace_sha256": "0bd006819fa3f7fa5b7641ff4a83aa3101e2e6681e0d656cac916868b8cdaa15",
+      "publication_sha256": "09d23cf3dafa9563d196e6075b3f5ff4e3020be43dbfefec3d2eebc4c80da1b8",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/fasttodd_smoke.json",
+      "workspace_sha256": "e3de26250e7252ed17798fc9244008a02532e4cd59d1b8befb6556e211961187",
+      "publication_sha256": "d2af566ff35e9866bebedb0177fff09e13e94017122b8b13c179fe35c28c86d7",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/fasttodd_smoke_equivalence.json",
+      "workspace_sha256": "086ee9c0defb958495672310a0402f950599eb76d6a298e0541ff0a95483d3d0",
+      "publication_sha256": "399cabbdf0128b3519431bfc47b23701ccc2f2142a3147988c6f89ade3a67029",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/feynman_ppf_smoke.json",
+      "workspace_sha256": "277618b47c73547c53bb6731c6dbfab6356b91df08debf1dda2515b603f59624",
+      "publication_sha256": "12c411ef9f89839c66d6aa566c4dbef1a94b774f80588ff57838e5fbbcb5ffe6",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/feynman_ppf_smoke.log",
+      "workspace_sha256": "ac650e4c8125972919351d121a3dafef58ac22c8adee2d785d24e3b5af45a561",
+      "publication_sha256": "3a1e610573fa17cf2788fb0cb89eadf9e643d33a0a335ca38225aee048c9ed50",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/ppf_even_tower.json",
+      "workspace_sha256": "07c57ebfc7da49ab22c6812be973097b1b7d107dea846c60644965e841819f79",
+      "publication_sha256": "9e49f85376548a8e1686b62ca7e0365e104a6113f710167c7cc840829287d328",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/ppf_even_tower__ZZ_common.json",
+      "workspace_sha256": "3822fe3d03f77ec9470ec0c889641059fce67a216315626764126af19f06e4a5",
+      "publication_sha256": "739cff77ceae77660d8f40216b1f48cff81ceeff2df187cc3eb39f654917ed59",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/ppf_graph_tower.json",
+      "workspace_sha256": "1304db16616c611728185b885bb16cbd99fac98f08417e6b79dc646a4a4a0772",
+      "publication_sha256": "e6fa4a18643161288d95135160216fcd604071fccaf86eb6a5999b42b5510240",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/logs/ppf_graph_tower__ZZ_common.json",
+      "workspace_sha256": "3ea2b8bd2a3fb52a761800a05a255c37d37aa414ac216cda883cbffd685ca96a",
+      "publication_sha256": "d458db335ca030130bb2fdd3cdbcaff8400896e9a01748ea0e716f756c964e1b",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/native/run.py",
+      "workspace_sha256": "5136bcde9b2d88436e30af9e4f421c50e1c6320959087636881f7d6c36a243eb",
+      "publication_sha256": "b320cec85b35d0fd4268122c42ddd62890c5bb9204f0eec72738d207c7ed9db3",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/report_delivered_benchmark.py",
+      "workspace_sha256": "38bed21f666981ad54c92033c84509acd725187adca16bde1c3c56109dfa7a58",
+      "publication_sha256": "7bda6f52b9c8a99dc83311515cda698d8eabdfc6074bbef563272102e0b13b14",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/secondary_methods.py",
+      "workspace_sha256": "edcd14b2cc2dfc574c59d5d58326b013e477cfc00b592fe1b98185f46ccbf85e",
+      "publication_sha256": "0f109e28761e63b930a7226969c7ea617d2a45c2942d6ab1451485df29bb2f93",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "analysis/write_report.py",
+      "workspace_sha256": "6e5018ac3a710d7af1e2908dbd88b3bc56af6387454ca031d87718a127a2a1e7",
+      "publication_sha256": "aedae35c0dfaf861d417a3b793cf87c5deeb8b5106b42086ae6d7f8a89b9f499",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/adversarial_compiler_baselines.md",
+      "workspace_sha256": "49a99bb382932f91b6d399f9a4fda762e4e913207233dbe13f4f3b87d717bdc4",
+      "publication_sha256": "0290a32ccb9b940db9d232f9f4c054d20c68cb6f9f3432f2c59cc06f7c08cb18",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/benchmark_protocol.md",
+      "workspace_sha256": "47b856ee73c79ba2571ccf27febfefb4cab0df7520d7a29e614109d3fe666cd5",
+      "publication_sha256": "b7629f1b0a9520d37e8482f5e2974e66299f2f6296f030d519b8a52dc1681ce1",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/delivered_non_clifford_benchmark.md",
+      "workspace_sha256": "49911406c14d6b26fb050a33dd2678bd21e92b08b70a818a2b563f1186d0f5cf",
+      "publication_sha256": "615a6255f9d105998b5e5b06854cff8d16995819a9fcac99b362053a634908b6",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/factory_bottleneck.md",
+      "workspace_sha256": "db876411ceb343eb6e01f3e900d7be0952803849f9bfa48f6879160e82f883e4",
+      "publication_sha256": "bc06dbc5fa2863a30adb1343e226c2c4499055674cb2afd95c3754df3d386755",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/graph_aware_end_to_end_benchmark.md",
+      "workspace_sha256": "8a547bfe3fe1c9a97b919980ebe7ca633622b652e856ff04fe75135ba70d7bd4",
+      "publication_sha256": "947ff17299f78e459be510c8f31fd7dc01db53bef0cc81a136349def169a1f09",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/graph_cut_phase_synthesis.md",
+      "workspace_sha256": "eaae41ac108936d2c1f0939babd2923e36c7f52e03a38bb9ff632ce5bb4f86ba",
+      "publication_sha256": "7fb50d7d8a3d1f08dcc217e405bbc6b2819b6504a625a4bf681ae8594fdc27cd",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/modern_ftqc_ledger.md",
+      "workspace_sha256": "6c84f1fc4aa7d1222370d96f2665fd31c9ecb6ff1705aa01f6b313e4c9238c5e",
+      "publication_sha256": "8cb29fb0d214b3b59bfe6485a76e7bb5afdad17ddc2a0c28ea9fea5b1786c2d6",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/native_windows_setup.md",
+      "workspace_sha256": "bb5f973976e010f7ee3ff66b7eee862172aac1141134088968b8dc82acff7202",
+      "publication_sha256": "2d6f451c0d937634edae088776598a90f96c2d4e27261293af850d4b929ad30c",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/non_clifford_structure.md",
+      "workspace_sha256": "ee355fbbba894aa071bd52c7dc8e138e8d5842f1fbc67e60ac1ddad338ef4c0d",
+      "publication_sha256": "ed8fafa42c74730089c4bddd96f81cb66b2341c5208eb822dc568d417eee09fa",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/open_bottlenecks.md",
+      "workspace_sha256": "cbbbcd61367f0093763bc034bb2e0ad89b8083c0e22270128c166f9f34ee3f1e",
+      "publication_sha256": "ce613b59bd571d983f1b8ec1a65d29a670dae6a659cc7a7fa1483e88934d5f5d",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/prior_art.md",
+      "workspace_sha256": "a33c363ee789e41e9e45fc6c6a31e497c6b6638183d462c0c391ffd5ebce20e4",
+      "publication_sha256": "5773f0e2e6cf6cfa928bf4ba7c9a2171add93c6c8d4aea33af737c25d3160e28",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/research_priorities.md",
+      "workspace_sha256": "36982d947a7c3e235af5fa4196f2e09aac4925287cfdc89ba4451942f13b4680",
+      "publication_sha256": "f9370ed989680661a3a3ce4448c3f7ca3e0789bf7218133d6609183895762f19",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/software_headroom.md",
+      "workspace_sha256": "f1c21c1015371d0ece7cf164555f647bfe0309a3af10036c8c12c4307ff6670a",
+      "publication_sha256": "80f0a12129a3378c38c08b2f8b6be56f0aa4517562e616e0d15c8d6325b797af",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    },
+    {
+      "path": "docs/weight_arithmetic_bottleneck.md",
+      "workspace_sha256": "3e3e7a25fa4c5d48131376257d8360dfc146aeb11f8fee6be1d2f3dbf2bd5ef1",
+      "publication_sha256": "6d2e15192ed67d113de38518779206827b0d4164e993b18c8cb684c04ea85706",
+      "reason": "Publication path/prose normalization or verification/manifest refresh; historical numerical outcomes retained."
+    }
+  ]
+}

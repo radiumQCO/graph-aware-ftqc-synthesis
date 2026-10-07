@@ -1,0 +1,27 @@
+name: Verify graph-cut circuits
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-circuit-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Exhaustive C4 Boolean synthesis
+        run: python analysis/graph_cut_phase/toy_c4.py
+      - name: Quantum amplitude and cleanup verification
+        run: python analysis/graph_cut_phase/verify_quantum.py
+      - name: Stored circuit resource and hash verification
+        run: python analysis/graph_cut_phase/verify_artifacts.py
+      - name: Matched workload arithmetic verification
+        run: python analysis/adversarial_compiler/verify.py
